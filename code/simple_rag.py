@@ -31,18 +31,20 @@ with open('WikiHow_setting.json', 'r') as f:
 
 question = "How To Make a Cape"
 documents1 = []
+query = ''
 Settings.embed_model = HuggingFaceEmbedding(model_name='all-MiniLM-L6-v2')
 for key, value in settings.items():
     if key == question:
+        query = value['0'][1]
         continue
     for v_key, v_value in value.items():
         if v_value == 'None':
             continue
-        documents1.append(Document(text=v_value[1], metadata={'key': key + '_' + v_key}))
+        documents1.append(Document(text=key + '\n' + v_value[1], metadata={'key': key + '_' + v_key}))
 
 index = VectorStoreIndex.from_documents(documents1, settings=Settings, use_async=True)
 retriever = index.as_retriever(retriever_mode='embedding', similarity_top_k=3)
-response = retriever.retrieve(question)
+response = retriever.retrieve(question + '\n' + query)
 print([[r.metadata['key'], r.text] for r in response])
 
 
