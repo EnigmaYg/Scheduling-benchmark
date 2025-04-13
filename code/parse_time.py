@@ -5,19 +5,21 @@ with open('../data/Wikihow_time.json', 'r') as f:
 
 cnt = 0
 save = {}
+save_ = {}
 for key, value in times.items():
     flag = 0
     tmp_dic = {}
     for v_key, v_value in value.items():
         value_list = v_value.split('\n')
         if flag == 1:
+            save_[key] = value
             break
         tmp_list = []
         for line in value_list:
             # if 'Step' not in line:
             #     print(key, v_key)
             if 'None' in line:
-                # flag = 1
+                flag = 1
                 cnt += 1
                 break
             minutes = line.split(':')[1]
@@ -61,5 +63,7 @@ for key, value in times.items():
 print(cnt)
 print(len(save))
 print(len(times))
-with open('../data/Wikihow_time_appropriate.json', 'w') as f:
-    json.dump(save, f, indent=4)
+with open('../data/Wikihow_time_None.json', 'w') as f:
+    json.dump(save_, f, indent=4)
+# with open('../data/Wikihow_time_appropriate.json', 'w') as f:
+#     json.dump(save, f, indent=4)

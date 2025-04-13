@@ -53,20 +53,29 @@ with open('../data/WikiHow_setting.json', 'r') as f:
 with open('../data/WikiHow_instructions_rewrite.json', 'r') as f:
     instructions = json.load(f)
 
-save = {}
-cnt = 0
-for key, value in settings.items():
-    tmp_dic = {}
-    for v_key, v_value in value.items():
-        if v_value != 'None':
-            try:
-                tmp_dic[v_key] = instructions[key][v_key]
-            except:
-                print(key)
-                cnt += 1
-    if len(tmp_dic) != 0:
-        save[key] = tmp_dic
+with open('../data/WikiHow_humanity.json', 'r') as f:
+    human = json.load(f)
 
-print(cnt)
-with open('../data/WikiHow_filtered_data.json', 'w') as f:
+save = {}
+for key, value in instructions.items():
+    if human[key] == 'no':
+        save[key] = value
+print(len(save))
+with open('../data/WikiHow_filtered_human.json', 'w') as f:
     json.dump(save, f, indent=4)
+# cnt = 0
+# for key, value in settings.items():
+#     tmp_dic = {}
+#     for v_key, v_value in value.items():
+#         if v_value != 'None':
+#             try:
+#                 tmp_dic[v_key] = instructions[key][v_key]
+#             except:
+#                 print(key)
+#                 cnt += 1
+#     if len(tmp_dic) != 0:
+#         save[key] = tmp_dic
+#
+# print(cnt)
+# with open('../data/WikiHow_filtered_data.json', 'w') as f:
+#     json.dump(save, f, indent=4)

@@ -1,0 +1,2220 @@
+{
+    "How To Store Coffee Beans or Ground Coffee": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes"
+    },
+    "How To Make Organic Pesticide": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 720 minutes\nStep 5: 5 minutes\nStep 6: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes"
+    },
+    "How To Strip Cloth Diapers": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 360 minutes\nStep 4: 10 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 2 minutes\nStep 4: 360 minutes\nStep 5: 10 minutes\nStep 6: 120 minutes"
+    },
+    "How To Eat Sardines": {
+        "0": "Step 1: 2 minutes\nStep 2: 6 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: None",
+        "3": "Step 1: 4 minutes\nStep 2: 1 minute\nStep 3: 1 minute"
+    },
+    "How To Kill Bed Bugs": {
+        "0": "Step 1: 15 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 1440 minutes",
+        "2": "Step 1: 15 minutes",
+        "3": "Step 1: 15 minutes"
+    },
+    "How To Stop Breast Feeding": {
+        "0": "Step 1: 30 minutes\nStep 2: 30 minutes\nStep 3: None",
+        "1": "Step 1: 30 minutes\nStep 2: 30 minutes\nStep 3: None"
+    },
+    "How To Get Sweat Stains out of Bras": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 180 minutes\nStep 4: 2 minutes\nStep 5: 45 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: 10 minutes"
+    },
+    "How To Make Chicken Cutlets": {
+        "0": "Step 1: 8 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 6 minutes\nStep 6: None",
+        "1": "Step 1: 8 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 12 minutes\nStep 6: 10 minutes"
+    },
+    "How To Paint Metal": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 15 minutes\nStep 4: 5 minutes\nStep 5: 10 minutes\nStep 6: 1440 minutes\nStep 7: 15 minutes\nStep 8: 720 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: 3 minutes\nStep 6: 1440 minutes\nStep 7: 3 minutes"
+    },
+    "How To Grow Mint": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None\nStep 4: 2 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: None\nStep 4: 5 minutes"
+    },
+    "How To Find Out if Someone Has Been Arrested": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 10 minutes"
+    },
+    "How To Get Rid of a Tickly Cough": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Make Clear Slime": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 5 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 5 minutes\nStep 5: None",
+        "2": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 5 minutes\nStep 5: None"
+    },
+    "How To Clean Teak Furniture": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 15 minutes\nStep 4: 4 minutes"
+    },
+    "How To Grate Coconut": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 2 minutes\nStep 6: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: 120 minutes"
+    },
+    "How To Get Water Stains Off a Ceiling": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 10 minutes",
+        "2": "Step 1: 45 minutes\nStep 2: 60 minutes"
+    },
+    "How To Make Molasses": {
+        "0": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: 360 minutes\nStep 5: 30 minutes\nStep 6: 5 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: 360 minutes\nStep 5: None\nStep 6: 5 minutes"
+    },
+    "How To Make Buttercream Filling": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: None",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute"
+    },
+    "How To Wash Tie Dyed Fabric": {
+        "0": "Step 1: None\nStep 2: 4 minutes\nStep 3: 5 minutes\nStep 4: 45 minutes",
+        "1": "Step 1: 30 minutes"
+    },
+    "How To Thicken Curry": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute",
+        "2": "Step 1: 2 minutes\nStep 2: 4 minutes\nStep 3: 1 minute"
+    },
+    "How To Treat a Caterpillar Sting": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 2 minutes"
+    },
+    "How To Remove Black Hair Dye": {
+        "0": "Step 1: 5 minutes\nStep 2: 360 minutes\nStep 3: 10 minutes\nStep 4: None",
+        "1": "Step 1: 15 minutes\nStep 2: None"
+    },
+    "How To Make Pumpkin Seeds in the Oven": {
+        "0": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 15 minutes\nStep 5: None",
+        "1": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 15 minutes\nStep 5: None"
+    },
+    "How To Get Rid of Ladybugs": {
+        "0": "Step 1: 5 minutes",
+        "1": "Step 1: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "3": "Step 1: 3 minutes\nStep 2: 2 minutes",
+        "4": "Step 1: None",
+        "5": "Step 1: 30 minutes\nStep 2: 20 minutes"
+    },
+    "How To Preserve Ginger Paste": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 5 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute"
+    },
+    "How To Unclog a Toilet": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: 60 minutes\nStep 5: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 2 minutes"
+    },
+    "How To Make Nutella Popsicles": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 300 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 4 minutes\nStep 5: 300 minutes"
+    },
+    "How To Shrink Skinny Jeans": {
+        "0": "Step 1: 2 minutes\nStep 2: 45 minutes\nStep 3: 45 minutes\nStep 4: None",
+        "1": "Step 1: 15 minutes\nStep 2: 2 minutes\nStep 3: 60 minutes\nStep 4: 45 minutes\nStep 5: None"
+    },
+    "How To Prune an Elm Tree": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None",
+        "1": "Step 1: None\nStep 2: None\nStep 3: None\nStep 4: None"
+    },
+    "How To Make Gray": {
+        "1": "Step 1: None",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Get Blood out of Cotton": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 720 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 4 minutes"
+    },
+    "How To Serve Merlot Wine": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute",
+        "1": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 45 minutes\nStep 2: 1 minute\nStep 3: 2 minutes"
+    },
+    "How To Clean Musty Smells from a Suitcase": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 3 minutes\nStep 4: 1440 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10080 minutes\nStep 3: 2 minutes\nStep 4: 10 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Get Microsoft Office For Free": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 2 minutes\nStep 5: None"
+    },
+    "How To Remove Coloring Washed in to Clothes": {
+        "0": "Step 1: 30 minutes\nStep 2: 2 minutes\nStep 3: 45 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 30 minutes"
+    },
+    "How To Curdle Milk": {
+        "0": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: 5 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: None",
+        "3": "Step 1: 1 minute\nStep 2: 5 minutes"
+    },
+    "How To Polish Wood Floors": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: None"
+    },
+    "How To Remove Mold Odors From Inside Automobiles": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes"
+    },
+    "How To Cook Bratwurst": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 22 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: 20 minutes",
+        "2": "Step 1: 20 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "3": "Step 1: 20 minutes\nStep 2: 2 minutes\nStep 3: None"
+    },
+    "How To Prune a Ficus Tree": {
+        "0": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 15 minutes\nStep 4: 5 minutes",
+        "2": "Step 1: 1 minute\nStep 2: None\nStep 3: 15 minutes\nStep 4: 5 minutes"
+    },
+    "How To Erase Ink from a Paper": {
+        "0": "Step 1: 1 minute\nStep 2: 3 minutes",
+        "1": "Step 1: None",
+        "2": "Step 1: None",
+        "3": "Step 1: 1 minute"
+    },
+    "How To Break in High Heel Shoes": {
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 120 minutes",
+        "3": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Keep Water from Freezing": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes"
+    },
+    "How To Clean a Wet Mattress": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 1 minute",
+        "2": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes"
+    },
+    "How To Get Ink off a Table or Computer Desk": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 3 minutes"
+    },
+    "How To Clean Smelly Sneakers": {
+        "0": "Step 1: 30 minutes\nStep 2: 120 minutes\nStep 3: 1 minute",
+        "1": "Step 1: 30 minutes\nStep 2: 120 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 30 minutes\nStep 2: 120 minutes\nStep 3: 2 minutes\nStep 4: 1 minute"
+    },
+    "How To Clean a Brick Patio": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 10 minutes\nStep 4: 12 minutes\nStep 5: 7 minutes\nStep 6: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 8 minutes\nStep 4: 7 minutes\nStep 5: 120 minutes"
+    },
+    "How To Remove Sod": {
+        "0": "Step 1: None\nStep 2: 45 minutes\nStep 3: 30 minutes",
+        "1": "Step 1: 20 minutes\nStep 2: 15 minutes"
+    },
+    "How To Dry a Wet Book": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 180 minutes\nStep 6: 5 minutes\nStep 7: 180 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 5 minutes\nStep 6: None\nStep 7: 5 minutes\nStep 8: None"
+    },
+    "How To Clean Foggy Plastic": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 4 minutes"
+    },
+    "How To Get Rid of New Car Smell": {
+        "0": "Step 1: None",
+        "1": "Step 1: 1 minute",
+        "3": "Step 1: 180 minutes",
+        "4": "Step 1: 2 minutes\nStep 2: 1440 minutes"
+    },
+    "How To Bake": {
+        "0": "Step 1: 10 minutes\nStep 2: 8 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: 1 minute\nStep 6: None",
+        "1": "Step 1: 10 minutes\nStep 2: 8 minutes\nStep 3: None\nStep 4: None\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Check the Points on Your Driver's License": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 30 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 1 minute"
+    },
+    "How To Watch TV on Your Computer": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Clean Coffee Stains": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 2 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 180 minutes\nStep 5: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 5 minutes\nStep 4: 1 minute"
+    },
+    "How To Whiten Clothes": {
+        "0": "Step 1: 1 minute\nStep 2: 45 minutes\nStep 3: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 45 minutes\nStep 3: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 45 minutes\nStep 4: 120 minutes"
+    },
+    "How To Clean White Jeans": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: 1 minute\nStep 3: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 5 minutes"
+    },
+    "How To Make Turkey Ahead of Time": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: None\nStep 4: 60 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: None\nStep 4: 720 minutes\nStep 5: 60 minutes"
+    },
+    "How To Get Wrinkles Out of Leather": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: 3 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes"
+    },
+    "How To Use Sour Milk": {
+        "1": "Step1: None",
+        "2": "Step 1: 720 minutes\nStep 2: 5 minutes"
+    },
+    "How To Boil Sweet Potatoes": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 0 minutes\nStep 2: 4 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: 37 minutes"
+    },
+    "How To Request a Song on the Radio": {
+        "0": "Step 1: 1 minute\nStep 2: None\nStep 3: 2 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes"
+    },
+    "How To Remove Red Wine from Fabric": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "3": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "4": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None",
+        "5": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "6": "Step 1: 5 minutes\nStep 2: 60 minutes",
+        "7": "Step 1: 2 minutes\nStep 2: 45 minutes",
+        "8": "Step 1: 3 minutes\nStep 2: 45 minutes"
+    },
+    "How To Remove Hot Glue": {
+        "0": "Step 1: None\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes"
+    },
+    "How To Shrink Rayon": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: 120 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: 120 minutes",
+        "2": "Step 1: 45 minutes\nStep 2: 60 minutes"
+    },
+    "How To Cook Frozen Dumplings": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 5 minutes"
+    },
+    "How To Get Rid of Wet Carpet Smell": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 720 minutes\nStep 4: 15 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 10 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: None"
+    },
+    "How To Diffuse Essential Oils": {
+        "1": "Step 1: 1 minute\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute",
+        "3": "Step 1: 1 minute\nStep 2: 1 minute",
+        "4": "Step 1: 1 minute\nStep 2: 1 minute",
+        "5": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Wash Decorative Pillows": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 90 minutes\nStep 4: 120 minutes\nStep 5: 30 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 120 minutes\nStep 4: 30 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 30 minutes"
+    },
+    "How To Sanitize a Toothbrush": {
+        "0": "Step 1: 1 minute\nStep 2: 5 seconds \nStep 3: 0.5 minutes\nStep 4: 10 seconds\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2:0.25 minute \nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: 0.5 minute \nStep 4: 1 minute\nStep 5: 1 minute"
+    },
+    "How To Go to Shenzhen from Hong Kong": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 45 minutes\nStep 3: 10 minutes",
+        "2": "Step 1: 30 minutes\nStep 2: 10 minutes"
+    },
+    "How To Eat a Sugar Cane": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 6 minutes\nStep 4: 3 minutes\nStep 5: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 6 minutes\nStep 4: None",
+        "2": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 6 minutes\nStep 4: None"
+    },
+    "How To Cook Shirataki Noodles": {
+        "0": "Step 1: 1 minute\nStep 2: 8 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 8 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: None"
+    },
+    "How To Store Onions": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes"
+    },
+    "How To Cut Steel": {
+        "0": "Step 1: None",
+        "1": "Step 1: None",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute"
+    },
+    "How To Stop Hemorrhoids from Itching": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 12 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute"
+    },
+    "How To Introduce a New Puppy": {
+        "0": "Step 1: 10 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 10 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: None"
+    },
+    "How To Decline a Job Interview": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 1 minute"
+    },
+    "How To Preserve Wood": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes\nStep 4: 60 minutes\nStep 5: None\nStep 6: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 60 minutes\nStep 4: 10 minutes\nStep 5: None\nStep 6: 12 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 60 minutes\nStep 4: 4 minutes\nStep 5: None\nStep 6: 5 minutes"
+    },
+    "How To Conduct a Time and Motion Study": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 12 minutes\nStep 5: 15 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes\nStep 4: 20 minutes\nStep 5: 15 minutes"
+    },
+    "How To Cook Rice Noodles": {
+        "0": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 9 minutes"
+    },
+    "How To Defrost Salmon": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 18 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 30 minutes\nStep 4: None"
+    },
+    "How To Soften Polymer Clay": {
+        "1": "Step 1: 20 minutes\nStep 2: 1 minute\nStep 3: 2 minutes",
+        "2": "Step 1: None\nStep 2: 1 minute\nStep 3: 2 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes",
+        "4": "Step 1: 20 minutes\nStep 2: 1 minute\nStep 3: 2 minutes",
+        "5": "Step 1: None\nStep 2: 1 minute\nStep 3: 2 minutes"
+    },
+    "How To Defrost a Turkey": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "2": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Catch Ghosts": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 3 minutes"
+    },
+    "How To Get Rid of Dog Lice": {
+        "0": "Step 1: 15 minutes\nStep 2: 20 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: None\nStep 2: 1960 minutes \nStep 3: None"
+    },
+    "How To Clean a White Leather Jacket": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 120 minutes"
+    },
+    "How To Soften Butter": {
+        "0": "Step 1: 30 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 3 minutes"
+    },
+    "How To Remove Excessive Fragrance Odors from Clothes": {
+        "0": "Step 1: 1 minute\nStep 2: 45 minutes\nStep 3: 90 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 10 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 2 minutes"
+    },
+    "How To Clean Ceramic Floor Tile": {
+        "0": "Step 1: None\nStep 2: 15 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 4 minutes"
+    },
+    "How To Treat a Sprained Ankle on a Dog": {
+        "0": "Step 1: 2880 minutes\nStep 2: None\nStep 3: 12 minutes",
+        "1": "Step 1: None\nStep 2: None\nStep 3: 5 minutes"
+    },
+    "How To Desalt Ham": {
+        "0": "Step 1: 5 minutes\nStep 2: 240 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes"
+    },
+    "How To Restore Doll Hair": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 10 minutes\nStep 5: 5 minutes\nStep 6: 5 minutes\nStep 7: 1440 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 1440 minutes"
+    },
+    "How To Get Rid of Bleach Stains": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 30 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: 10 minutes"
+    },
+    "How To Eat a Peach": {
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 3 minutes\nStep 2: 2 minutes",
+        "3": "Step1: None",
+        "4": "Step 1: 3 minutes\nStep 2: None",
+        "5": "Step 1: None"
+    },
+    "How To Perk Up Wilting Flowers": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: None",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: None"
+    },
+    "How To Eat Chia Seeds": {
+        "0": "Step 1: 2 minutes",
+        "1": "Step 1: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: None",
+        "3": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Wash Towels": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: None"
+    },
+    "How To Remove Mildew Smell from Clothing": {
+        "0": "Step 1: 90 minutes",
+        "1": "Step 1: 90 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 90 minutes"
+    },
+    "How To Seed Tomatoes": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: None"
+    },
+    "How To Store Feta Cheese": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 1 minute"
+    },
+    "How To Get Wrinkles out of Paper": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1440 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes"
+    },
+    "How To Cool Food Quickly": {
+        "1": "Step 1: 1 minute\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 3 minutes",
+        "3": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Get Rid of Fleas in Carpets": {
+        "0": "Step 1: 20 minutes\nStep 2: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1440 minutes\nStep 3: 15 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 10 minutes"
+    },
+    "How To Buy Dry Ice": {
+        "0": "Step 1: None",
+        "1": "Step 1: 15 minutes\nStep 2: 3 minutes",
+        "2": "Step 1: 1 minute"
+    },
+    "How To Thicken a Cream Sauce": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute",
+        "4": "Step 1: 1 minute\nStep 2: 1 minute"
+    },
+    "How To Clean a Vinyl Pool Liner": {
+        "0": "Step 1: 20 minutes\nStep 2: 15 minutes",
+        "1": "Step 1: 15 minutes",
+        "2": "Step 1: 120 minutes\nStep 2: 30 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 10 minutes"
+    },
+    "How To Make a Fever Break": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Make Rolled Oats": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None\nStep 4: 1 minute",
+        "1": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: 4 minutes\nStep 4: 5 minutes"
+    },
+    "How To Remove Hair Without Shaving": {
+        "1": "Step 1: None",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 3 minutes"
+    },
+    "How To Soften Rubber": {
+        "0": "Step 1: 2 minutes\nStep 2: None",
+        "1": "Step 1: 10 minutes",
+        "2": "Step 1: 10 minutes\nStep 2: 5 minutes"
+    },
+    "How To Make Jam": {
+        "0": "Step 1: 10 minutes\nStep 2: 8 minutes\nStep 3: 5 minutes\nStep 4: 5 minutes\nStep 5: None\nStep 6: 4 minutes\nStep 7: 10 minutes\nStep 8: 1440 minutes",
+        "1": "Step 1: 10 minutes\nStep 2: 8 minutes\nStep 3: 5 minutes\nStep 4: 5 minutes\nStep 5: None\nStep 6: 2 minutes\nStep 7: 5 minutes\nStep 8: 10 minutes\nStep 9: 1440 minutes"
+    },
+    "How To Get Rid of Pimple Redness Overnight": {
+        "0": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 2 minutes",
+        "1": "Step 1: 20 minutes\nStep 2: 20 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 5 minutes"
+    },
+    "How To Prevent Skinny Jeans from Stretching": {
+        "0": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 45 minutes"
+    },
+    "How To Dry Out a Wet iPhone": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 5 minutes\nStep 6: 2 minutes"
+    },
+    "How To Get Rid of a Nerve Pinch in Your Neck Quickly": {
+        "0": "Step 1: 20 minutes\nStep 2: None\nStep 3: 5 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes"
+    },
+    "How To Store Aloe Vera Gel": {
+        "0": "Step 1: 5 minutes\nStep 2: 480 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 0.5 minutes\nStep 3: 1 minute\nStep 4: None"
+    },
+    "How To Prank Your Sister": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute",
+        "4": "Step 1: None",
+        "5": "Step 1: 2 minutes\nStep 2: 3 minutes",
+        "6": "Step 1: 1 minute"
+    },
+    "How To Make Brown Food Coloring": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Cook Peppers": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: None",
+        "1": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 12 minutes"
+    },
+    "How To Eat Yucca": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 7 minutes\nStep 3: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: 5 minutes"
+    },
+    "How To Remove Urine Stains from a Mattress": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 60 minutes\nStep 4: 5 minutes"
+    },
+    "How To Clean Dirty Shoes": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 45 minutes\nStep 4: 720 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes"
+    },
+    "How To Bottle Feed a Baby Lamb": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 10 minutes",
+        "1": "Step 1: None\nStep 2: None",
+        "2": "Step 1: None\nStep 2: None"
+    },
+    "How To Cook with Olive Oil": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: None",
+        "3": "Step 1: 5 minutes\nStep 2: None",
+        "4": "Step 1: None\nStep 2: 1 minute"
+    },
+    "How To Remove Body Odor from Clothes": {
+        "0": "Step 1: 5 minutes\nStep 2: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 45 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 30 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 30 minutes"
+    },
+    "How To Make Frozen Grapes": {
+        "0": "Step 1: 5 minutes\nStep 2: 300 minutes\nStep 3: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 240 minutes\nStep 4: 2 minutes"
+    },
+    "How To Play War (Card Game)": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute",
+        "1": "Step 1: None\nStep 2: 1 minute\nStep 3: 1 minute",
+        "2": "Step 1: None"
+    },
+    "How To Clean a Non\u2010Self\u2010Cleaning Oven": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 240 minutes\nStep 4: 15 minutes\nStep 5: 30 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 2 minutes\nStep 4: 720 minutes\nStep 5: 20 minutes"
+    },
+    "How To Remove Gum from a Shoe": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 90 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes"
+    },
+    "How To Remove Ink Stains from Polyester": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 2 minutes\nStep 4: 4 minutes\nStep 5: 45 minutes\nStep 6: 120 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 30 minutes\nStep 4: 2 minutes\nStep 5: 5 minutes\nStep 6: 45 minutes\nStep 7: 120 minutes"
+    },
+    "How To Use a Smartboard": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 1 minute"
+    },
+    "How To Clean a Sofa": {
+        "0": "Step 1: 8 minutes\nStep 2: 4 minutes\nStep 3: None",
+        "1": "Step 1: 10 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 7 minutes"
+    },
+    "How To Make Microwave Oatmeal": {
+        "0": "Step 1: 2 minutes\nStep 2: None\nStep 3: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 1 minute",
+        "2": "Step 1: 2 minutes\nStep 2: 1.5 minutes\nStep 3: 1 minute"
+    },
+    "How To Cure Boils Naturally": {
+        "0": "Step 1: 10 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes"
+    },
+    "How To Make Spicy Mayo": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 0.5 minutes\nStep 4: 0.5 minutes\nStep 5: 3 minutes\nStep 6: None"
+    },
+    "How To Make Clear Ice": {
+        "0": "Step 1: 10 minutes\nStep 2: 30 minutes\nStep 3: 10 minutes\nStep 4: 2 minutes\nStep 5: 1 minute\nStep 6: 120 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 1440 minutes"
+    },
+    "How To Get Rid of a Wasp's Nest": {
+        "0": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 3 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 2 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 3 minutes"
+    },
+    "How To Remove Egg Stains from Car Paint": {
+        "0": "Step 1: 5 minutes\nStep 2: 7 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 10 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes",
+        "3": "Step 1: 5 minutes"
+    },
+    "How To Get Wii Points": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: None\nStep 2: 2 minutes\nStep 3: 3 minutes",
+        "2": "Step 1: None"
+    },
+    "How To Store a Fondant Cake": {
+        "0": "Step 1: 2 minutes\nStep 2: 0 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 4320 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 0 minutes"
+    },
+    "How To Make Gin": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: 10 minutes\nStep 6: 720 minutes \nStep 7: 8 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: 10 minutes\nStep 6: None\nStep 7: 8 minutes"
+    },
+    "How To Match Paint Colors": {
+        "0": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 5 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 5 minutes\nStep 4: 60 minutes\nStep 5: 10 minutes"
+    },
+    "How To Prepare Breast Milk": {
+        "0": "Step 1: 720 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 30 minutes\nStep 2: 1 minute\nStep 3: 5 minutes"
+    },
+    "How To Build a Compost Bin": {
+        "0": "Step 1: None\nStep 2: 15 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: 120 minutes\nStep 2: 30 minutes\nStep 3: 15 minutes\nStep 4: 10 minutes\nStep 5: 5 minutes"
+    },
+    "How To Get Cigarette Smell out of Clothes": {
+        "0": "Step 1: 60 minutes\nStep 2: 45 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: None"
+    },
+    "How To Run a Lemonade Stand": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes\nStep 4: None"
+    },
+    "How To Clean Wood Countertops": {
+        "0": "Step 1: 3 minutes\nStep 2: 7 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 3 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 7 minutes"
+    },
+    "How To Eliminate Cat Odors Around the House": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 30 minutes"
+    },
+    "How To Introduce Two Dwarf Hamsters": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 5 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 5 minutes\nStep 5: 2 minutes\nStep 6: None"
+    },
+    "How To Cook Swordfish": {
+        "0": "Step 1: None\nStep 2: 1 minute\nStep 3: 20 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 10 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: None\nStep 3: 8 minutes\nStep 4: 10 minutes"
+    },
+    "How To Sleep Without Using a Bed": {
+        "0": "Step 1: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: 1 minute"
+    },
+    "How To Clean Pee Off a Couch": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes\nStep 5: 720 minutes\nStep 6: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 720 minutes\nStep 6: 2 minutes"
+    },
+    "How To Stir Fry": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: None\nStep 5: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: 3 minutes"
+    },
+    "How To Unshrink Jeans": {
+        "0": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: 12 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 30 minutes"
+    },
+    "How To Remove Wrinkles from Leather Jackets": {
+        "0": "Step 1: 1 minute\nStep 2: 12 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 2 minutes\nStep 2: 15 minutes"
+    },
+    "How To Store an Uncooked Turkey": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None"
+    },
+    "How To Get Stains out of White Mugs": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 240 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 3 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 3 minutes",
+        "4": "Step 1: 1 minute\nStep 2: 3 minutes",
+        "5": "Step 1: 1 minute\nStep 2: 3 minutes"
+    },
+    "How To Make Homemade Soup": {
+        "0": "Step 1: 720 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes\nStep 4: 10 minutes\nStep 5: 30 minutes",
+        "1": "Step 1: 20 minutes\nStep 2: 2 minutes\nStep 3: 5 minutes\nStep 4: 30 minutes"
+    },
+    "How To Measure for a Tablecloth": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Wash Feather Pillows": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 60 minutes\nStep 4: 10 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 45 minutes\nStep 4: 10 minutes\nStep 5: 120 minutes"
+    },
+    "How To Thicken Stew": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 12 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 12 minutes\nStep 4: None",
+        "2": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 12 minutes\nStep 4: None",
+        "3": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 12 minutes\nStep 4: None",
+        "4": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 12 minutes\nStep 4: None"
+    },
+    "How To Get Rid of Pimples with Baking Soda": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "2": "Step 1: 15 minutes\nStep 2: 1 minute\nStep 3: 20 minutes"
+    },
+    "How To Eat Panettone": {
+        "0": "Step 1: 4 minutes\nStep 2: 7 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 1 minute\nStep 4: 2 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 7 minutes\nStep 3: 3 minutes\nStep 4: 1 minute"
+    },
+    "How To Treat Infected Piercings": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 20 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes"
+    },
+    "How To Add Baking Soda to Laundry": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 1 minute\nStep 5: 45 minutes\nStep 6: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 1 minute\nStep 5: 45 minutes\nStep 6: 60 minutes"
+    },
+    "How To Deodorize a Car": {
+        "0": "Step 1: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 15 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 8 minutes"
+    },
+    "How To Get Rid of Poison Ivy Plants": {
+        "0": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 120 minutes\nStep 4: 30 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 20 minutes"
+    },
+    "How To Create a Family Tree Diagram": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 10 minutes\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 4 minutes\nStep 5: 6 minutes\nStep 6: 8 minutes\nStep 7: None"
+    },
+    "How To Build a Chicken Nesting Box": {
+        "0": "Step 1: 45 minutes\nStep 2: 20 minutes\nStep 3: 15 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes",
+        "2": "Step 1: None\nStep 2: None\nStep 3: 15 minutes\nStep 4: 5 minutes",
+        "3": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes"
+    },
+    "How To Clean Carpet Without a Carpet Cleaner": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: None\nStep 5: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 3 minutes"
+    },
+    "How To Catch Ants": {
+        "0": "Step 1: 2 minutes\nStep 2: 180 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 2 minutes\nStep 4: 1440 minutes"
+    },
+    "How To Build a Bocce Ball Court": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: 45 minutes\nStep 4: 30 minutes\nStep 5: 20 minutes\nStep 6: 25 minutes",
+        "1": "Step 1: None\nStep 2: None\nStep 3: 45 minutes\nStep 4: 30 minutes\nStep 5: 20 minutes\nStep 6: 25 minutes",
+        "2": "Step 1: None\nStep 2: None\nStep 3: 45 minutes\nStep 4: 30 minutes\nStep 5: 20 minutes\nStep 6: 40 minutes"
+    },
+    "How To Put Up a Hammock": {
+        "0": "Step 1: 8 minutes\nStep 2: 4 minutes\nStep 3: None\nStep 4: None\nStep 5: 6 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 4 minutes\nStep 3: 6 minutes\nStep 4: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes"
+    },
+    "How To Roast Sunflower Seeds": {
+        "0": "Step 1: 720 minutes\nStep 2: 5 minutes\nStep 3: 35 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 35 minutes"
+    },
+    "How To Clean Wood Laminate Floors": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 10 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 15 minutes",
+        "3": "Step 1: None"
+    },
+    "How To Prune Honeysuckle": {
+        "0": "Step 1: None\nStep 2: 15 minutes\nStep 3: 10 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes"
+    },
+    "How To Wash Slippers": {
+        "0": "Step 1: 2 minutes\nStep 2: 45 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 10 minutes\nStep 4: 3 minutes\nStep 5: 120 minutes",
+        "2": "Step 1: 1 minute",
+        "3": "Step 1: 5 minutes",
+        "4": "Step 1: 5 minutes"
+    },
+    "How To Get Rid of Head Lice Naturally": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 480 minutes\nStep 4: 10 minutes\nStep 5: 15 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 60 minutes\nStep 5: 10 minutes"
+    },
+    "How To Store Honey": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Add Potassium to an Organic Garden": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 5 minutes",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: None",
+        "4": "Step 1: 15 minutes"
+    },
+    "How To Cook Smoked Turkey Legs": {
+        "0": "Step 1: 2 minutes\nStep 2: 150 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 240 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 120 minutes"
+    },
+    "How To Store Cat Food Properly": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: None",
+        "2": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Gather Earthworms": {
+        "0": "Step 1: 2 minutes\nStep 2: 720 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes"
+    },
+    "How To Clean a Paintbrush": {
+        "0": "Step 1: 60 minutes\nStep 2: None\nStep 3: 5 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes"
+    },
+    "How To Catch a Firefly": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: None",
+        "2": "Step 1: None\nStep 2: 1 minute\nStep 3: 3 minutes"
+    },
+    "How To Remove Paint from Fabrics": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 3 minutes\nStep 6: 2 minutes\nStep 7: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 2 minutes\nStep 6: 1 minute\nStep 7: 2 minutes\nStep 8: None"
+    },
+    "How To Store Blueberries": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 180 minutes\nStep 3: 3 minutes\nStep 4: None"
+    },
+    "How To Cook a Top Round Roast": {
+        "0": "Step 1: 30 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: None\nStep 5: 15 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: None\nStep 5: 15 minutes"
+    },
+    "How To Treat Eczema": {
+        "2": "Step 1: 2 minutes\nStep 2: 10 minutes\nStep 3: None",
+        "3": "Step 1: None"
+    },
+    "How To Use a Metronome": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Remove Gum from Fabrics": {
+        "0": "Step 1: 1 minute\nStep 2: 90 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: None",
+        "1": "Step 1: 1 minute\nStep 2: 12 minutes\nStep 3: 3 minutes\nStep 4: 4 minutes\nStep 5: 5 minutes\nStep 6: None"
+    },
+    "How To Remove Musty Smell from Clothes": {
+        "0": "Step 1: 45 minutes\nStep 2: 2 minutes\nStep 3: 120 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: None\nStep 3: 120 minutes"
+    },
+    "How To Paint Concrete": {
+        "0": "Step 1: 15 minutes\nStep 2: 30 minutes\nStep 3: 10 minutes\nStep 4: 20 minutes\nStep 5: 1440 minutes\nStep 6: 1440 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 30 minutes\nStep 3: 20 minutes\nStep 4: 20 minutes\nStep 5: 20 minutes"
+    },
+    "How To Contact Dr. Phil": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 10 minutes\nStep 3: None",
+        "2": "Step 1: 10 minutes"
+    },
+    "How To Remove Yellow Stains from Plastic": {
+        "0": "Step 1: 2 minutes\nStep 2: None\nStep 3: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 3 minutes\nStep 5: 2 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Play osu!": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: None"
+    },
+    "How To Remove Blonde Hair Dye": {
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 17 minutes"
+    },
+    "How To Treat Hives Naturally": {
+        "0": "Step 1: 2 minutes\nStep 2: 10 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Train a Horse to Walk Through Water": {
+        "0": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 20 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: None"
+    },
+    "How To Clean Dry Erase Erasers": {
+        "0": "Step 1: 20 minutes\nStep 2: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 120 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 120 minutes"
+    },
+    "How To Play Capitalism": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: None\nStep 5: 2 minutes\nStep 6: 2 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None"
+    },
+    "How To Cook Sirloin Tip Roast": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 120 minutes\nStep 5: None\nStep 6: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 480 minutes\nStep 5: 3 minutes"
+    },
+    "How To Mix Colors to Make Pink": {
+        "0": "Step 1: 2 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Make Dried Tomatoes": {
+        "0": "Step 1: 8 minutes\nStep 2: 4 minutes\nStep 3: 1440 minutes\nStep 4: 2 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 4 minutes\nStep 3: 2 minutes"
+    },
+    "How To Polish Shoes": {
+        "0": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 10 minutes\nStep 4: None\nStep 5: 2 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 15 minutes\nStep 3: 5 minutes\nStep 4: 10 minutes\nStep 5: None\nStep 6: 2 minutes"
+    },
+    "How To Wash Grapes": {
+        "0": "Step 1: 0.5 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: 1 minute",
+        "1": "Step 1: 0.5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 1 minute"
+    },
+    "How To Give First Aid to an Electrocuted Animal": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 10 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None"
+    },
+    "How To Store an Open Bottle of Red Wine": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None\nStep 4: 30 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: None\nStep 5: 10 minutes"
+    },
+    "How To Use Fenugreek Seeds": {
+        "0": "Step 1: 720 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 2 minutes"
+    },
+    "How To Treat Focal Seizures in Dogs": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes"
+    },
+    "How To Roast Ham": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 120 minutes",
+        "1": "Step 1: 432 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: 240 minutes"
+    },
+    "How To Cook Turkey Drumsticks": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 90 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 60 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 60 minutes"
+    },
+    "How To Clean Oven Racks": {
+        "0": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 5 minutes"
+    },
+    "How To Clean Rust from a Pocketknife": {
+        "0": "Step 1: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: 8 minutes",
+        "3": "Step 1: 5 minutes"
+    },
+    "How To Shred Chicken": {
+        "0": "Step 1: None\nStep 2: 30 minutes\nStep 3: 8 minutes",
+        "1": "Step 1: None\nStep 2: 30 minutes\nStep 3: 1 minute\nStep 4: 5 minutes"
+    },
+    "How To Get Mud Out of Clothes": {
+        "0": "Step 1: None\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 15 minutes\nStep 5: 45 minutes",
+        "1": "Step 1: None\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 45 minutes"
+    },
+    "How To Control Foot Odor with Baking Soda": {
+        "0": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute"
+    },
+    "How To Clean a Fiberglass Shower Floor": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 3 minutes",
+        "3": "Step 1: 2 minutes\nStep 2: 10 minutes"
+    },
+    "How To Treat Itchy Ears": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 2 minutes"
+    },
+    "How To Get Blood out of Sheets": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 45 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 45 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 2 minutes\nStep 5: 90 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 30 minutes\nStep 4: 2 minutes\nStep 5: 45 minutes"
+    },
+    "How To Relieve Blister Pain": {
+        "0": "Step 1: 3 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Get Dog Smell Out of Your Car": {
+        "0": "Step 1: 5 minutes\nStep 2: 480 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 720 minutes\nStep 3: 15 minutes",
+        "3": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 15 minutes\nStep 4: 5 minutes"
+    },
+    "How To Store Lemon Meringue Pie": {
+        "0": "Step 1: 60 minutes\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 4320 minutes"
+    },
+    "How To Kill Flying Ants": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: None",
+        "3": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Grow Herbs Outdoors": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: None"
+    },
+    "How To Harvest Parsley": {
+        "0": "Step 1: None\nStep 2: 5 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes"
+    },
+    "How To Treat an Ingrown Fingernail": {
+        "0": "Step 1: 17 minutes\nStep 2: None\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 17 minutes\nStep 3: None\nStep 4: None",
+        "2": "Step 1: 1 minute\nStep 2: 17 minutes\nStep 3: None\nStep 4: None"
+    },
+    "How To Freeze Strawberries": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 120 minutes\nStep 4: 3 minutes\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: None"
+    },
+    "How To Store Butter": {
+        "1": "Step 1: None\nStep 2: 1 minute",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Heat Fully Cooked Ham": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: None"
+    },
+    "How To Do a Liver Flush": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 12 minutes\nStep 5: None"
+    },
+    "How To Clean White Furniture": {
+        "0": "Step 1: 15 minutes\nStep 2: 2880 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2880 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2880 minutes",
+        "4": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 2880 minutes"
+    },
+    "How To Make Whitewash": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes"
+    },
+    "How To Remove a Wallpaper Border": {
+        "0": "Step 1: 0.5 minutes\nStep 2: 1 minute\nStep 3: 0.5 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 20 minutes"
+    },
+    "How To Use a Basket Steamer": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: 27 minutes",
+        "2": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: 12 minutes",
+        "3": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 8 minutes\nStep 4: 1 minute\nStep 5: 5 minutes"
+    },
+    "How To Melt Glass Bottles": {
+        "0": "Step 1: 15 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 15 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: None"
+    },
+    "How To Clean Jewelry": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes"
+    },
+    "How To Clean a Bunn Coffee Pot": {
+        "0": "Step 1: 25 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 45 minutes",
+        "2": "Step 1: 180 minutes \nStep 2: 2 minutes\nStep 3: 5 minutes",
+        "3": "Step 1: 1 minute\nStep 2: 5 minutes",
+        "4": "Step 1: 2 minutes\nStep 2: 45 minutes"
+    },
+    "How To Make Frozen Yogurt": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 210 minutes\nStep 4: 2 minutes\nStep 5: None\nStep 6: None"
+    },
+    "How To Play Congkak": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 7 minutes\nStep 4: None\nStep 5: None\nStep 6: None\nStep 7: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 7 minutes\nStep 4: None\nStep 5: 1 minute"
+    },
+    "How To Catch a Fox": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 720 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: 5 minutes\nStep 3: 20 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 30 minutes\nStep 3: 10 minutes"
+    },
+    "How To Reheat Mashed Potatoes": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 7 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 30 minutes"
+    },
+    "How To Make Coffee Jelly": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 3 minutes\nStep 4: 240 minutes\nStep 5: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 3 minutes\nStep 4: 360 minutes\nStep 5: 8 minutes\nStep 6: 2 minutes"
+    },
+    "How To Freeze Pizza": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 60 minutes"
+    },
+    "How To Prune a Fig Tree": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 12 minutes"
+    },
+    "How To Make Cocktail Sauce": {
+        "0": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Treat an Infected Sebaceous Cyst": {
+        "0": "Step 1: 20 minutes\nStep 2: None\nStep 3: 5 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 20 minutes\nStep 2: None\nStep 3: 5 minutes\nStep 4: 2 minutes"
+    },
+    "How To Store Champagne": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: None\nStep 2: None\nStep 3: None"
+    },
+    "How To Get Paint Off Canvas Shoes": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 8 minutes\nStep 4: 4 minutes\nStep 5: None\nStep 6: 12 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None\nStep 4: 2 minutes"
+    },
+    "How To Get Help for a Cat Hit by a Car": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None\nStep 4: 2 minutes\nStep 5: 5 minutes"
+    },
+    "How To Write an APA Style References Page": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes"
+    },
+    "How To Make Ice": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 120 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 120 minutes\nStep 4: 1 minute",
+        "2": "Step 1: None\nStep 2: None"
+    },
+    "How To Treat a Wasp or Hornet Sting": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: None",
+        "1": "Step 1: 3 minutes\nStep 2: 1 minute"
+    },
+    "How To Make Hair Gel": {
+        "0": "Step 1: None\nStep 2: 30 minutes\nStep 3: 5 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 180 minutes\nStep 3: 2 minutes\nStep 4: 1 minute"
+    },
+    "How To Create Realistic Flesh Tones": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None"
+    },
+    "How To Clean an Air Mattress": {
+        "0": "Step 1: 120 minutes\nStep 2: 2 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 1 minute\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: 120 minutes"
+    },
+    "How To Thicken Cream Cheese Frosting": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 60 minutes"
+    },
+    "How To Wean a Baby from Breastfeeding": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Clean a Cat Scratching Post": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 1 minute\nStep 6: None\nStep 7: 4 minutes"
+    },
+    "How To Clean Straw Hats": {
+        "0": "Step 1: 5 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: 120 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 60 minutes\nStep 3: 3 minutes",
+        "3": "Step 1: 3 minutes"
+    },
+    "How To Cure Muscle Aches": {
+        "0": "Step 1: 15 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes"
+    },
+    "How To Diagnose and Treat Frostbite in Cats": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 4 minutes\nStep 5: 15 minutes\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 15 minutes\nStep 5: None"
+    },
+    "How To Serve Sangria": {
+        "0": "Step 1: None\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 3 minutes",
+        "1": "Step 1: 25 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes"
+    },
+    "How To Take Misoprostol": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: 1 minute",
+        "1": "Step 1: None\nStep 2: 5 minutes"
+    },
+    "How To Clean Blinds": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes"
+    },
+    "How To Catch a Rodent in Your House": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: None",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: None\nStep 4: 30 minutes"
+    },
+    "How To Barbecue": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "3": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Cure a Gout Attack": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 20 minutes\nStep 4: None\nStep 5: 5 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 20 minutes\nStep 4: None\nStep 5: 5 minutes"
+    },
+    "How To Eliminate Mites from a Pet Hermit Crab Tank": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 12 minutes\nStep 4: 120 minutes\nStep 5: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 3 minutes\nStep 4: 120 minutes\nStep 5: 2 minutes"
+    },
+    "How To Store Slime": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes"
+    },
+    "How To Paint a Refrigerator": {
+        "0": "Step 1: 2 minutes\nStep 2: 15 minutes\nStep 3: 20 minutes\nStep 4: 45 minutes\nStep 5: 1440 minutes\nStep 6: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 15 minutes\nStep 3: 20 minutes\nStep 4: 36 minutes\nStep 5: 1440 minutes\nStep 6: 1 minute"
+    },
+    "How To Clean Beer Bottles": {
+        "0": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 30 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes"
+    },
+    "How To Acid Wash Aluminum": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None\nStep 4: 4 minutes\nStep 5: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 90 minutes\nStep 4: 10 minutes\nStep 5: 2 minutes\nStep 6: 3 minutes"
+    },
+    "How To Not Get Caught Looking at Porn": {
+        "0": "Step 1: 1 minute\nStep 2: None\nStep 3: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: 1 minute",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None\nStep 4: 1 minute"
+    },
+    "How To Make Your Own Glass Cleaner": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 5 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 5 minutes"
+    },
+    "How To Remove Paint from Concrete": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 3 minutes\nStep 4: None\nStep 5: 12 minutes\nStep 6: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: None\nStep 5: 4 minutes\nStep 6: 4 minutes\nStep 7: 10 minutes\nStep 8: 8 minutes"
+    },
+    "How To Make a Fire Starter": {
+        "0": "Step 1: None\nStep 2: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 45 minutes\nStep 4: 2 minutes"
+    },
+    "How To Care For a Bird That Has Hit a Window": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 2 minutes"
+    },
+    "How To Find Worms": {
+        "0": "Step 1: None\nStep 2: None",
+        "2": "Step 1: 1 minute\nStep 2: 120 minutes\nStep 3: 5 minutes"
+    },
+    "How To Bake Potatoes": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 1 minute\nStep 4: 52 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: None",
+        "2": "Step 1: 4 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 10 minutes"
+    },
+    "How To Kill a Cricket that's Loose in Your House": {
+        "0": "Step 1: 2 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: 5 minutes"
+    },
+    "How To Cook Pumpkin Seeds": {
+        "0": "Step 1: 10 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: 10 minutes\nStep 7: 1 minute\nStep 8: None",
+        "1": "Step 1: 10 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: 10 minutes\nStep 7: 1 minute\nStep 8: None"
+    },
+    "How To Clean Carpet Naturally": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: 15 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 180 minutes",
+        "2": "Step 1: 3 minutes\nStep 2: 4 minutes\nStep 3: 5 minutes",
+        "3": "Step 1: 15 minutes\nStep 2: 60 minutes"
+    },
+    "How To Get Rid of a Gum Boil": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 6720 minutes"
+    },
+    "How To Wash Dark Clothes": {
+        "0": "Step 1: 2 minutes\nStep 2: 30 minutes\nStep 3: 1 minute\nStep 4: 120 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 30 minutes\nStep 3: 1 minute\nStep 4: 60 minutes"
+    },
+    "How To Glue Plastic": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 1440 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 1440 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 1440 minutes"
+    },
+    "How To Treat Mastitis in Dogs": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: 5 minutes\nStep 4: 8 minutes\nStep 5: 10 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 3 minutes"
+    },
+    "How To Install Roof Tile": {
+        "0": "Step 1: 120 minutes\nStep 2: 15 minutes\nStep 3: 10 minutes\nStep 4: 30 minutes\nStep 5: 45 minutes\nStep 6: 20 minutes",
+        "1": "Step 1: 120 minutes\nStep 2: 15 minutes\nStep 3: 10 minutes\nStep 4: 90 minutes\nStep 5: 20 minutes"
+    },
+    "How To Fix a Physically Broken Hard Drive": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 5 minutes"
+    },
+    "How To Keep Blue Hydrangeas Blue": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 3 minutes\nStep 4: 10 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 5 minutes\nStep 5: None"
+    },
+    "How To Thicken Spaghetti Sauce": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 10 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 20 minutes",
+        "3": "Step 1: 1 minute\nStep 2: 20 minutes",
+        "4": "Step 1: 2 minutes\nStep 2: 20 minutes"
+    },
+    "How To Get Rid of a Pimple with No Head": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 10 minutes\nStep 3: None"
+    },
+    "How To Freeze Tofu": {
+        "0": "Step 1: 3 minutes\nStep 2: 60 minutes\nStep 3: 2 minutes\nStep 4: 1440 minutes",
+        "1": "Step 1: None",
+        "2": "Step 1: 0.5 minutes"
+    },
+    "How To Clean Concrete Countertops": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 2 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 3 minutes"
+    },
+    "How To Repair League of Legends": {
+        "0": "Step 1: 10 minutes\nStep 2: 15 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 120 minutes\nStep 2: 10 minutes"
+    },
+    "How To Boil Eggs": {
+        "0": "Step 1: 2 minutes\nStep 2: 8 minutes\nStep 3: None\nStep 4: 5 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: 6 minutes\nStep 4: 5 minutes"
+    },
+    "How To Grill Ribs": {
+        "0": "Step 1: 5 minutes\nStep 2: 60 minutes\nStep 3: 15 minutes\nStep 4: 10 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes\nStep 3: 15 minutes\nStep 4: 10 minutes\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 60 minutes\nStep 3: 15 minutes\nStep 4: 5 minutes\nStep 5: None"
+    },
+    "How To Care for a Cast Iron Skillet": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 180 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 120 minutes"
+    },
+    "How To Bake Salmon": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Cook Squash": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 10 minutes"
+    },
+    "How To Freeze Spinach": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 360 minutes\nStep 6: 2 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 360 minutes\nStep 5: 2 minutes"
+    },
+    "How To Get Rid of Thigh Pain": {
+        "0": "Step 1: None\nStep 2: 10 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes"
+    },
+    "How To Get to the Galapagos Islands": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: None\nStep 2: None"
+    },
+    "How To Feed a Corn Snake": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 5 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 120 minutes\nStep 5: 4 minutes\nStep 6: None"
+    },
+    "How To Reuse Cooking Oil": {
+        "0": "Step 1: 120 minutes\nStep 2: 5 minutes\nStep 3: 1 minute\nStep 4: 2 minutes",
+        "1": "Step 1: None"
+    },
+    "How To Clone Plants": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Freeze Cilantro": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 0.5 minutes\nStep 4: 3 minutes\nStep 5: 1 minute\nStep 6: 1 minute\nStep 7: None",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 0.5 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Store Dragon Fruit": {
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 8 minutes\nStep 2: 3 minutes\nStep 3: 720 minutes\nStep 4: 5 minutes\nStep 5: None"
+    },
+    "How To Clean Silk": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 4 minutes\nStep 5: 2 minutes\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 4 minutes\nStep 5: 3 minutes\nStep 6: None"
+    },
+    "How To Remove Water Stains From Carpet": {
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 120 minutes",
+        "3": "Step 1: 15 minutes\nStep 2: 120 minutes"
+    },
+    "How To Get Rid of Smoke Smell in a Room": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 4320 minutes\nStep 4: 15 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Thaw Frozen Fish": {
+        "0": "Step 1: 720 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 60 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Stretch a Cotton T Shirt": {
+        "0": "Step 1: 12 minutes\nStep 2: 2 minutes\nStep 3: 5 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes",
+        "2": "Step 1: 10 minutes"
+    },
+    "How To Determine Your Most Fertile Day to Conceive": {
+        "1": "Step 1: 2 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Texture Walls": {
+        "0": "Step 1: 20 minutes\nStep 2: 30 minutes",
+        "1": "Step 1: 20 minutes\nStep 2: 120 minutes",
+        "2": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 10 minutes\nStep 4: 60 minutes\nStep 5: 30 minutes"
+    },
+    "How To Stop Breastfeeding Quickly": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: None",
+        "2": "Step 1: 5 minutes"
+    },
+    "How To Cancel Your Crunch Membership": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes"
+    },
+    "How To Install a Wood Stove": {
+        "0": "Step 1: 30 minutes\nStep 2: 45 minutes\nStep 3: 15 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 20 minutes\nStep 2: 15 minutes\nStep 3: 120 minutes\nStep 4: 30 minutes"
+    },
+    "How To Charge a Fitbit": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 90 minutes\nStep 5: 1 minute\nStep 6: 1 minute",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 90 minutes\nStep 4: 1 minute"
+    },
+    "How To Thicken Potato Soup": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute"
+    },
+    "How To Eat Asparagus": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 10 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "2": "Step 1: 2 minutes\nStep 2: 5 minutes"
+    },
+    "How To Clean a Foam Mattress": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: 5 minutes\nStep 7: None",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 5 minutes\nStep 6: None"
+    },
+    "How To Get Dog Smell Out of the Carpet": {
+        "0": "Step 1: 15 minutes\nStep 2: None\nStep 3: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 2 minutes\nStep 4: 5 minutes"
+    },
+    "How To Fill Large Holes in Wood": {
+        "0": "Step 1: 5 minutes\nStep 2: 60 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes\nStep 3: 10 minutes\nStep 4: 5 minutes\nStep 5: 120 minutes"
+    },
+    "How To Treat a Blister": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Get Rid of Bed Bug Stains": {
+        "0": "Step 1: 5 minutes\nStep 2: 30 minutes\nStep 3: 45 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 8 minutes"
+    },
+    "How To Make Lip Balm": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 120 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 120 minutes"
+    },
+    "How To Play Backgammon": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: None\nStep 5: None",
+        "2": "Step 1: None\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Watch Movies for Free": {
+        "0": "Step 1: 5 minutes\nStep 2: 90 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 60 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: None",
+        "3": "Step 1: 15 minutes\nStep 2: 120 minutes",
+        "4": "Step 1: 5 minutes\nStep 2: 120 minutes"
+    },
+    "How To Feed a Tarantula": {
+        "0": "Step 1: 1 minute\nStep 2: None\nStep 3: 1 minute",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 1 minute\nStep 4: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: None\nStep 3: 1 minute\nStep 4: 2 minutes"
+    },
+    "How To Smoke Ribs": {
+        "0": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: 180 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes\nStep 5: 180 minutes"
+    },
+    "How To Dry Tofu": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Catch Shad": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: None\nStep 4: 5 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes\nStep 3: None\nStep 4: 10 minutes",
+        "2": "Step 1: None\nStep 2: 5 minutes\nStep 3: None\nStep 4: 3 minutes"
+    },
+    "How To Make Mud": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 5 minutes"
+    },
+    "How To Remove Water Stains from Fabric": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: None",
+        "1": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 4 minutes"
+    },
+    "How To Drive in the Snow": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None",
+        "1": "Step 1: None",
+        "2": "Step 1: None"
+    },
+    "How To Freeze Quiche": {
+        "0": "Step 1: 2 minutes\nStep 2: 120 minutes\nStep 3: 3 minutes\nStep 4: 2 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes"
+    },
+    "How To Treat a Finger Hit by a Hammer": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 8 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 4 minutes\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 4 minutes\nStep 5: None"
+    },
+    "How To Care for Newborn Kittens": {
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: None",
+        "3": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Cook a Chicken Breast": {
+        "0": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 17 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Ripen Green Tomatoes": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Make Seafood Salad": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 6 minutes\nStep 4: 240 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes"
+    },
+    "How To Cook a Turkey Breast": {
+        "0": "Step 1: 10 minutes\nStep 2: 2 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 1 minute\nStep 6: 60 minutes\nStep 7: None\nStep 8: 2 minutes\nStep 9: 2 minutes",
+        "1": "Step 1: 1440 minutes\nStep 2: 10 minutes\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 2 minutes\nStep 6: 2 minutes\nStep 7: 60 minutes\nStep 8: None\nStep 9: None\nStep 10: None"
+    },
+    "How To Paint Furniture Black": {
+        "0": "Step 1: 30 minutes\nStep 2: 1440 minutes\nStep 3: None",
+        "1": "Step 1: 15 minutes\nStep 2: 1440 minutes\nStep 3: None"
+    },
+    "How To Lace Vans Shoes": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 0.5 minutes\nStep 4: 0.5 minutes\nStep 5: None\nStep 6: 2 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 30 seconds\nStep 4: 30 seconds\nStep 5: 2 minutes\nStep 6: 1 minute\nStep 7: 30 seconds\nStep 8: 30 seconds\nStep 9: 1 minute"
+    },
+    "How To Ease Peptic Ulcers Using Bananas": {
+        "0": "Step 1: 5 minutes\nStep 2: 120 minutes\nStep 3: 10 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: None\nStep 2: None"
+    },
+    "How To Prune a Tree": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None",
+        "1": "Step 1: None\nStep 2: 5 minutes"
+    },
+    "How To Get Urine Out of a Car Seat": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 5 minutes\nStep 4: 4 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes"
+    },
+    "How To Open a Pomegranate": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 2 minutes\nStep 6: 5 minutes"
+    },
+    "How To Remove Grease and Oil From a Car's Interior": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 15 minutes\nStep 4: 4 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 15 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 15 minutes\nStep 4: 2 minutes\nStep 5: None"
+    },
+    "How To Alleviate Breast Tenderness": {
+        "0": "Step 1: 20 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 20 minutes",
+        "2": "Step 1: 5 minutes",
+        "3": "Step 1: None\nStep 2: None\nStep 3: None",
+        "4": "Step 1: 5 minutes"
+    },
+    "How To Care for Rayon": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes\nStep 5: 120 minutes\nStep 6: 10 minutes\nStep 7: 1 minute",
+        "1": "Step 1: None"
+    },
+    "How To Make Ice Cubes with an Ice Tray": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 360 minutes\nStep 4: 3 minutes",
+        "1": "Step 1: 10 minutes\nStep 2: 10 minutes\nStep 3: 2 minutes\nStep 4: 1 minute\nStep 5: 360 minutes\nStep 6: 3 minutes"
+    },
+    "How To Clean Sunbrella Fabric": {
+        "0": "Step 1: 45 minutes\nStep 2: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes"
+    },
+    "How To Get a Stinger Out": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute"
+    },
+    "How To Clean Fur": {
+        "0": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 120 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1440 minutes"
+    },
+    "How To Keep Food Warm for a Party": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None"
+    },
+    "How To Use a GPS": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute"
+    },
+    "How To Cook a Roast in a Crock Pot": {
+        "0": "Step 1: 8 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 480 minutes\nStep 5: 5 minutes\nStep 6: 5 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 240 minutes\nStep 5: 2 minutes\nStep 6: 3 minutes"
+    },
+    "How To Grow Tulsi": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Remove Rusted Screws": {
+        "0": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 1 minute\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 15 minutes\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Save a Cat Attacked by Dogs": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 2 minutes\nStep 5: 2 minutes\nStep 6: None"
+    },
+    "How To Remove Smell from an Old Leather Bag": {
+        "0": "Step 1: 5 minutes\nStep 2: 120 minutes\nStep 3: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 1440 minutes"
+    },
+    "How To Soften Hard Water Naturally": {
+        "0": "Step 1: None",
+        "1": "Step 1: 2 minutes\nStep 2: 8 minutes\nStep 3: 30 minutes\nStep 4: 3 minutes\nStep 5: 4 minutes",
+        "2": "Step 1: 30 minutes\nStep 2: 0 minutes"
+    },
+    "How To Reuse Tea Bags": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 1 minute\nStep 2: None",
+        "3": "Step 1: 1 minute\nStep 2: None"
+    },
+    "How To Get Silly Putty Out of Carpet": {
+        "0": "Step 1: 1 minute\nStep 2: 120 minutes\nStep 3: 5 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: 2 minutes"
+    },
+    "How To Preserve a Starfish for a Decoration": {
+        "0": "Step 1: 36 minutes \nStep 2: 1440 minutes\nStep 3: 5 minutes\nStep 4: 2 minutes",
+        "1": "Step 1: None\nStep 2: 1440 minutes\nStep 3: 5 minutes\nStep 4: 2 minutes"
+    },
+    "How To Clean a Baking Stone": {
+        "0": "Step 1: 720 minutes\nStep 2: 5 minutes\nStep 3: 15 minutes\nStep 4: 3 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 30 minutes\nStep 4: 10 minutes\nStep 5: 2 minutes\nStep 6: 60 minutes"
+    },
+    "How To Make Garlic Mushrooms": {
+        "0": "Step 1: 2 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 1 minute\nStep 5: 1 minute",
+        "1": "Step 1: 10 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 27 minutes"
+    },
+    "How To Feed a Baby Kitten Without a Mother": {
+        "0": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: 7 minutes\nStep 4: None\nStep 5: None\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 7 minutes\nStep 4: None\nStep 5: None\nStep 6: None"
+    },
+    "How To Clear the Opening on a Spray Can": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 720 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 3 minutes\nStep 2: None\nStep 3: 2 minutes"
+    },
+    "How To Thin Chocolate": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Travel to Nicaragua": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None\nStep 4: 30 minutes\nStep 5: 120 minutes",
+        "1": "Step 1: None\nStep 2: None\nStep 3: None\nStep 4: 30 minutes\nStep 5: None",
+        "2": "Step 1: None\nStep 2: None\nStep 3: None\nStep 4: None\nStep 5: 5 minutes"
+    },
+    "How To Introduce Solid Food to Kittens": {
+        "0": "Step 1: 1 minute\nStep 2: None\nStep 3: None",
+        "2": "Step 1: None\nStep 2: None"
+    },
+    "How To Clean a Garden Sprayer": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: None\nStep 5: 4 minutes\nStep 6: 3 minutes\nStep 7: 4 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 7 minutes"
+    },
+    "How To Purchase Pedigree Certificates from the Kennel Club (UK)": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 120 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 2 minutes\nStep 4: 5 minutes\nStep 5: 120 minutes\nStep 6: None"
+    },
+    "How To Get Rid of Crabgrass": {
+        "0": "Step 1: None\nStep 2: 5 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 10080 minutes\nStep 3: 15 minutes"
+    },
+    "How To Level Books": {
+        "0": "Step 1: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 10 minutes",
+        "3": "Step 1: None",
+        "4": "Step 1: None\nStep 2: 5 minutes"
+    },
+    "How To Treat Acne with Cucumber Juice": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 17 minutes\nStep 5: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 3 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 3 minutes",
+        "3": "Step 1: 8 minutes\nStep 2: 2 minutes"
+    },
+    "How To Dye Nylon": {
+        "0": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 30 minutes\nStep 6: 10 minutes\nStep 7: 5 minutes\nStep 8: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 30 minutes\nStep 6: 10 minutes\nStep 7: 5 minutes\nStep 8: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: 30 minutes\nStep 6: 5 minutes\nStep 7: 2 minutes\nStep 8: 120 minutes"
+    },
+    "How To Drink Flaxseed": {
+        "0": "Step 1: 5 minutes\nStep 2: 120 minutes\nStep 3: 3 minutes\nStep 4: 1 minute",
+        "1": "Step 1: 5 minutes",
+        "2": "Step 1: None"
+    },
+    "How To Keep a Ring from Turning Your Finger Green": {
+        "1": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes",
+        "3": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Cook Bulgur": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None\nStep 4: 2 minutes\nStep 5: 1 minute\nStep 6: 1 minute",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None\nStep 4: 2 minutes\nStep 5: 1 minute\nStep 6: 1 minute\nStep 7: 3 minutes"
+    },
+    "How To Make London Broil": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 1 minute\nStep 4: 10 minutes\nStep 5: 10 minutes",
+        "1": "Step 1: None\nStep 2: 10 minutes\nStep 3: 2 minutes\nStep 4: 19 minutes\nStep 5: 10 minutes"
+    },
+    "How To Remove Rust from Metal": {
+        "0": "Step 1: 2 minutes\nStep 2: None\nStep 3: 5 minutes\nStep 4: 3 minutes\nStep 5: None\nStep 6: 3 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 4 minutes\nStep 4: 12 minutes\nStep 5: 5 minutes\nStep 6: 4 minutes"
+    },
+    "How To Deodorize Shoes": {
+        "0": "Step 1: 1 minute\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 4320 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 720 minutes",
+        "3": "Step 1: 1 minute\nStep 2: 720 minutes"
+    },
+    "How To Soften Stiff New Sheets": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 45 minutes\nStep 4: 5 minutes\nStep 5: 3 minutes\nStep 6: 120 minutes",
+        "1": "Step 1: 90 minutes"
+    },
+    "How To Defrost Burgers": {
+        "0": "Step 1: 1 minute\nStep 2: 300 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes"
+    },
+    "How To Have Fun at a Sleepover with Just One Friend": {
+        "0": "Step 1: 15 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes",
+        "3": "Step 1: 30 minutes"
+    },
+    "How To Pack Liquid and Gels on a Plane": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes\nStep 4: 1 minute",
+        "1": "Step 1: None",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute"
+    },
+    "How To Prune a Butterfly Bush": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 10 minutes"
+    },
+    "How To Dry Mint": {
+        "0": "Step 1: 5 minutes\nStep 2: 10080 minutes\nStep 3: 10 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 30 minutes",
+        "2": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Protect Yourself if Someone's Following You Home": {
+        "0": "Step 1: 1 minute\nStep 2: 10 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: None\nStep 4: None"
+    },
+    "How To Clean a Wrist Brace": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 120 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: 120 minutes"
+    },
+    "How To Quickly and Easily Clean Rims": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 2 minutes\nStep 4: 8 minutes\nStep 5: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None\nStep 3: 5 minutes\nStep 4: 3 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 5 minutes\nStep 4: 3 minutes"
+    },
+    "How To Clean Felt": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None\nStep 6: 2 minutes\nStep 7: 120 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: None\nStep 6: 1 minute\nStep 7: 120 minutes"
+    },
+    "How To Use a Power Washer": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 4 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Stop Tooth Nerve Pain": {
+        "0": "Step 1: 5 minutes",
+        "1": "Step 1: 1 minute\nStep 2: None",
+        "2": "Step 1: 2 minutes\nStep 2: None",
+        "3": "Step 1: 1 minute\nStep 2: 45 seconds\nStep 3: 3 minutes"
+    },
+    "How To Keep Air Out of Your Baby's Bottle": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 7 minutes\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 1 minute"
+    },
+    "How To Get Mold Out of Clothing": {
+        "0": "Step 1: 5 minutes\nStep 2: 30 minutes\nStep 3: 45 minutes\nStep 4: 1 minute\nStep 5: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 45 minutes\nStep 3: 120 minutes"
+    },
+    "How To Paint Melamine": {
+        "0": "Step 1: 15 minutes\nStep 2: 60 minutes\nStep 3: 30 minutes\nStep 4: 1440 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 40 minutes\nStep 3: 20 minutes\nStep 4: 1440 minutes"
+    },
+    "How To Transition from Puppy to Adult Dog Food": {
+        "0": "Step 1: 2 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: None\nStep 3: None"
+    },
+    "How To Treat Dog Constipation": {
+        "0": "Step 1: 2 minutes\nStep 2: None",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None"
+    },
+    "How To Clean Baby Toys": {
+        "0": "Step 1: 90 minutes",
+        "1": "Step 1: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 3 minutes\nStep 4: 1440 minutes"
+    },
+    "How To Make Fresh Squeezed Lemonade": {
+        "0": "Step 1: 8 minutes\nStep 2: 5 minutes\nStep 3: 4 minutes\nStep 4: 3 minutes\nStep 5: None",
+        "1": "Step 1: 8 minutes\nStep 2: 5 minutes\nStep 3: 4 minutes\nStep 4: 1 minute\nStep 5: 1 minute\nStep 6: None"
+    },
+    "How To Remove Dish Soap from a Dishwasher": {
+        "0": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 60 minutes",
+        "2": "Step 1: 1 minute\nStep 2: 60 minutes"
+    },
+    "How To Propagate Daffodils": {
+        "0": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 12 minutes\nStep 4: 10 minutes\nStep 5: None\nStep 6: 25 minutes\nStep 7: 18 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: 12 minutes\nStep 4: 10 minutes\nStep 5: None\nStep 6: 20 minutes\nStep 7: None"
+    },
+    "How To Make Cream Cheese Icing": {
+        "0": "Step 1: 4 minutes\nStep 2: 1 minute\nStep 3: 6 minutes\nStep 4: None\nStep 5: None",
+        "1": "Step 1: 4 minutes\nStep 2: 1 minute\nStep 3: 6 minutes\nStep 4: 1 minute\nStep 5: 1 minute"
+    },
+    "How To Remove Parasite Samples from a Cat": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Clean Amethyst": {
+        "0": "Step 1: 17 minutes\nStep 2: 5 minutes\nStep 3: 1 minute\nStep 4: 120 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 3 minutes\nStep 3: 1 minute\nStep 4: 120 minutes"
+    },
+    "How To Separate Alcohol and Water": {
+        "0": "Step 1: 15 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes"
+    },
+    "How To Preserve a Cedar Fence": {
+        "0": "Step 1: 30 minutes\nStep 2: 15 minutes\nStep 3: 1440 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 15 minutes\nStep 3: 1440 minutes\nStep 4: 10 minutes"
+    },
+    "How To Get Whites White": {
+        "0": "Step 1: 15 minutes\nStep 2: 2 minutes\nStep 3: 5 minutes\nStep 4: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 5 minutes\nStep 5: 3 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 3 minutes"
+    },
+    "How To Remove Rust from Pots and Pans": {
+        "0": "Step 1: 2 minutes\nStep 2: 15 minutes",
+        "1": "Step 1: 720 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 720 minutes\nStep 2: 5 minutes"
+    },
+    "How To Cook With Thyme": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: None\nStep 2: 1 minute"
+    },
+    "How To Clean a Memory Foam Pillow": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 2 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: None\nStep 4: 120 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 120 minutes"
+    },
+    "How To Season Brown Rice": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: 2 minutes\nStep 4: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 40 minutes\nStep 3: 1 minute\nStep 4: 5 minutes"
+    },
+    "How To Make Hamster Chew Sticks": {
+        "0": "Step 1: 5 minutes\nStep 2: 480 minutes\nStep 3: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 720 minutes\nStep 4: 1 minute"
+    },
+    "How To Get Rid of Pubic Lice": {
+        "0": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes\nStep 4: 20 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes\nStep 4: 20 minutes\nStep 5: None\nStep 6: None"
+    },
+    "How To Dry Sunflowers": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 8 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 7200 minutes\nStep 3: 8 minutes"
+    },
+    "How To Fight Jaundice in a Newborn": {
+        "0": "Step 1: 5 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: None\nStep 2: None",
+        "2": "Step 1: None"
+    },
+    "How To Get Purple Hair": {
+        "0": "Step 1: None\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: 10 minutes\nStep 5: 45 minutes\nStep 6: 5 minutes\nStep 7: 2 minutes",
+        "1": "Step 1: 45 minutes\nStep 2: 5 minutes\nStep 3: 5 minutes\nStep 4: 10 minutes\nStep 5: 45 minutes\nStep 6: 5 minutes\nStep 7: 2 minutes"
+    },
+    "How To Add Rice to a Crock Pot Recipe": {
+        "0": "Step 1: None\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 150 minutes",
+        "1": "Step 1: 10 minutes\nStep 2: None\nStep 3: 1 minute\nStep 4: 150 minutes"
+    },
+    "How To Remove Cheesecake from a Springform Pan": {
+        "0": "Step 1: 720 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes"
+    },
+    "How To Wash Tulle": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 45 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 45 minutes\nStep 3: 120 minutes"
+    },
+    "How To Dispose of Aerosol Cans": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: None",
+        "4": "Step 1: None\nStep 2: 5 minutes"
+    },
+    "How To Cook Already Cooked Shrimp": {
+        "0": "Step 1: 15 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 3 minutes\nStep 2: 15 minutes",
+        "2": "Step 1: 8 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Clear a Stuffy Nose": {
+        "0": "Step 1: 15 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None",
+        "3": "Step 1: 5 minutes\nStep 2: 3 minutes"
+    },
+    "How To Lighten Your Hair With Cinnamon": {
+        "0": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 180 minutes\nStep 4: 5 minutes\nStep 5: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 10 minutes\nStep 3: 180 minutes\nStep 4: 5 minutes\nStep 5: 10 minutes\nStep 6: None"
+    },
+    "How To Use a Dehumidifier": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 4 minutes\nStep 5: None",
+        "2": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: None\nStep 5: 5 minutes"
+    },
+    "How To Fix Brassy Hair Color": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: None\nStep 4: None",
+        "1": "Step 1: 30 minutes\nStep 2: None",
+        "2": "Step 1: 30 minutes\nStep 2: None"
+    },
+    "How To Clean Broccoli": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: 1 minute\nStep 5: 3 minutes\nStep 6: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 17 minutes\nStep 4: 2 minutes"
+    },
+    "How To Check the Freshness of Baking Powder": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 2 minutes\nStep 2: None",
+        "3": "Step 1: 2 minutes\nStep 2: None"
+    },
+    "How To Make Sterling Silver Jewelry": {
+        "0": "Step 1: 15 minutes\nStep 2: 480 minutes\nStep 3: 5 minutes\nStep 4: 5 minutes\nStep 5: 10 minutes\nStep 6: 30 minutes",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 5 minutes\nStep 5: 10 minutes\nStep 6: 20 minutes"
+    },
+    "How To Stop Junk Mail by Sending it Back": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes"
+    },
+    "How To Make a Heart Shaped Cake": {
+        "0": "Step 1: 10 minutes\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 3 minutes\nStep 5: 35 minutes\nStep 6: 15 minutes\nStep 7: None",
+        "1": "Step 1: 10 minutes\nStep 2: 5 minutes\nStep 3: 8 minutes\nStep 4: 7 minutes\nStep 5: 35 minutes\nStep 6: 15 minutes\nStep 7: 12 minutes\nStep 8: None"
+    },
+    "How To Eat Korean BBQ": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: None\nStep 4: 10 minutes\nStep 5: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None\nStep 3: None\nStep 4: 2 minutes\nStep 5: 3 minutes"
+    },
+    "How To Insulate a Garage": {
+        "0": "Step 1: 5 minutes\nStep 2: 8 minutes\nStep 3: 4 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 5 minutes\nStep 2: 120 minutes"
+    },
+    "How To Switch Baby Formula": {
+        "0": "Step 1: 5 minutes\nStep 2: 15 minutes\nStep 3: 5 minutes\nStep 4: 15 minutes\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: 15 minutes"
+    },
+    "How To File for Unemployment in New Jersey": {
+        "0": "Step 1: 15 minutes\nStep 2: 20 minutes\nStep 3: None",
+        "1": "Step 1: 15 minutes\nStep 2: 30 minutes\nStep 3: None"
+    },
+    "How To Oven Dry Bread": {
+        "0": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 3 minutes\nStep 4: 10 minutes\nStep 5: None\nStep 6: 2 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 4 minutes\nStep 3: 3 minutes\nStep 4: 17 minutes\nStep 5: 2 minutes"
+    },
+    "How To Play the Drinking Game King's Cup": {
+        "0": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 0 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None"
+    },
+    "How To Make Colored Fire": {
+        "0": "Step 1: None\nStep 2: 1 minute",
+        "1": "Step 1: 15 minutes\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: 1 minute"
+    },
+    "How To Make Self\u2010Rising Flour": {
+        "0": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: None\nStep 4: None\nStep 5: 1 minute",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute\nStep 3: 30 seconds\nStep 4: 1 minute"
+    },
+    "How To Make Pho": {
+        "0": "Step 1: 8 minutes\nStep 2: 5 minutes\nStep 3: 180 minutes\nStep 4: 2 minutes\nStep 5: 10 minutes\nStep 6: 5 minutes\nStep 7: 1 minute\nStep 8: 3 minutes",
+        "1": "Step 1: 8 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: 10 minutes\nStep 6: 5 minutes\nStep 7: 2 minutes\nStep 8: 4 minutes"
+    },
+    "How To Press Leaves": {
+        "0": "Step 1: 3 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute",
+        "2": "Step 3: 5 minutes",
+        "3": "Step 1: 1 minute\nStep 2: 1 minute",
+        "4": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes"
+    },
+    "How To Create a Strong Burning Charcoal Fire": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 1 minute\nStep 5: 2 minutes\nStep 6: 10 minutes\nStep 7: None",
+        "1": "Step1: None"
+    },
+    "How To Watch the Star Wars Series": {
+        "0": "Step 1: 121 minutes\nStep 2: 124 minutes\nStep 3: 131 minutes\nStep 4: 136 minutes\nStep 5: 142 minutes\nStep 6: 140 minutes",
+        "1": "Step 1: 136 minutes\nStep 2: 142 minutes\nStep 3: 140 minutes\nStep 4: 121 minutes\nStep 5: 124 minutes\nStep 6: 131 minutes"
+    },
+    "How To Harvest Hemp": {
+        "0": "Step 1: 30 minutes\nStep 2: 50400 minutes\nStep 3: None\nStep 4: 45 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 1260 minutes\nStep 3: None\nStep 4: 45 minutes"
+    },
+    "How To Treat Bursitis": {
+        "0": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 160 minutes\nStep 3: 80 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: 5 minutes\nStep 4: None"
+    },
+    "How To Fix Foundation Cracks": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 15 minutes\nStep 2: 10 minutes\nStep 3: 5 minutes\nStep 4: 8 minutes\nStep 5: 12 minutes\nStep 6: None"
+    },
+    "How To Shrink Pimples": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 5 minutes\nStep 4: None",
+        "1": "Step 1: 1 minute",
+        "2": "Step 1: 1 minute",
+        "3": "Step 1: 2 minutes\nStep 2: 12 minutes"
+    },
+    "How To Bring a Cyst to a Head": {
+        "0": "Step 1: 12 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Play Bean Bag Toss": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Crystallize Honey": {
+        "0": "Step 1: 3 minutes\nStep 2: None",
+        "1": "Step 1: 2 minutes\nStep 2: None"
+    },
+    "How To Remove Sap from Clothes": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 2 minutes\nStep 4: 4 minutes\nStep 5: None\nStep 6: 45 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 45 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 45 minutes"
+    },
+    "How To Clean Your Home with Cat Safe Detergents": {
+        "0": "Step 1: 5 minutes\nStep 2: 30 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: None\nStep 3: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 20 minutes"
+    },
+    "How To Clean Mineral Deposits": {
+        "0": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 480 minutes\nStep 4: 10 minutes",
+        "1": "Step 1: None\nStep 2: 3 minutes\nStep 3: 15 minutes"
+    },
+    "How To Stretch Shrunken Wool Cloth": {
+        "0": "Step 1: 5 minutes\nStep 2: 20 minutes\nStep 3: 15 minutes\nStep 4: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 25 minutes\nStep 3: 10 minutes\nStep 4: 120 minutes"
+    },
+    "How To Macrame": {
+        "0": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: None",
+        "1": "Step 1: 5 minutes\nStep 2: None",
+        "2": "Step 1: 2 minutes\nStep 2: None"
+    },
+    "How To Keep Cheesecake from Cracking": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 3 minutes\nStep 5: None\nStep 6: 10 minutes",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: None\nStep 4: 10 minutes"
+    },
+    "How To Clean a Yoga Mat": {
+        "0": "Step 1: 5 minutes\nStep 2: None\nStep 3: 4 minutes\nStep 4: 3 minutes",
+        "1": "Step 1: 2 minutes\nStep 2: 1 minute"
+    },
+    "How To Enrich Uranium": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: None\nStep 2: None\nStep 3: None",
+        "2": "Step 1: None\nStep 2: None\nStep 3: None"
+    },
+    "How To Fix a Chip in a Quartz Countertop": {
+        "0": "Step 1: 5 minutes\nStep 2: 1440 minutes\nStep 3: 10 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 1440 minutes\nStep 3: 10 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 1440 minutes\nStep 3: 10 minutes"
+    },
+    "How To Ground Yourself": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: None\nStep 4: 3 minutes\nStep 5: 1 minute\nStep 6: 1 minute\nStep 7: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "2": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None"
+    },
+    "How To Print Locket\u2010Sized Pictures": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 3 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 5 minutes\nStep 3: 2 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "3": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: None"
+    },
+    "How To Handle an Emergency Situation": {
+        "0": "Step 1: 1 minute\nStep 2: 3 minutes\nStep 3: None",
+        "2": "Step 1: None\nStep 2: 1 minute"
+    },
+    "How To Keep Wool Clothing Safe From Moths": {
+        "0": "Step 1: 30 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: None\nStep 2: 5 minutes",
+        "2": "Step 1: None\nStep 2: 5 minutes",
+        "3": "Step 1: 15 minutes\nStep 2: 5 minutes"
+    },
+    "How To Store Fresh Oysters": {
+        "0": "Step 1: 5 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: None\nStep 5: None",
+        "1": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Cross Hatch": {
+        "0": "Step 1: 5 minutes\nStep 2: 5 minutes",
+        "1": "Step 1: None",
+        "2": "Step 1: None",
+        "3": "Step 1: None"
+    },
+    "How To Make Switchel": {
+        "0": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute",
+        "1": "Step 1: 5 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: None\nStep 5: 1 minute",
+        "2": "Step 1: 3 minutes\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute\nStep 5: 1 minute"
+    },
+    "How To Protect Your Written Ideas and Stories": {
+        "0": "Step 1: None\nStep 2: None",
+        "1": "Step 1: 30 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 7 minutes"
+    },
+    "How To Make Dahi": {
+        "0": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 480 minutes\nStep 5: 2 minutes",
+        "1": "Step 1: 10 minutes\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 10 minutes\nStep 5: 390 minutes\nStep 6: 2 minutes"
+    },
+    "How To Calculate Total Interest Paid on a Car Loan": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 1 minute\nStep 4: 1 minute",
+        "1": "Step 1: None\nStep 2: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: 2 minutes"
+    },
+    "How To Get Rid of Urine Smell": {
+        "0": "Step 1: 2 minutes\nStep 2: 5 minutes\nStep 3: 120 minutes",
+        "1": "Step 1: 5 minutes\nStep 2: 3 minutes\nStep 3: 30 minutes\nStep 4: 10 minutes",
+        "2": "Step 1: 2 minutes\nStep 2: 45 minutes"
+    },
+    "How To Build a Japanese Garden": {
+        "0": "Step 1: None\nStep 2: None\nStep 3: None\nStep 4: None\nStep 5: 15 minutes",
+        "1": "Step 1: 30 minutes\nStep 2: 20 minutes\nStep 3: 15 minutes\nStep 4: 10 minutes\nStep 5: 120 minutes\nStep 6: 25 minutes"
+    },
+    "How To Play an April Fool's Day Prank on Your Family": {
+        "0": "Step 1: 5 minutes\nStep 2: None",
+        "1": "Step 1: 15 minutes\nStep 2: 5 minutes",
+        "2": "Step 1: 5 minutes\nStep 2: None"
+    },
+    "How To Treat a Paper Cut": {
+        "0": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: None",
+        "1": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: 1 minute",
+        "2": "Step 1: 3 minutes\nStep 2: 5 minutes\nStep 3: 2 minutes"
+    },
+    "How To Winterize Calla Lily Bulbs": {
+        "0": "Step 1: None\nStep 2: 15 minutes\nStep 3: 5 minutes",
+        "1": "Step 1: None"
+    },
+    "How To Store Gluten\u2010Free Bread": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 120 minutes\nStep 2: 2 minutes\nStep 3: 1 minute\nStep 4: 5 minutes"
+    },
+    "How To Use a Heating Pad During Pregnancy": {
+        "0": "Step 1: 20 minutes\nStep 2: 1 minute\nStep 3: None",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute"
+    },
+    "How To Repair Electric Car Windows": {
+        "0": "Step 1: 5 minutes\nStep 2: 2 minutes",
+        "2": "Step 1: 8 minutes\nStep 2: 5 minutes\nStep 3: 10 minutes",
+        "3": "Step1: None",
+        "4": "Step1: None",
+        "5": "Step 1: None"
+    },
+    "How To Color Sand": {
+        "0": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 3 minutes\nStep 4: 2 minutes\nStep 5: 720 minutes",
+        "1": "Step 1: 1 minute\nStep 2: 1 minute\nStep 3: 2 minutes\nStep 4: 2 minutes\nStep 5: 7 minutes\nStep 6: None"
+    }
+}
