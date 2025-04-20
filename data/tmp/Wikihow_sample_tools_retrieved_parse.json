@@ -1,0 +1,656 @@
+{
+    "How To Make a Cat Scratching Post_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Screwdriver",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "Stiff carpet, Base, Screws, Stiff carpet, Nails, ",
+        "Tools": {
+            "Screwdriver": 1
+        }
+    },
+    "How To Clean Cat Beds_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Vacuum",
+            "3": "Crevice attachment"
+        },
+        "Materials": "Cat bed, ",
+        "Tools": {
+            "Vacuum": 1,
+            "Crevice attachment": 1
+        }
+    },
+    "How To Clean Your Home with Cat Safe Detergents_0": {
+        "Tool_steps": {
+            "1": "Measuring cup, Mixing container",
+            "2": "Stiff brush, Wet rag"
+        },
+        "Materials": "Water, White vinegar, Lemon juice, ",
+        "Tools": {
+            "Measuring cup": 1,
+            "Mixing container": 1,
+            "Stiff brush": 1,
+            "Wet rag": 1
+        }
+    },
+    "How To Pack with Packing Cubes_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "None",
+            "4": "None"
+        },
+        "Materials": "Toiletries, Accessories, Electronics, Small packing cubes, Light clothing, Medium-sized packing cubes, Bulkier clothing items, Large packing cubes, Suitcase, ",
+        "Tools": "None"
+    },
+    "How To Hide Things in Your Room_0": {
+        "Tool_steps": {
+            "1": "None"
+        },
+        "Materials": "Item, Board game box, ",
+        "Tools": "None"
+    },
+    "How To Pack for Air Travel_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "None",
+            "4": "None",
+            "5": "Plastic bags",
+            "6": "Plastic bags"
+        },
+        "Materials": "Clothes, Heavier clothing, Lighter items, Socks, Shoes, Plastic bags, Toiletries, ",
+        "Tools": "None"
+    },
+    "How To Make Clear Slime_2": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Stirring stick",
+            "3": "Stirring stick",
+            "4": "None"
+        },
+        "Materials": "Borax, Hot water, Room temperature water, Clear glue, Borax solution, ",
+        "Tools": {
+            "Stirring stick": 1
+        }
+    },
+    "How To Make Whitewash_1": {
+        "Tool_steps": {
+            "1": "Stirring stick",
+            "2": "None"
+        },
+        "Materials": "White latex paint, Water, ",
+        "Tools": {
+            "Stirring stick": 1
+        }
+    },
+    "How To Make Slime_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Stirring stick",
+            "4": "Stirring stick",
+            "5": "None"
+        },
+        "Materials": "Water, Glue, Food coloring, Water, Borax, ",
+        "Tools": {
+            "Stirring stick": 1
+        }
+    },
+    "How To Cook Bacon_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Frying pan",
+            "3": "None",
+            "4": "None"
+        },
+        "Materials": "Bacon, Paper towel, ",
+        "Tools": {
+            "Frying pan": 1
+        }
+    },
+    "How To Make Bacon Cups_0": {
+        "Tool_steps": {
+            "1": "Muffin pan",
+            "2": "None",
+            "3": "None",
+            "4": "None",
+            "5": "Oven"
+        },
+        "Materials": "Aluminum foil, Bacon (4 strips), ",
+        "Tools": {
+            "Muffin pan": 1,
+            "Oven": 1
+        }
+    },
+    "How To Cook Bacon in the Oven_0": {
+        "Tool_steps": {
+            "1": "Broiler pan",
+            "2": "Oven",
+            "3": "Tongs",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "Bacon slices, Aluminum foil, ",
+        "Tools": {
+            "Broiler pan": 1,
+            "Oven": 1,
+            "Tongs": 1
+        }
+    },
+    "How To Stop Mild Bleeding During First Aid_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None"
+        },
+        "Materials": "Clean cloth or bandage, ",
+        "Tools": "None"
+    },
+    "How To Treat Heatstroke_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Ice packs",
+            "4": "None"
+        },
+        "Materials": "Excess clothing, Ice packs, Sports drinks or plain water, ",
+        "Tools": {
+            "Ice packs": 1
+        }
+    },
+    "How To Treat Heatstroke_2": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Spray bottle",
+            "4": "None"
+        },
+        "Materials": "Clothing, Cool water, Sports drinks or plain water, ",
+        "Tools": {
+            "Spray bottle": 1
+        }
+    },
+    "How To Remove Gum From a Table_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Dull putty knife",
+            "3": "None"
+        },
+        "Materials": "Ice pack or bag of ice, Warm, soapy water, ",
+        "Tools": {
+            "Dull putty knife": 1
+        }
+    },
+    "How To Remove Gum From a Table_1": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Dull putty knife",
+            "3": "None"
+        },
+        "Materials": "Paper towel, Vegetable oil, Warm water, Dish soap, ",
+        "Tools": {
+            "Dull putty knife": 1
+        }
+    },
+    "How To Remove Gum From a Table_2": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "None"
+        },
+        "Materials": "Duct tape, Warm, soapy water, ",
+        "Tools": "None"
+    },
+    "How To Alter a Shirt_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Scissors",
+            "4": "Pins",
+            "5": "None",
+            "6": "Needle, Thread",
+            "7": "None"
+        },
+        "Materials": "Well-fitting shirt, T-shirt, Fabric marking tool (optional, if not using scissors directly), ",
+        "Tools": {
+            "Scissors": 1,
+            "Pins": 1,
+            "Needle": 1,
+            "Thread": 1
+        }
+    },
+    "How To Make a Cutoff Shirt_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Scissors",
+            "4": "Scissors",
+            "5": "None"
+        },
+        "Materials": "T-shirt, Fabric marker or tailor's chalk, ",
+        "Tools": {
+            "Scissors": 1
+        }
+    },
+    "How To Make Your Own T Shirt_0": {
+        "Tool_steps": {
+            "1": "Pins",
+            "2": "None",
+            "3": "None",
+            "4": "Scissors",
+            "5": "Sewing machine",
+            "6": "None",
+            "7": "None",
+            "8": "None"
+        },
+        "Materials": "T-shirt, Tracing paper, Fabric, More pins, Thread, Neckband fabric, Sleeve fabric, ",
+        "Tools": {
+            "Scissors": 1,
+            "Pins": 1,
+            "Sewing machine": 1
+        }
+    },
+    "How To Saut\u00e9 Asparagus_3": {
+        "Tool_steps": {
+            "1": "Knife",
+            "2": "Skillet",
+            "3": "None"
+        },
+        "Materials": "Asparagus, Butter, Salt, Pepper, ",
+        "Tools": {
+            "Knife": 1,
+            "Skillet": 1
+        }
+    },
+    "How To Saut\u00e9 Asparagus_0": {
+        "Tool_steps": {
+            "1": "Knife",
+            "2": "Measuring cup, Stove",
+            "3": "Skillet, Timer"
+        },
+        "Materials": "Asparagus, Olive oil, Salt, Pepper, ",
+        "Tools": {
+            "Knife": 1,
+            "Measuring cup": 1,
+            "Stove": 1,
+            "Skillet": 1,
+            "Timer": 1
+        }
+    },
+    "How To Steam Asparagus_0": {
+        "Tool_steps": {
+            "1": "Knife",
+            "2": "Fork",
+            "3": "Microwave",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "Asparagus, Plastic wrap, ",
+        "Tools": {
+            "Knife": 1,
+            "Fork": 1,
+            "Microwave": 1
+        }
+    },
+    "How To Get Rid of Moths_0": {
+        "Tool_steps": {
+            "1": "Clip hangers",
+            "2": "None",
+            "3": "None",
+            "4": "None",
+            "5": "Vacuum cleaner",
+            "6": "None"
+        },
+        "Materials": "Sticky moth traps, Laundry detergent, Soapy water, ",
+        "Tools": {
+            "Clip hangers": 1,
+            "Vacuum cleaner": 1
+        }
+    },
+    "How To Kill Bed Bugs_3": {
+        "Tool_steps": {
+            "1": "Insecticide sprayer"
+        },
+        "Materials": "Diatomaceous earth, ",
+        "Tools": {
+            "Insecticide sprayer": 1
+        }
+    },
+    "How To Get Rid of Ladybugs_1": {
+        "Tool_steps": {
+            "1": "Insecticide sprayer"
+        },
+        "Materials": "Citronella or citrus oil, ",
+        "Tools": {
+            "Insecticide sprayer": 1
+        }
+    },
+    "How To Make Crayons_0": {
+        "Tool_steps": {
+            "1": "Sharp tool",
+            "2": "None",
+            "3": "Microwave, Stirring utensil",
+            "4": "None",
+            "5": "None",
+            "6": "None"
+        },
+        "Materials": "Beeswax, Soap, Liquid food coloring, Wax mold, ",
+        "Tools": {
+            "Sharp tool": 1,
+            "Microwave": 1,
+            "Stirring utensil": 1
+        }
+    },
+    "How To Melt Crayons_0": {
+        "Tool_steps": {
+            "1": "Sharp tool",
+            "2": "None",
+            "3": "None",
+            "4": "None"
+        },
+        "Materials": "Crayons, Microwave-safe container, Mold, ",
+        "Tools": {
+            "Sharp tool": 1
+        }
+    },
+    "How To Remove Ink from Clothes_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Cotton ball",
+            "4": "None",
+            "5": "None",
+            "6": "None"
+        },
+        "Materials": "White cloth, White cloth, Baking soda, Water, Cold water, Stain remover, Cold water, ",
+        "Tools": {
+            "Cotton ball": 1
+        }
+    },
+    "How To Make Ribbon Flowers_0": {
+        "Tool_steps": {
+            "1": "Needle, Thread",
+            "2": "None",
+            "3": "None",
+            "4": "Glue gun",
+            "5": "None"
+        },
+        "Materials": "Ribbon, Adhesive, Button, ",
+        "Tools": {
+            "Needle": 1,
+            "Thread": 1,
+            "Glue gun": 1
+        }
+    },
+    "How To Make a Rainbow_1": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None"
+        },
+        "Materials": "Light source, Water, ",
+        "Tools": "None"
+    },
+    "How To Get Pink Cheeks_3": {
+        "Tool_steps": {
+            "1": "None"
+        },
+        "Materials": "Blush, ",
+        "Tools": "None"
+    },
+    "How To Make Modelling Clay at Home_0": {
+        "Tool_steps": {
+            "1": "Small bowl, Spoon",
+            "2": "None",
+            "3": "None",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "Flour, Salt, Cream of tartar, Warm water, Cooking oil, Food coloring, Flour, ",
+        "Tools": {
+            "Small bowl": 1,
+            "Spoon": 1
+        }
+    },
+    "How To Make Unpoppable Bubbles_0": {
+        "Tool_steps": {
+            "1": "Spoon",
+            "2": "None",
+            "3": "None",
+            "4": "None"
+        },
+        "Materials": "Distilled water, Dish soap, Corn syrup, ",
+        "Tools": {
+            "Spoon": 1
+        }
+    },
+    "How To Make Rainbow Slime_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Small bowl",
+            "3": "None",
+            "4": "Spoon"
+        },
+        "Materials": "Liquid starch, School glue, Liquid watercolor or food coloring, ",
+        "Tools": {
+            "Small bowl": 1,
+            "Spoon": 1
+        }
+    },
+    "How To Clean Marble Tile_1": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Soft cloth",
+            "3": "Soft cloth",
+            "4": "Soft towel"
+        },
+        "Materials": "Household detergent, Warm water, Cleaning solution, ",
+        "Tools": {
+            "Soft cloth": 1,
+            "Soft towel": 1
+        }
+    },
+    "How To Clean Granite Countertops_0": {
+        "Tool_steps": {
+            "1": "Soft cloth"
+        },
+        "Materials": "Warm soapy water, ",
+        "Tools": {
+            "Soft cloth": 1
+        }
+    },
+    "How To Clean Granite Countertops_1": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Soft cloth"
+        },
+        "Materials": "Special granite cleaner, ",
+        "Tools": {
+            "Soft cloth": 1
+        }
+    },
+    "How To Texture Walls_0": {
+        "Tool_steps": {
+            "1": "Paint roller, Paint tray",
+            "2": "None"
+        },
+        "Materials": "Sand-textured or popcorn-textured paint, ",
+        "Tools": {
+            "Paint roller": 1,
+            "Paint tray": 1
+        }
+    },
+    "How To Texture Drywall_0": {
+        "Tool_steps": {
+            "1": "Paint roller, Paint tray",
+            "2": "None",
+            "3": "None",
+            "4": "Texture brush",
+            "5": "None",
+            "6": "None"
+        },
+        "Materials": "Drywall compound, Drywall compound, Primer, ",
+        "Tools": {
+            "Paint roller": 1,
+            "Paint tray": 1,
+            "Texture brush": 1
+        }
+    },
+    "How To Texture Walls_2": {
+        "Tool_steps": {
+            "1": "Putty knife",
+            "2": "None",
+            "3": "None",
+            "4": "Sanding block"
+        },
+        "Materials": "Joint compound, Sandpaper, ",
+        "Tools": {
+            "Putty knife": 1,
+            "Sanding block": 1
+        }
+    },
+    "How To Dye Naturally Black Hair Silver_0": {
+        "Tool_steps": {
+            "1": "Plastic bowl, Plastic fork",
+            "2": "Plastic bowl, Plastic fork",
+            "3": "Plastic bowl, Plastic fork",
+            "4": "None"
+        },
+        "Materials": "30-volume bleach kit, Gloves, Purple toner, Silver dye, Water, ",
+        "Tools": {
+            "Plastic bowl": 1,
+            "Plastic fork": 1
+        }
+    },
+    "How To Dye Ginger Hair_0": {
+        "Tool_steps": {
+            "1": "Plastic bowl, Plastic fork",
+            "2": "Plastic bowl, Plastic fork",
+            "3": "None",
+            "4": "None",
+            "5": "Plastic bowl, Plastic fork",
+            "6": "Plastic bowl, Plastic fork",
+            "7": "None",
+            "8": "None"
+        },
+        "Materials": "Bleach, Developer, Bleach mixture, Cold water, Hair dye, Developer, Dye mixture, Cold water, ",
+        "Tools": {
+            "Plastic bowl": 1,
+            "Plastic fork": 1
+        }
+    },
+    "How To Dye Hair With Jell O_0": {
+        "Tool_steps": {
+            "1": "Plastic bowl, Plastic fork",
+            "2": "None",
+            "3": "None",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "2 packets of Jello powder, Conditioner, Shower cap, ",
+        "Tools": {
+            "Plastic bowl": 1,
+            "Plastic fork": 1
+        }
+    },
+    "How To Make a Rocking Boat_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Scissors",
+            "3": "Hot glue gun",
+            "4": "None",
+            "5": "None"
+        },
+        "Materials": "Binder clips, Boat, Straws, Craft sticks or Pipe cleaners, Cardboard base, Hot glue, String, Magnets, ",
+        "Tools": {
+            "Scissors": 1,
+            "Hot glue gun": 1
+        }
+    },
+    "How To Make Paper Garland_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Scissors",
+            "4": "Stapler",
+            "5": "Stapler"
+        },
+        "Materials": "Square paper, ",
+        "Tools": {
+            "Scissors": 1,
+            "Stapler": 1
+        }
+    },
+    "How To Make Photo Frames from Ice Cream Sticks_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "None",
+            "3": "Glue",
+            "4": "Paintbrush",
+            "5": "Pen",
+            "6": "Scissors",
+            "7": "Glue"
+        },
+        "Materials": "Ice cream sticks, Ice cream sticks, Glue, Acrylic paint, Marker pens, Glitter, Sequins, Gemstones, Photo, ",
+        "Tools": {
+            "Glue": 1,
+            "Paintbrush": 1,
+            "Pen": 1,
+            "Scissors": 1
+        }
+    },
+    "How To Freeze Kale_0": {
+        "Tool_steps": {
+            "1": "None",
+            "2": "Knife",
+            "3": "Pot",
+            "4": "Bowl",
+            "5": "None",
+            "6": "Baking sheet",
+            "7": "None",
+            "8": "None"
+        },
+        "Materials": "Kale, Kale, Water (for boiling), Ice water, Resealable bag, Label, ",
+        "Tools": {
+            "Knife": 1,
+            "Pot": 1,
+            "Bowl": 1,
+            "Baking sheet": 1
+        }
+    },
+    "How To Freeze Shrimp_0": {
+        "Tool_steps": {
+            "1": "Knife, Cutting board",
+            "2": "None",
+            "3": "Bowl",
+            "4": "None"
+        },
+        "Materials": "Fresh shrimp, Sealable container, Brine solution, ",
+        "Tools": {
+            "Knife": 1,
+            "Cutting board": 1,
+            "Bowl": 1
+        }
+    },
+    "How To Freeze Cilantro_0": {
+        "Tool_steps": {
+            "1": "Bowl",
+            "2": "None",
+            "3": "Pot, Bowl",
+            "4": "Knife",
+            "5": "None",
+            "6": "None",
+            "7": "Baking sheet"
+        },
+        "Materials": "Cilantro, Cool water, Paper towel, Boiling water, Ice-cold water, Olive oil, Resealable freezer bag, ",
+        "Tools": {
+            "Bowl": 1,
+            "Pot": 1,
+            "Knife": 1,
+            "Baking sheet": 1
+        }
+    }
+}

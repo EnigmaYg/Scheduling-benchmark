@@ -1,7 +1,7 @@
 import json
 
 
-with open('../data/WikiHow_SPQ.json', 'r') as f:
+with open('../data/filtered_instructions/WikiHow_SPQ.json', 'r') as f:
     SPQ = json.load(f)
 
 cnt_yes = 0
@@ -20,7 +20,7 @@ print(cnt_yes)
 print(cnt_no)
 
 
-with open('../data/WikiHow_humanity.json', 'r') as f:
+with open('../data/filtered_instructions/WikiHow_humanity.json', 'r') as f:
     human = json.load(f)
 
 cnt = 0

@@ -1,0 +1,1562 @@
+{
+    "How To Clean a Cat Scratching Post_1": {
+        "How To Clean Cat Beds_0": {
+            "makespan": 3100,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 500,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 900,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 1100,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 1400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 6,
+                        "start": 1500,
+                        "duration": 1000
+                    },
+                    {
+                        "step": 7,
+                        "start": 2500,
+                        "duration": 600
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 1867,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 2700,
+                        "duration": 400
+                    }
+                ]
+            }
+        },
+        "How To Clean Your Home with Cat Safe Detergents_0": {
+            "makespan": 5600,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 500,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 900,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 1100,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 1400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 6,
+                        "start": 1500,
+                        "duration": 1000
+                    },
+                    {
+                        "step": 7,
+                        "start": 5000,
+                        "duration": 600
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 500,
+                        "duration": 4500
+                    }
+                ]
+            }
+        }
+    },
+    "How To Make a Secret Hideout in Your Closet_0": {},
+    "How To Make Hand Sanitizer_0": {
+        "How To Make Clear Slime_2": {
+            "makespan": 900,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 200,
+                        "duration": 50
+                    },
+                    {
+                        "step": 4,
+                        "start": 545,
+                        "duration": 75
+                    },
+                    {
+                        "step": 5,
+                        "start": 700,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 300,
+                        "duration": 100
+                    },
+                    {
+                        "step": 4,
+                        "start": 400,
+                        "duration": 500
+                    }
+                ]
+            }
+        },
+        "How To Make Whitewash_1": {
+            "makespan": 1200,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 200,
+                        "duration": 50
+                    },
+                    {
+                        "step": 4,
+                        "start": 250,
+                        "duration": 75
+                    },
+                    {
+                        "step": 5,
+                        "start": 1000,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 1000
+                    }
+                ]
+            }
+        },
+        "How To Make Slime_0": {
+            "makespan": 1950,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 200,
+                        "duration": 50
+                    },
+                    {
+                        "step": 4,
+                        "start": 1450,
+                        "duration": 75
+                    },
+                    {
+                        "step": 5,
+                        "start": 1750,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 50
+                    },
+                    {
+                        "step": 3,
+                        "start": 250,
+                        "duration": 400
+                    },
+                    {
+                        "step": 4,
+                        "start": 650,
+                        "duration": 800
+                    },
+                    {
+                        "step": 5,
+                        "start": 1450,
+                        "duration": 500
+                    }
+                ]
+            }
+        }
+    },
+    "How To Cook Bacon in the Microwave_0": {},
+    "How To Bleed a Radiator_0": {},
+    "How To Remove Chewing Gum from a Car Seat_0": {
+        "How To Remove Gum From a Table_0": {
+            "makespan": 1400,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 900,
+                        "duration": 400
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 700
+                    },
+                    {
+                        "step": 2,
+                        "start": 700,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 900,
+                        "duration": 500
+                    }
+                ]
+            }
+        },
+        "How To Remove Gum From a Table_1": {
+            "makespan": 1000,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 400
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 100
+                    },
+                    {
+                        "step": 2,
+                        "start": 100,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 500,
+                        "duration": 500
+                    }
+                ]
+            }
+        }
+    },
+    "How To Make a Sleeveless Shirt_0": {
+        "How To Alter a Shirt_0": {
+            "makespan": 3600,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 1248,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 1749,
+                        "duration": 600
+                    },
+                    {
+                        "step": 4,
+                        "start": 3300,
+                        "duration": 300
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 600
+                    },
+                    {
+                        "step": 4,
+                        "start": 1200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 5,
+                        "start": 1700,
+                        "duration": 300
+                    },
+                    {
+                        "step": 6,
+                        "start": 2000,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 7,
+                        "start": 3500,
+                        "duration": 100
+                    }
+                ]
+            }
+        },
+        "How To Make a Cutoff Shirt_0": {
+            "makespan": 2100,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 700,
+                        "duration": 600
+                    },
+                    {
+                        "step": 4,
+                        "start": 1300,
+                        "duration": 300
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 1300,
+                        "duration": 400
+                    },
+                    {
+                        "step": 4,
+                        "start": 1700,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 2000,
+                        "duration": 100
+                    }
+                ]
+            }
+        },
+        "How To Make Your Own T Shirt_0": {
+            "makespan": 7000,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 700,
+                        "duration": 600
+                    },
+                    {
+                        "step": 4,
+                        "start": 6700,
+                        "duration": 300
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 500,
+                        "duration": 1000
+                    },
+                    {
+                        "step": 3,
+                        "start": 1500,
+                        "duration": 400
+                    },
+                    {
+                        "step": 4,
+                        "start": 1900,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 5,
+                        "start": 3400,
+                        "duration": 600
+                    },
+                    {
+                        "step": 6,
+                        "start": 4000,
+                        "duration": 800
+                    },
+                    {
+                        "step": 7,
+                        "start": 4800,
+                        "duration": 1200
+                    },
+                    {
+                        "step": 8,
+                        "start": 6000,
+                        "duration": 1000
+                    }
+                ]
+            }
+        }
+    },
+    "How To Boil Asparagus_0": {
+        "How To Saut\u00e9 Asparagus_3": {
+            "makespan": 2050,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 700,
+                        "duration": 800
+                    },
+                    {
+                        "step": 5,
+                        "start": 1500,
+                        "duration": 50
+                    },
+                    {
+                        "step": 6,
+                        "start": 1550,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 400,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 1350,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 1550,
+                        "duration": 500
+                    }
+                ]
+            }
+        },
+        "How To Saut\u00e9 Asparagus_0": {
+            "makespan": 2350,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 1000,
+                        "duration": 800
+                    },
+                    {
+                        "step": 5,
+                        "start": 1800,
+                        "duration": 50
+                    },
+                    {
+                        "step": 6,
+                        "start": 1850,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 400,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 800,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 1000,
+                        "duration": 500
+                    }
+                ]
+            }
+        },
+        "How To Steam Asparagus_0": {
+            "makespan": 2050,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 700,
+                        "duration": 800
+                    },
+                    {
+                        "step": 5,
+                        "start": 1500,
+                        "duration": 50
+                    },
+                    {
+                        "step": 6,
+                        "start": 1550,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 400,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 1500,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 1600,
+                        "duration": 300
+                    },
+                    {
+                        "step": 4,
+                        "start": 1900,
+                        "duration": 50
+                    },
+                    {
+                        "step": 5,
+                        "start": 1950,
+                        "duration": 100
+                    }
+                ]
+            }
+        }
+    },
+    "How To Get Rid of Carpet Beetles_1": {
+        "How To Get Rid of Moths_0": null,
+        "How To Kill Bed Bugs_3": null,
+        "How To Get Rid of Ladybugs_1": null
+    },
+    "How To Get Crayon Out of Clothes_0": {
+        "How To Make Crayons_0": {
+            "makespan": 9712,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 3000
+                    },
+                    {
+                        "step": 2,
+                        "start": 3000,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 3500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 3700,
+                        "duration": 12
+                    },
+                    {
+                        "step": 5,
+                        "start": 3712,
+                        "duration": 6000
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 5912,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 6012,
+                        "duration": 400
+                    },
+                    {
+                        "step": 4,
+                        "start": 6412,
+                        "duration": 100
+                    },
+                    {
+                        "step": 5,
+                        "start": 6512,
+                        "duration": 200
+                    },
+                    {
+                        "step": 6,
+                        "start": 6712,
+                        "duration": 3000
+                    }
+                ]
+            }
+        },
+        "How To Melt Crayons_0": {
+            "makespan": 9712,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 3000
+                    },
+                    {
+                        "step": 2,
+                        "start": 3000,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 3500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 3700,
+                        "duration": 12
+                    },
+                    {
+                        "step": 5,
+                        "start": 3712,
+                        "duration": 6000
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 9012,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 9212,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 9412,
+                        "duration": 300
+                    }
+                ]
+            }
+        }
+    },
+    "How To Make Blush_0": {},
+    "How To Make Lava_0": {
+        "How To Make Modelling Clay at Home_0": {
+            "makespan": 1950,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 400,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 1800,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 1900,
+                        "duration": 50
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 600
+                    },
+                    {
+                        "step": 3,
+                        "start": 1000,
+                        "duration": 100
+                    },
+                    {
+                        "step": 4,
+                        "start": 1100,
+                        "duration": 50
+                    },
+                    {
+                        "step": 5,
+                        "start": 1150,
+                        "duration": 800
+                    }
+                ]
+            }
+        },
+        "How To Make Unpoppable Bubbles_0": {
+            "makespan": 550,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 200,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 500,
+                        "duration": 50
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 400,
+                        "duration": 50
+                    },
+                    {
+                        "step": 4,
+                        "start": 450,
+                        "duration": 100
+                    }
+                ]
+            }
+        },
+        "How To Make Rainbow Slime_0": {
+            "makespan": 1400,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 1250,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 1350,
+                        "duration": 50
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 500
+                    },
+                    {
+                        "step": 4,
+                        "start": 1100,
+                        "duration": 300
+                    }
+                ]
+            }
+        }
+    },
+    "How To Clean Granite Tiles_0": {
+        "How To Clean Marble Tile_1": {
+            "makespan": 1500,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 600
+                    },
+                    {
+                        "step": 3,
+                        "start": 1000,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 100
+                    },
+                    {
+                        "step": 3,
+                        "start": 300,
+                        "duration": 200
+                    },
+                    {
+                        "step": 4,
+                        "start": 1400,
+                        "duration": 100
+                    }
+                ]
+            }
+        },
+        "How To Clean Granite Countertops_0": {
+            "makespan": 1500,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 600
+                    },
+                    {
+                        "step": 3,
+                        "start": 1000,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    }
+                ]
+            }
+        },
+        "How To Clean Granite Countertops_1": {
+            "makespan": 1700,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 600
+                    },
+                    {
+                        "step": 3,
+                        "start": 1200,
+                        "duration": 500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 500,
+                        "duration": 700
+                    }
+                ]
+            }
+        }
+    },
+    "How To Texture a Ceiling_2": {
+        "How To Texture Walls_0": {
+            "makespan": 9050,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 3000
+                    },
+                    {
+                        "step": 2,
+                        "start": 3000,
+                        "duration": 50
+                    },
+                    {
+                        "step": 3,
+                        "start": 3050,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 4,
+                        "start": 4550,
+                        "duration": 4500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 3000,
+                        "duration": 2000
+                    },
+                    {
+                        "step": 2,
+                        "start": 6050,
+                        "duration": 3000
+                    }
+                ]
+            }
+        },
+        "How To Texture Drywall_0": {
+            "makespan": 9050,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 3000
+                    },
+                    {
+                        "step": 2,
+                        "start": 3000,
+                        "duration": 50
+                    },
+                    {
+                        "step": 3,
+                        "start": 3050,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 4,
+                        "start": 4550,
+                        "duration": 4500
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 3000,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 3450,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 3950,
+                        "duration": 500
+                    },
+                    {
+                        "step": 4,
+                        "start": 4450,
+                        "duration": 100
+                    },
+                    {
+                        "step": 5,
+                        "start": 4550,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 6,
+                        "start": 6050,
+                        "duration": 3000
+                    }
+                ]
+            }
+        }
+    },
+    "How To Mix Hair Dye_1": {
+        "How To Dye Naturally Black Hair Silver_0": {
+            "makespan": 8600,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 50
+                    },
+                    {
+                        "step": 2,
+                        "start": 8000,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 8200,
+                        "duration": 100
+                    },
+                    {
+                        "step": 4,
+                        "start": 8300,
+                        "duration": 300
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 4500
+                    },
+                    {
+                        "step": 2,
+                        "start": 4500,
+                        "duration": 2000
+                    },
+                    {
+                        "step": 3,
+                        "start": 6500,
+                        "duration": 1500
+                    },
+                    {
+                        "step": 4,
+                        "start": 8000,
+                        "duration": 500
+                    }
+                ]
+            }
+        },
+        "How To Dye Ginger Hair_0": null,
+        "How To Dye Hair With Jell O_0": {
+            "makespan": 8000,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 50
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 100
+                    },
+                    {
+                        "step": 4,
+                        "start": 700,
+                        "duration": 300
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 1000
+                    },
+                    {
+                        "step": 3,
+                        "start": 1400,
+                        "duration": 100
+                    },
+                    {
+                        "step": 4,
+                        "start": 1500,
+                        "duration": 6000
+                    },
+                    {
+                        "step": 5,
+                        "start": 7500,
+                        "duration": 500
+                    }
+                ]
+            }
+        }
+    },
+    "How To Make a Rolling Roller Coaster_0": {},
+    "How To Freeze Okra_0": {
+        "How To Freeze Kale_0": {
+            "makespan": 8700,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 300
+                    },
+                    {
+                        "step": 4,
+                        "start": 900,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 1200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 6,
+                        "start": 1700,
+                        "duration": 600
+                    },
+                    {
+                        "step": 7,
+                        "start": 2300,
+                        "duration": 200
+                    },
+                    {
+                        "step": 8,
+                        "start": 2500,
+                        "duration": 6000
+                    },
+                    {
+                        "step": 9,
+                        "start": 8500,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 600,
+                        "duration": 500
+                    },
+                    {
+                        "step": 3,
+                        "start": 1100,
+                        "duration": 0
+                    },
+                    {
+                        "step": 4,
+                        "start": 1200,
+                        "duration": 0
+                    },
+                    {
+                        "step": 5,
+                        "start": 1200,
+                        "duration": 1000
+                    },
+                    {
+                        "step": 6,
+                        "start": 2500,
+                        "duration": 200
+                    },
+                    {
+                        "step": 7,
+                        "start": 8550,
+                        "duration": 100
+                    },
+                    {
+                        "step": 8,
+                        "start": 8650,
+                        "duration": 50
+                    }
+                ]
+            }
+        },
+        "How To Freeze Shrimp_0": {
+            "makespan": 8700,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 300
+                    },
+                    {
+                        "step": 4,
+                        "start": 900,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 1200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 6,
+                        "start": 1700,
+                        "duration": 600
+                    },
+                    {
+                        "step": 7,
+                        "start": 2300,
+                        "duration": 200
+                    },
+                    {
+                        "step": 8,
+                        "start": 2500,
+                        "duration": 6000
+                    },
+                    {
+                        "step": 9,
+                        "start": 8500,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 600,
+                        "duration": 500
+                    },
+                    {
+                        "step": 2,
+                        "start": 1100,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 1300,
+                        "duration": 400
+                    },
+                    {
+                        "step": 4,
+                        "start": 8600,
+                        "duration": 100
+                    }
+                ]
+            }
+        },
+        "How To Freeze Cilantro_0": {
+            "makespan": 8700,
+            "schedule": {
+                "A": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 200
+                    },
+                    {
+                        "step": 2,
+                        "start": 200,
+                        "duration": 400
+                    },
+                    {
+                        "step": 3,
+                        "start": 600,
+                        "duration": 300
+                    },
+                    {
+                        "step": 4,
+                        "start": 900,
+                        "duration": 300
+                    },
+                    {
+                        "step": 5,
+                        "start": 1200,
+                        "duration": 500
+                    },
+                    {
+                        "step": 6,
+                        "start": 1700,
+                        "duration": 600
+                    },
+                    {
+                        "step": 7,
+                        "start": 2300,
+                        "duration": 200
+                    },
+                    {
+                        "step": 8,
+                        "start": 2500,
+                        "duration": 6000
+                    },
+                    {
+                        "step": 9,
+                        "start": 8500,
+                        "duration": 200
+                    }
+                ],
+                "B": [
+                    {
+                        "step": 1,
+                        "start": 0,
+                        "duration": 400
+                    },
+                    {
+                        "step": 2,
+                        "start": 400,
+                        "duration": 200
+                    },
+                    {
+                        "step": 3,
+                        "start": 1200,
+                        "duration": 75
+                    },
+                    {
+                        "step": 4,
+                        "start": 2300,
+                        "duration": 500
+                    },
+                    {
+                        "step": 5,
+                        "start": 2800,
+                        "duration": 200
+                    },
+                    {
+                        "step": 6,
+                        "start": 3000,
+                        "duration": 100
+                    },
+                    {
+                        "step": 7,
+                        "start": 3100,
+                        "duration": 100
+                    }
+                ]
+            }
+        }
+    }
+}
