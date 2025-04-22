@@ -11,42 +11,73 @@ client = OpenAI(
 def get_prompt(question, answer):
     Prompt = f'''You are an expert in solving procedural problems. You are tasked with analyzing the tools, and materials required for solving a procedural problem. For each step of the process, you need to output with the following rules: 
 1. For each step, list the tools (minimum necessary tools to complete the task) and materials (expendables or consumables required for the step) separately.
-2. If a step does not require any tools, explicitly state None.
-3. Prioritize reusing tools from previous steps to minimize the total number of tools required.
-4. Only list the essential tools required to complete the task. Avoid mentioning unnecessary or redundant tools.
-5. Finally, provide a complete list of all tools and their quantities used in all steps of the process(only one is needed if it can be reused).
+2. For each step, also list the Carried-over Tools: the tool must have been used in the immediately preceding step only (not any earlier steps); the tool must remain uninterrupted in use between the two steps.
+3. If a step does not require any tools, explicitly state None.
+4. Prioritize reusing tools from previous steps to minimize the total number of tools required.
+5. Only list the essential tools required to complete the task. Avoid mentioning unnecessary or redundant tools.
+6. Finally, provide a complete list of all tools and their quantities used in all steps of the process(only one is needed if it can be reused).
 
-For example:
+Give two examples and clarify the definition of Carried-over Tools.
+Example1:
 [Procedural Question:]
-How To Make a Volcano Erupt
+How To Make Hunch Punch
 [Instructional Answer:]
-1. Secure a bottle of soda to a cardboard tray.
-2. Spray insulating foam around the soda bottle to create a mountain.
-3. Wait for the insulating foam to harden.
-4. Paint the dried insulating foam to resemble a volcano.
-5. Attach a paper cylinder to the top of the volcano.
-6. Drop Mentos into the paper cylinder to trigger the eruption.
+1. Mix a bottle of Everclear with a gallon of fruit punch in a large container.
+2. Mix in a few cups of lemon lime soda, ginger ale, and your favorite fruit juices.
+3. Add ice to chill the drink.
 
 Your response:
 [Tools:]
-Step 1: Scissors
-Step 2: None
-Step 3: None
-Step 4: Paintbrush
-Step 5: Scissors
-Step 6: None
+Step 1: Large container, Stirring spoon
+Step 2: Large container(Carried-over Tools), Stirring spoon
+Step 3: Large container(Carried-over Tools)
 
 [Materials:]
-Step 1: Soda bottle, Cardboard tray, Tape
-Step 2: Insulating foam
-Step 3: None
-Step 4: Acrylic paint
-Step 5: Paper, Tape
-Step 6: Mentos candies
+Step 1: Everclear, Fruit punch
+Step 2: Lemon lime soda, Ginger ale, Fruit juices
+Step 3: Ice
 
 [Tools list:]
-Scissors: 1
-Paintbrush: 1
+Large container: 1
+Stirring spoon: 1
+
+* Explanation(You don't need to output this in your response): Because the Large container is a container shared by step 1, step 2, and step 3, if the Large container is used for other tasks before step 2 or step 3, it does not comply.
+
+[Example2:]
+[Procedural Question:]
+How To Get Whites White
+[Instructional Answer:]
+1. Apply baking soda to the discolored area of the clothing.
+2. Rub the cut side of a lemon onto the same spot.
+3. Start the washer with detergent.
+4. Wait 5 minutes.
+5. Add bleach to the washer.
+6. Add the clothes to the washer.
+
+Your response:
+[Tools:]
+Step 1: Measuring spoon
+Step 2: Knife
+Step 3: Washing machine
+Step 4: Washing machine(Carried-over Tools)
+Step 5: Washing machine(Carried-over Tools), Measuring spoon
+Step 6: Washing machine(Carried-over Tools)
+
+[Materials:]
+Step 1: Baking soda
+Step 2: Lemon
+Step 3: Laundry detergent
+Step 4: None
+Step 5: Bleach
+Step 6: Clothes
+
+[Tools list:]
+Measuring spoon: 1
+Knife: 1
+Washing machine: 1
+
+* Explanation(You don't need to output this in your response): Because step 3, step 4, step 5 and step 6 all require continuous processing of the washing machine, if the washing machine is used for other tasks before step 4, step 5 or step 6, it does not comply.
+
 
 Given a question and its answer below. Please respond without any other explanation or irrelevant information.
 [Procedural Question:]
@@ -158,44 +189,29 @@ def run_llm(prompt):
 
 
 def tool_analyse():
-    with open('../data/tmp/Wikihow_sample_retrieve.json', 'r') as f:
-        rt = json.load(f)
+    with open('../data/match_tools/human_choose.json', 'r') as f:
+        qas = json.load(f)
 
     with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
         data = json.load(f)
 
-    with open('../data/tmp/Wikihow_sample_tools_parse.json', 'r') as f:
-        tools = json.load(f)
+    with open('../data/match_tools/tools_analyse.json', 'r') as f:
+        save = json.load(f)
 
-
-    save = {}
-    flag = 0
-    for key, value in rt.items():
-        # if flag == 1:
-        #     break
-        # if key == 'How To Make Chicken Cutlets':
-        #     flag = 1
-        question = key.split('_')[0]
-        idx = key.split('_')[1]
-        tool_list = list(tools[key]["Tools"].keys())
-        # answers = '\n'.join(data[question][idx])
-        # prompt = get_prompt(question, answers)
-        # response = run_llm(prompt)
-        # print(response)
-        # save[key] = response
-        for v_value in value:
-            question = v_value[0].split('_')[0]
-            idx = v_value[0].split('_')[1]
-            answers = '\n'.join(data[question][idx])
-            # prompt = get_prompt(question, answers)
-            prompt = get_prompt2(question, answers, tool_list)
-            print(prompt)
+    # save = {}
+    cnt = 0
+    for key, value in qas.items():
+        if key in save:
+            continue
+        tmp_dic = {}
+        for idx in value:
+            prompt = get_prompt(key, '\n'.join(data[key][idx]))
             response = run_llm(prompt)
-            save[v_value[0]] = response
-        with open('../data/tmp/Wikihow_sample_tools_.json', 'w') as f:
+            tmp_dic[idx] = response
+        save[key] = tmp_dic
+
+        with open('../data/match_tools/tools_analyse.json', 'w') as f:
             json.dump(save, f, indent=4)
-        # with open('../data/tmp/Wikihow_time_reanalyse.json', 'w') as f:
-        #     json.dump(save, f, indent=4)
 
 
 def schedule_analyse():
@@ -260,4 +276,4 @@ def schedule_analyse():
         with open('../data/tmp/GPT4o_sample_results_with_tools.json', 'w') as f:
             json.dump(save, f, indent=4)
 
-schedule_analyse()
+tool_analyse()

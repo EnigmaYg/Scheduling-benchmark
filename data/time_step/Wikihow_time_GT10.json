@@ -1159,16 +1159,6 @@
             3
         ]
     },
-    "How To Make Cheese Curds": {
-        "0": [
-            10,
-            60,
-            45,
-            20,
-            60,
-            15
-        ]
-    },
     "How To Clean Beer Bottles": {
         "1": [
             5,
@@ -6559,17 +6549,6 @@
             4
         ]
     },
-    "How To Lay a Brick Patio": {
-        "0": [
-            45,
-            20,
-            30,
-            25,
-            40,
-            15,
-            10
-        ]
-    },
     "How To Make Ron Ron Juice": {
         "0": [
             5,
@@ -9228,23 +9207,6 @@
             1,
             2,
             1
-        ]
-    },
-    "How To Roast a Duck": {
-        "0": [
-            5,
-            2,
-            60,
-            2,
-            60,
-            2,
-            60,
-            2,
-            60,
-            2,
-            60,
-            1,
-            10
         ]
     },
     "How To Clean a White Sink": {
@@ -12194,18 +12156,6 @@
             10,
             6,
             23
-        ]
-    },
-    "How To Paint the Interior of a House": {
-        "0": [
-            45,
-            20,
-            15,
-            10,
-            30,
-            60,
-            25,
-            40
         ]
     },
     "How To Switch Baby Formula": {
@@ -17367,8 +17317,7 @@
             2,
             15,
             30,
-            10,
-            1
+            10
         ]
     },
     "How To Keep Your Guinea Pigs Smelling Good": {
@@ -21037,16 +20986,6 @@
             20
         ]
     },
-    "How To Install Floor Tile": {
-        "0": [
-            45,
-            20,
-            30,
-            60,
-            10,
-            40
-        ]
-    },
     "How To Make Slime": {
         "0": [
             2,
@@ -21744,17 +21683,6 @@
             20
         ]
     },
-    "How To Put in an Above Ground Pool": {
-        "0": [
-            15,
-            45,
-            10,
-            20,
-            30,
-            60,
-            25
-        ]
-    },
     "How To Make Magic Mud": {
         "1": [
             2,
@@ -22063,14 +21991,6 @@
             5,
             2,
             3
-        ]
-    },
-    "How To Remove Mildew Smell from Towels": {
-        "0": [
-            45,
-            60,
-            45,
-            60
         ]
     },
     "How To Make Jam": {
@@ -23394,19 +23314,6 @@
             10,
             30,
             20
-        ]
-    },
-    "How To Paint a Dresser": {
-        "0": [
-            5,
-            4,
-            20,
-            8,
-            15,
-            30,
-            25,
-            60,
-            25
         ]
     },
     "How To Polish Slate": {
@@ -28452,7 +28359,7 @@
     "How To Prepare Sugar Snap Peas": {
         "0": [
             4,
-            2,
+            20,
             6,
             8
         ]
@@ -29225,20 +29132,6 @@
             1
         ]
     },
-    "How To Paint a Room": {
-        "0": [
-            45,
-            15,
-            20,
-            30,
-            18,
-            25,
-            60,
-            35,
-            60,
-            35
-        ]
-    },
     "How To Get Paint Off Canvas Shoes": {
         "0": [
             5,
@@ -29326,17 +29219,6 @@
         "2": [
             0.08,
             15
-        ]
-    },
-    "How To Tile a Fireplace": {
-        "0": [
-            20,
-            45,
-            15,
-            60,
-            30,
-            20,
-            10
         ]
     },
     "How To Fill out a Checking Deposit Slip": {

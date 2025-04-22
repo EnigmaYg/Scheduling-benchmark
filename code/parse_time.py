@@ -169,11 +169,14 @@ cnt = 0
 for key, value in data.items():
     tmp_dic = {}
     for v_key, v_value in value.items():
-        if sum(v_value) >= 10:
+        if (sum(v_value) >= 10) and (sum(v_value) <= 180):
             tmp_dic[v_key] = v_value
             cnt += 1
+        if sum(v_value) > 180:
+            print(key)
     if len(tmp_dic) != 0:
         save[key] = tmp_dic
 print(cnt)
-with open('../data/time_step/Wikihow_time_GT10.json', 'w') as f:
-    json.dump(save, f, indent=4)
+print(len(save))
+# with open('../data/time_step/Wikihow_time_GT10.json', 'w') as f:
+#     json.dump(save, f, indent=4)
