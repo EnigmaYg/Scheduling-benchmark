@@ -267,8 +267,8 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
             previous_step = (start, duration, end)
 
     # 步骤2：为每个工具添加 AddNoOverlap（工具不能被同时使用）
-    for tool, intervals in tool_intervals.items():
-        model.AddNoOverlap(intervals)
+    # for tool, intervals in tool_intervals.items():
+    #     model.AddNoOverlap(intervals)
 
     # 步骤3：添加显式定义的“连续占用”工具约束
     for job_name, i, j, tool in continuous_tool_usage:
@@ -287,6 +287,8 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
         dummy_interval = model.NewIntervalVar(gap_start, gap_size, gap_end, f'{job_name}_{i}_{j}_gap_{tool}')
         tool_intervals[tool].append(dummy_interval)
 
+    for tool, intervals in tool_intervals.items():
+        model.AddNoOverlap(intervals)
     # 步骤4：makespan 最小化
     all_ends = [step_vars[(job, len(steps) - 1)][2] for job, steps in tasks.items()]
     makespan = model.NewIntVar(0, 10000, 'makespan')
@@ -310,24 +312,35 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
                     'start': solver.Value(start),
                     'duration': dur
                 })
+        print(result)
         return result
     else:
         print("❌ No feasible solution found.")
         return None
 
 
+# tasks = {
+#     'taskA': [10, 10, 5, 10],
+#     'taskB': [10, 10, 10, 10, 12, 6]
+# }
+#
+# tool_usage = {
+#     'taskA': [['a'], ['b'], ['b', 'a'], ['a']],
+#     'taskB': [['a'], ['c'], ['b'], ['c'], ['b'], ['a, c']]
+# }
+
 tasks = {
-    'taskA': [10, 2, 5, 1],
-    'taskB': [10, 2, 3, 4, 80, 6]
+    'taskA': [10, 80],
+    'taskB': [10, 10, 10, 10]
 }
 
 tool_usage = {
-    'taskA': [['a'], ['b'], ['b', 'c'], ['a']],
-    'taskB': [[], ['a'], ['b', 'c'], ['c'], ['a'], ['b', 'c']]
+    'taskA': [['b'], ['b', 'a']],
+    'taskB': [['a'], ['b'], ['c'], ['c']]
 }
 
 continuous_tool_usage = [
-    ('taskA', 1, 2, 'b'),  # 表示 taskA 的第1步 和 第2步之间，tool b 要连续占用（注意从0开始计数）
+    ('taskA', 0, 1, 'b'),  # 表示 taskA 的第1步 和 第2步之间，tool b 要连续占用（注意从0开始计数）
 ]
 
 schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_usage)

@@ -3,7 +3,10 @@ import json
 with open('../data/match_tools/tmp_tools_analyse.json', 'r') as f:
     data = json.load(f)
 
-save = {}
+with open('../data/match_tools/tmp_tools_analyse_parse.json', 'r') as f:
+    save = json.load(f)
+
+# save = {}
 for key, value in data.items():
     tmp_dic_dic = {}
     for v_key, value in value.items():
@@ -56,5 +59,5 @@ for key, value in data.items():
             tmp_dic['Tools'] = tmp
         tmp_dic_dic[v_key] = tmp_dic
     save[key] = tmp_dic_dic
-    with open('../data/match_tools/tmp_tools_analyse_parse.json', 'w') as f:
+    with open('../data/match_tools/tools_analyse_parse.json', 'w') as f:
         json.dump(save, f, indent=4)
