@@ -3355,7 +3355,7 @@
         "0": "[Tools:]\nStep 1: Degreaser, Cloth\nStep 2: Sandpaper\nStep 3: Cloth(Carried-over Tools)\nStep 4: Primer, Brush\nStep 5: Paint, Brush(Carried-over Tools)\nStep 6: Paint(Carried-over Tools)\n\n[Materials:]\nStep 1: None\nStep 2: None\nStep 3: None\nStep 4: Primer\nStep 5: Paint\nStep 6: None\n\n[Tools list:]\nDegreaser: 1\nCloth: 2\nSandpaper: 1\nPrimer: 1\nBrush: 2\nPaint: 1"
     },
     "How To Make Buffalo Sauce": {
-        "0": "[Tools:]\nStep 1: Bowl, Measuring cup, Measuring spoons\nStep 2: Bowl(Carried-over Tools), Whisk\nStep 3: Bowl(Carried-over Tools), Whisk\nStep 4: Bowl(Carried-over Tools), Whisk\nStep 5: Medium-hot pan\nStep 6: Medium-hot pan(Carried-over Tools)\nStep 7: Medium-hot pan(Carried-over Tools)\n\n[Materials:]\nStep 1: Southern-style hot pepper sauce, Rice vinegar, Chili powder, Smoked paprika, Sweet paprika, Salt, Onion powder, Cayenne pepper\nStep 2: Honey, Cornstarch\nStep 3: Worcestershire sauce\nStep 4: Garlic powder, Celery salt\nStep 5: Butter\nStep 6: None\nStep 7: None\n\n[Tools list:]\nBowl: 1\nMeasuring cup: 1\nMeasuring spoons: 1 set\nWhisk: 1\nMedium-hot pan: 1"
+        "0": "[Tools:]\nStep 1: Bowl, Measuring cup, Measuring spoons\nStep 2: Bowl(Carried-over Tools), Whisk\nStep 3: Bowl(Carried-over Tools), Whisk\nStep 4: Bowl(Carried-over Tools), Whisk\nStep 5: Medium-hot pan\nStep 6: Medium-hot pan(Carried-over Tools)\nStep 7: Medium-hot pan(Carried-over Tools)\n\n[Materials:]\nStep 1: Southern-style hot pepper sauce, Rice vinegar, Chili powder, Smoked paprika, Sweet paprika, Salt, Onion powder, Cayenne pepper\nStep 2: Honey, Cornstarch\nStep 3: Worcestershire sauce\nStep 4: Garlic powder, Celery salt\nStep 5: Butter\nStep 6: None\nStep 7: None\n\n[Tools list:]\nBowl: 1\nMeasuring cup: 1\nMeasuring spoons: 1\nWhisk: 1\nMedium-hot pan: 1"
     },
     "How To Make Your Own Distressed Shirt": {
         "0": "[Tools:]\nStep 1: Disposable razor\nStep 2: Scissors\n\n[Materials:]\nStep 1: None\nStep 2: Shirt\n\n[Tools list:]\nDisposable razor: 1\nScissors: 1"
@@ -3379,7 +3379,7 @@
         "0": "[Tools:]\nStep 1: None\nStep 2: None\nStep 3: Toilet brush\nStep 4: None\n\n[Materials:]\nStep 1: None\nStep 2: Bleach\nStep 3: None\nStep 4: Cold water\n\n[Tools list:]\nToilet brush: 1"
     },
     "How To Make a Drone": {
-        "0": "[Tools:]\nStep 1: Glue\nStep 2: Screwdriver, Screws (Carried-over Tools)\nStep 3: Screwdriver, Screws (Carried-over Tools)\nStep 4: Screwdriver, Screws (Carried-over Tools)\nStep 5: Screwdriver, Screws (Carried-over Tools)\nStep 6: Screwdriver, Screws (Carried-over Tools)\nStep 7: None\n\n[Materials:]\nStep 1: Frame, Glue\nStep 2: Motors, Screws\nStep 3: Propellers, Screws\nStep 4: Speed controllers, Screws\nStep 5: Flight controller, Screws\nStep 6: Power distribution board, Screws\nStep 7: Wireless remote control system\n\n[Tools list:]\nGlue: 1\nScrewdriver: 1\nScrews: 1 (quantity represents that screws are used across multiple steps)"
+        "0": "[Tools:]\nStep 1: Glue\nStep 2: Screwdriver\nStep 3: Screwdriver\nStep 4: Screwdriver\nStep 5: Screwdriver\nStep 6: Screwdriver\nStep 7: None\n\n[Materials:]\nStep 1: Frame, Glue\nStep 2: Motors, Screws\nStep 3: Propellers, Screws\nStep 4: Speed controllers, Screws\nStep 5: Flight controller, Screws\nStep 6: Power distribution board, Screws\nStep 7: Wireless remote control system\n\n[Tools list:]\nGlue: 1\nScrewdriver: 1"
     },
     "How To Clean Leatherette": {
         "1": "[Tools:]\nStep 1: Cloth\nStep 2: Cloth(Carried-over Tools)\nStep 3: Cloth(Carried-over Tools)\n\n[Materials:]\nStep 1: Mild soap, Warm water\nStep 2: Warm water\nStep 3: None\n\n[Tools list:]\nCloth: 1"
@@ -3762,10 +3762,10 @@
         "1": "[Tools:]\nStep 1: Knife\nStep 2: None\nStep 3: Oven(Carried-over Tools)\n\n[Materials:]\nStep 1: Rhubarb\nStep 2: Sugar\nStep 3: None\n\n[Tools list:]\nKnife: 1  \nOven: 1"
     },
     "How To Make Corn Tortillas": {
-        "0": "[Tools:]\nStep 1: None\nStep 2: Rolling pin, Wax paper\nStep 3: Nonstick skillet\nStep 4: Nonstick skillet(Carried-over Tools)\nStep 5: Nonstick skillet(Carried-over Tools)\nStep 6: None\n\n[Materials:]\nStep 1: Dough\nStep 2: None\nStep 3: None\nStep 4: Tortilla\nStep 5: Tortilla\nStep 6: Clean towel\n\n[Tools list:]\nRolling pin: 1  \nWax paper: 2 sheets  \nNonstick skillet: 1  "
+        "0": "[Tools:]\nStep 1: None\nStep 2: Rolling pin, Wax paper\nStep 3: Nonstick skillet\nStep 4: Nonstick skillet(Carried-over Tools)\nStep 5: Nonstick skillet(Carried-over Tools)\nStep 6: None\n\n[Materials:]\nStep 1: Dough\nStep 2: None\nStep 3: Wax paper\nStep 4: Tortilla\nStep 5: Tortilla\nStep 6: Clean towel\n\n[Tools list:]\nRolling pin: 1  \nNonstick skillet: 1  "
     },
     "How To Make a Rope Swing": {
-        "0": "[Tools:]\nStep 1: Hammer, Nails\nStep 2: Drill\nStep 3: Drill(Carried-over Tools), 5-foot rope\nStep 4: None\nStep 5: Carabiner\nStep 6: Rope, Knot tying tool (if needed, e.g., a fid)\nStep 7: Carabiner(Carried-over Tools)\n\n[Materials:]\nStep 1: Supports, Seat\nStep 2: None\nStep 3: None\nStep 4: None\nStep 5: None\nStep 6: Long pieces of rope\nStep 7: None\n\n[Tools list:]\nHammer: 1\nNails: 1\nDrill: 1\nCarabiner: 1\nRope: 1\nKnot tying tool: 1 (if applicable)"
+        "0": "[Tools:]\nStep 1: Hammer, Nails\nStep 2: Drill\nStep 3: Drill(Carried-over Tools)\nStep 4: None\nStep 5: Carabiner\nStep 6: None\nStep 7: Carabiner(Carried-over Tools)\n\n[Materials:]\nStep 1: Supports, Seat\nStep 2: None\nStep 3: None\nStep 4: None\nStep 5: None\nStep 6: Long pieces of rope\nStep 7: None\n\n[Tools list:]\nHammer: 1\nNails: 1\nDrill: 1\nCarabiner: 1\nRope: 1"
     },
     "How To Cook Frozen Chicken Breasts": {
         "0": "[Tools:]\nStep 1: Baking pan, Aluminum foil\nStep 2: Baking pan(Carried-over Tools)\nStep 3: Baking pan(Carried-over Tools), Oven\n\n[Materials:]\nStep 1: Frozen chicken breasts\nStep 2: Seasoning\nStep 3: None\n\n[Tools list:]\nBaking pan: 1  \nAluminum foil: 1  \nOven: 1  ",
@@ -4136,7 +4136,7 @@
         "0": "[Tools:]\nStep 1: Saucepan, Candy thermometer\nStep 2: Baking sheet, Spatula (Carried-over Tools)\nStep 3: Knife (Carried-over Tools)\nStep 4: None\nStep 5: Knife (Carried-over Tools)\nStep 6: None\nStep 7: None\n\n[Materials:]\nStep 1: Water, Sugar, Corn syrup, Cream of tartar, Salt\nStep 2: Parchment paper, Peppermint oil\nStep 3: Red food coloring\nStep 4: None\nStep 5: None\nStep 6: None\nStep 7: None\n\n[Tools list:]\nSaucepan: 1\nCandy thermometer: 1\nBaking sheet: 1\nSpatula: 1\nKnife: 1"
     },
     "How To Salt Eggplant": {
-        "0": "[Tools:]\nStep 1: Knife\nStep 2: Mixing bowl\nStep 3: None\nStep 4: Colander\nStep 5: Paper towels, Plate\n\n[Materials:]\nStep 1: Eggplant\nStep 2: Salt\nStep 3: None\nStep 4: None\nStep 5: None\n\n[Tools list:]\nKnife: 1\nMixing bowl: 1\nColander: 1\nPaper towels: 2 (since they are counted as one item but may be used for pressing) \nPlate: 1",
+        "0": "[Tools:]\nStep 1: Knife\nStep 2: Mixing bowl\nStep 3: None\nStep 4: Colander\nStep 5: Paper towels, Plate\n\n[Materials:]\nStep 1: Eggplant\nStep 2: Salt\nStep 3: None\nStep 4: None\nStep 5: None\n\n[Tools list:]\nKnife: 1\nMixing bowl: 1\nColander: 1\nPaper towels: 1 \nPlate: 1",
         "1": "[Tools:]\nStep 1: Bowl\nStep 2: Paper towels\n\n[Materials:]\nStep 1: Salt, Water, Eggplant\nStep 2: None\n\n[Tools list:]\nBowl: 1\nPaper towels: 1"
     },
     "How To Replace a Muffler": {
@@ -4347,7 +4347,7 @@
         "0": "[Tools:]\nStep 1: Tuner\nStep 2: String winder, Pliers\nStep 3: Pliers(Carried-over Tools)\nStep 4: Pliers(Carried-over Tools)\nStep 5: Pliers(Carried-over Tools)\n\n[Materials:]\nStep 1: None\nStep 2: Guitar strings\nStep 3: None\nStep 4: None\nStep 5: None\n\n[Tools list:]\nTuner: 1  \nString winder: 1  \nPliers: 1"
     },
     "How To Build a Garage Work Bench": {
-        "0": "[Tools:]\nStep 1: Saw, Measuring tape\nStep 2: Bolts, Wrench, Legs (Carried-over Tools)\nStep 3: Bolts, Wrench, Legs (Carried-over Tools)\nStep 4: Saw, Measuring tape (Carried-over Tools)\nStep 5: Bolts, Wrench, Legs (Carried-over Tools)\nStep 6: Bolts, Wrench, Worktop (Carried-over Tools)\n\n[Materials:]\nStep 1: 4 by 4 wooden posts\nStep 2: None\nStep 3: None\nStep 4: 4 by 4 wooden posts\nStep 5: None\nStep 6: Worktop\n\n[Tools list:]\nSaw: 1\nMeasuring tape: 1\nBolts: 1 (assuming multiple bolts are being reused without specifying quantity)\nWrench: 1\nLegs: 1 set\nWorktop: 1",
+        "0": "[Tools:]\nStep 1: Saw, Measuring tape\nStep 2: Wrench\nStep 3: Wrench\nStep 4: Saw, Measuring tape (Carried-over Tools)\nStep 5: Wrench\nStep 6: Wrench\n\n[Materials:]\nStep 1: 4 by 4 wooden posts\nStep 2: Bolts\nStep 3: Legs\nStep 4: 4 by 4 wooden posts\nStep 5: None\nStep 6: Worktop\n\n[Tools list:]\nSaw: 1\nMeasuring tape: 1\n Wrench: 1",
         "1": "[Tools:]\nStep 1: Wood glue\nStep 2: Sandpaper\nStep 3: Varnish brush\nStep 4: Wrench, Bolts (Carried-over Tools)\n\n[Materials:]\nStep 1: Wooden sheets\nStep 2: None\nStep 3: Varnish\nStep 4: None\n\n[Tools list:]\nWood glue: 1\nSandpaper: 1\nVarnish brush: 1\nWrench: 1\nBolts: 1",
         "2": "[Tools:]\nStep 1: Wrench\n\n[Materials:]\nStep 1: Work bench top, Frame, Bolts\n\n[Tools list:]\nWrench: 1"
     },
