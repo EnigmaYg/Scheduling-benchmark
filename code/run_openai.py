@@ -91,54 +91,20 @@ Your response:
 
 
 def get_prompt2(question, answer, tools):
-    tools = ' '.join(tools)
-    Prompt = f'''You are an expert in solving procedural problems. Your task is to analyze the additional tools and materials required to solve procedural problems. For each step of the process, you need to output with the following rules: 
-1. For each step, list the tools (minimum necessary tools to complete the task) and materials (expendables or consumables required for the step) separately.
-2. If a step does not require any tools, explicitly state None.
-3. Prioritize known tools and tools from previous steps to minimize the total number of tools required.
-4. Only list the essential tools required to complete the task. Avoid mentioning unnecessary or redundant tools.
-5. Finally, provide a complete list of all tools and their quantities used in all steps of the process(only one is needed if it can be reused).
+    Prompt = f'''You are an expert in procedural task analysis. Given a step-by-step process for completing a task, where each step uses one or more tools, your job is to evaluate whether each tool can be replaced by one or more alternative tools from a provided list. For each original tool, if a suitable replacement exists that can still complete the step effectively, suggest it. If no viable replacement exists, return "None".
 
-For example:
-[Procedural Question:]
-How To Make a Volcano Erupt
-[Instructional Answer:]
-1. Secure a bottle of soda to a cardboard tray.
-2. Spray insulating foam around the soda bottle to create a mountain.
-3. Wait for the insulating foam to harden.
-4. Paint the dried insulating foam to resemble a volcano.
-5. Attach a paper cylinder to the top of the volcano.
-6. Drop Mentos into the paper cylinder to trigger the eruption.
-[Know Tools:]
-None
+Output format:
+Original tool : Replaced tool
+Original tool : None
+...
 
-Your response:
-[Tools:]
-Step 1: Scissors
-Step 2: None
-Step 3: None
-Step 4: Paintbrush
-Step 5: Scissors
-Step 6: None
 
-[Materials:]
-Step 1: Soda bottle, Cardboard tray, Tape
-Step 2: Insulating foam
-Step 3: None
-Step 4: Acrylic paint
-Step 5: Paper, Tape
-Step 6: Mentos candies
-
-[Tools list:]
-Scissors: 1
-Paintbrush: 1
-
-Given a question and its answer below. Please respond without any other explanation or irrelevant information.
-[Procedural Question:]
+Given a question, its answer and tools list below. Please respond without any other explanation or irrelevant information.
+[Procedural question:]
 {question}
-[Instructional Answer:]
+[Instructional answer:]
 {answer}
-[Know Tools:]
+[Tools list:]
 {tools}
 
 Your response:
@@ -189,29 +155,50 @@ def run_llm(prompt):
 
 
 def tool_analyse():
-    with open('../data/match_tools/human_choose.json', 'r') as f:
-        qas = json.load(f)
+    with open('../data/match_tools/Pets_and_Animals_pair.json', 'r') as f:
+        pairs = json.load(f)
 
     with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
         data = json.load(f)
 
-    with open('../data/match_tools/tools_analyse.json', 'r') as f:
+    with open('../data/match_tools/tools_analyse_parse.json', 'r') as f:
+        tools = json.load(f)
+
+    with open('../data/match_tools/Pet_paired_tools.json', 'r') as f:
         save = json.load(f)
 
     # save = {}
     cnt = 0
-    for key, value in qas.items():
+    print(len(save))
+    for key, value in pairs.items():
         if key in save:
             continue
+        print(key)
+        key_question = key.split('_')[0]
+        key_idx = key.split('_')[1]
+        tools_dic = tools[key_question][key_idx]["Tools"]
+        tools_list = []
         tmp_dic = {}
-        for idx in value:
-            prompt = get_prompt(key, '\n'.join(data[key][idx]))
+        for tmp_key, tmp_value in tools_dic.items():
+            tools_list.append(tmp_key)
+        for paired in value:
+            paired_question = paired.split('_')[0]
+            paired_idx = paired.split('_')[1]
+            instructions = data[paired_question][paired_idx]
+            tools_dic = tools[paired_question][paired_idx]["Tool_steps"]
+            tmp_tool_list = []
+            for tmp_key, tmp_value in tools_dic.items():
+                tmp_tool_list.append(tmp_value)
+            answer = ''
+            for instruction in instructions:
+                answer += instruction + f' (Tool: {tmp_tool_list[instructions.index(instruction)]})' + '\n'
+            prompt = get_prompt2(paired_question, answer, ', '.join(tools_list))
             response = run_llm(prompt)
-            tmp_dic[idx] = response
+            tmp_dic[paired] = response
         save[key] = tmp_dic
-
-        with open('../data/match_tools/tools_analyse.json', 'w') as f:
+        with open('../data/match_tools/Pet_paired_tools.json', 'w') as f:
             json.dump(save, f, indent=4)
+
 
 
 def schedule_analyse():
