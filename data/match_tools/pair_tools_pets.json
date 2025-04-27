@@ -497,7 +497,7 @@
         "How To Bathe a Chicken_0": [
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -513,7 +513,7 @@
         "How To Clean Pet Vomit from Carpet_0": [
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -528,7 +528,7 @@
         "How To Clean a Small Fishtank_0": [
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -546,7 +546,7 @@
         "How To Clean Your Dog's ID Tag_0": [
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -561,7 +561,7 @@
         "How To Clean Aquarium Plants_1": [
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -1664,23 +1664,6 @@
                 "4": "Airtight container,Spoon"
             }
         ],
-        "How To Prepare Fruits and Vegetables for Goldfish to Eat_0": [
-            {
-                "1": "Bowl,Fork",
-                "2": "Bowl,Fork",
-                "3": "Bowl,Spoon",
-                "4": "Rolling pin",
-                "5": "Cookie cutter",
-                "6": "Baking sheet,Oven"
-            },
-            {
-                "1": "None",
-                "2": "Drying cloth,Peeler",
-                "3": "Chopping board,Knife",
-                "4": "Pot,Steamer basket,Stove",
-                "5": "Chopping board,Knife"
-            }
-        ],
         "How To Clean Your Dog's ID Tag_0": [
             {
                 "1": "Bowl,Fork",
@@ -2102,7 +2085,7 @@
             },
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
@@ -2716,7 +2699,7 @@
             },
             {
                 "1": "None",
-                "2": "Drying cloth,Peeler",
+                "2": "Cloth,Peeler",
                 "3": "Chopping board,Knife",
                 "4": "Pot,Steamer basket,Stove",
                 "5": "Chopping board,Knife"
