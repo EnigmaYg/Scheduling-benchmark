@@ -155,7 +155,7 @@ def run_llm(prompt):
 
 
 def tool_analyse():
-    with open('../data/match_tools/Pets_and_Animals_pair.json', 'r') as f:
+    with open('../data/tmp/Tools_Pets_and_Animals_pair.json', 'r') as f:
         pairs = json.load(f)
 
     with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:

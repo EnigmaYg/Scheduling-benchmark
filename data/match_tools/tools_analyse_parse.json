@@ -8830,7 +8830,7 @@
                 "5": "Tub,Rag",
                 "6": "Compressed air"
             },
-            "Materials": "Warm water, ",
+            "Materials": "Warm water, Compressed air, Liquid parts cleaner",
             "Tools": {
                 "Wrench": 1,
                 "Screwdriver": 1,
@@ -8967,7 +8967,7 @@
                 "5": "None",
                 "6": "Credit card"
             },
-            "Materials": "Decal, Transfer tape, ",
+            "Materials": "Decal, Transfer tape, Mild cleaner",
             "Tools": {
                 "Soft cloth": 1,
                 "Mild cleaner": 1,
@@ -9855,7 +9855,7 @@
                 "5": "Tire hose",
                 "6": "Valve core tool"
             },
-            "Materials": "Water, ",
+            "Materials": "Water, Valve core tool",
             "Tools": {
                 "Valve core tool": 1,
                 "Tire hose": 1
@@ -10407,13 +10407,12 @@
     "How To Make Doggie Biscuits": {
         "0": {
             "Tool_steps": {
-                "1": "Oven",
-                "2": "Measuring spoon,Measuring cup",
-                "3": "Big bowl,Measuring cup,Measuring spoon",
-                "4": "Big bowl",
-                "5": "Big bowl,Rolling pin",
-                "6": "Big bowl,Baking tray",
-                "7": "Oven,Baking tray"
+                "1": "Measuring spoon,Measuring cup",
+                "2": "Big bowl,Measuring cup,Measuring spoon",
+                "3": "Big bowl",
+                "4": "Big bowl,Rolling pin",
+                "5": "Big bowl,Baking tray",
+                "6": "Oven,Baking tray"
             },
             "Materials": "Bouillon granules, Hot water, Oats, Salt, Egg, ",
             "Tools": {
@@ -10958,7 +10957,7 @@
             "Tool_steps": {
                 "1": "Drain pan,Wrench",
                 "2": "Wrench,Screwdriver",
-                "3": "Wrench,Socket set",
+                "3": "Wrench",
                 "4": "Cherry picker",
                 "5": "Cherry picker",
                 "6": "Cherry picker",
@@ -10966,7 +10965,7 @@
                 "8": "Wrench,Screwdriver",
                 "9": "Funnel"
             },
-            "Materials": "Coolant, Engine oil, Coolant, Engine oil, ",
+            "Materials": "Coolant, Engine oil, Coolant, Engine oil, Socket set",
             "Tools": {
                 "Drain pan": 1,
                 "Wrench": 1,
@@ -11485,7 +11484,7 @@
                 "6": "Fine grit sandpaper",
                 "7": "Buffing compound,Microfiber cloth"
             },
-            "Materials": "Warm water, Soap, Alcohol, ",
+            "Materials": "Warm water, Soap, Alcohol, Buffing compound",
             "Tools": {
                 "Hose": 1,
                 "Sponge": 1,
@@ -13718,7 +13717,7 @@
                 "5": "None",
                 "6": "None"
             },
-            "Materials": "Styrofoam cooler, Digital thermometer, Humidity gauge, Bowl of water, ",
+            "Materials": "Styrofoam cooler, Digital thermometer, Humidity gauge, Bowl of water, Lamp socket,25-watt light bulb,Chicken wire",
             "Tools": {
                 "Utility knife": 1,
                 "Lamp socket": 1,
@@ -13982,9 +13981,9 @@
                 "2": "Scissors",
                 "3": "Epoxy applicator",
                 "4": "Epoxy applicator",
-                "5": "Epoxy applicator,Hose clamps"
+                "5": "Epoxy applicator"
             },
-            "Materials": "Soapy water, Aluminum sheet, Epoxy, ",
+            "Materials": "Soapy water, Aluminum sheet, Epoxy,Hose clamps ",
             "Tools": {
                 "Scrub brush": 1,
                 "Scissors": 1,
@@ -14051,7 +14050,7 @@
                 "5": "Sink",
                 "6": "Towel"
             },
-            "Materials": "Water, Water, Shampoo for small animals, Water, ",
+            "Materials": "Water, Shampoo for small animals, ",
             "Tools": {
                 "Sink": 1,
                 "Plastic cup": 1,
@@ -15943,7 +15942,7 @@
                 "4": "Wire cutters,Metal clips",
                 "5": "Wire cutters,Metal clips"
             },
-            "Materials": "Metal posts, Wire, Wire, Wire, ",
+            "Materials": "Metal posts, Wire, Metal clips",
             "Tools": {
                 "Post driver": 1,
                 "Metal clips": 1,
@@ -21389,7 +21388,7 @@
                 "4": "None",
                 "5": "Windshield-specific suction cups"
             },
-            "Materials": "Urethane primer, Urethane adhesive, ",
+            "Materials": "Urethane primer, Urethane adhesive, Lubricant",
             "Tools": {
                 "Wrench": 1,
                 "Screwdriver": 1,
@@ -22420,7 +22419,7 @@
                 "4": "None",
                 "5": "Hammer"
             },
-            "Materials": "Stiff carpet, Screws, Stiff carpet, Nails, ",
+            "Materials": "Stiff carpet, Screws, Stiff carpet, Nails, Metal L brackets, Wall anchors",
             "Tools": {
                 "Screwdriver": 1,
                 "Hammer": 1
