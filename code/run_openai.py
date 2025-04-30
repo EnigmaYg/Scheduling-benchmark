@@ -141,9 +141,42 @@ A.1 (start at minutes x, end at minutes x) Tool X
 
 If it cannot be completed, directly output FAIL
 
-Please respond without any other explanation or irrelevant information.
+Please use heuristic thinking to give potential conflicting constraints and final plan.
 Your response:
 
+'''
+    return Prompt
+
+
+def jssp_prompt(instruction1, instruction2, machine_num):
+    Prompt = f'''Optimize schedule for 2 Jobs across {machine_num} Machines to minimize makespan. Each job involves a series of Operations needing specific machines and times. Operations are processed in order, without interruption, on a single Machine at a time.
+
+Problem: 
+Job 0 contains the following operations:
+{instruction1}
+
+Job 1 contains the following operations:
+{instruction2}
+
+Please use heuristic thinking to give potential conflicting constraints and final plan. Then answer the question with the following format:
+plan: xxx
+[Total time: x minutes]
+
+Your response:
+'''
+    return Prompt
+
+
+def graph_prompt(json_str):
+    Prompt = f'''Your task is to generate an optimal plan that achieves the goal—completing all tasks in the shortest possible time. Each tool is available in only one unit, and you need to start from two different starting points to complete two final steps respectively. Tasks without tool conflicts can be performed in parallel to improve overall efficiency.
+    
+{json_str}
+
+Output format:
+[Total time: x minutes]
+
+Please respond without any other explanation or irrelevant information.
+Your response:
 '''
     return Prompt
 
@@ -223,14 +256,14 @@ def schedule_analyse():
     with open('../data/match_tools/tools_analyse_parse.json', 'r') as f:
         tools = json.load(f)
 
-    with open('../data/schedule_results/R1_cars.json', 'r') as f:
-        save = json.load(f)
+    # with open('../data/schedule_results/R1_cars.json', 'r') as f:
+    #     save = json.load(f)
 
-    # save = {}
+    save = {}
     cnt = 0
     for key, value in paired.items():
-        # if cnt > 10:
-        #     break
+        if cnt > 10:
+            break
         cnt += 1
         for v_key, v_value in value.items():
             if (key + '+' + v_key) in save:
@@ -288,16 +321,206 @@ def schedule_analyse():
             tool_string = tool_string.strip(' ').strip(',')
 
             prompt = get_prompt3(key_question[4:], key_answer, pair_question[4:], pair_answer, tool_string, material_string)
-            print(prompt)
+            # print(prompt)
             result = run_llm(prompt)
             print(result)
             save[key + '+' + v_key] = result
-        # with open('../data/schedule_results/R1_cars.json', 'w') as f:
-        #     json.dump(save, f, indent=4)
+        with open('../data/schedule_results/GPT4o_CoT_cars.json', 'w') as f:
+            json.dump(save, f, indent=4)
+
+
+def schedule_jssp_analyse():
+    with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
+        instructions = json.load(f)
+
+    with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
+        times = json.load(f)
+
+    with open('../data/match_tools/pair_tools_cars.json', 'r') as f:
+        paired = json.load(f)
+
+    with open('../data/match_tools/tools_analyse_parse.json', 'r') as f:
+        tools = json.load(f)
+
+    with open('../data/schedule_results/GPT4o_jssp_cars.json', 'r') as f:
+        save = json.load(f)
+
+    # save = {}
+    cnt = 0
+    for key, value in paired.items():
+        # if cnt > 10:
+        #     break
+        cnt += 1
+        for v_key, v_value in value.items():
+            if (key + '+' + v_key) in save:
+                continue
+            tool_list = []
+            key_question = key.split('_')[0]
+            key_question_idx = key.split('_')[1]
+            key_time = times[key_question][key_question_idx]
+            key_instruction = instructions[key_question][key_question_idx]
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[0].items():
+                for x in tmp_value.split(','):
+                    if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
+                        tool_list.append(x.strip(' '))
+
+            pair_question = v_key.split('_')[0]
+            pair_question_idx = v_key.split('_')[1]
+            pair_time = times[pair_question][pair_question_idx]
+            pair_instruction = instructions[pair_question][pair_question_idx]
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[1].items():
+                for x in tmp_value.split(','):
+                    if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
+                        tool_list.append(x.strip(' '))
+
+            tool_dic = {}
+            for tmp_tool in tool_list:
+                tool_dic[tmp_tool] = tool_list.index(tmp_tool)
+
+            key_instruction = ''
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[0].items():
+                key_instruction += f'Operation {tmp_cnt} on'
+                for x in tmp_value.split(','):
+                    if x.strip(' ') == 'None':
+                        key_instruction = key_instruction.strip('on')
+                        key_instruction = key_instruction.strip(' ')
+                        key_instruction += ','
+                        continue
+                    tmp_tool = tool_dic[x.strip(' ')]
+                    key_instruction += f' machine {tmp_tool},'
+                key_instruction += f' duration {key_time[tmp_cnt]} minute(s).\n'
+                tmp_cnt += 1
+
+            pair_instruction = ''
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[1].items():
+                pair_instruction += f'Operation {tmp_cnt} on'
+                for x in tmp_value.split(','):
+                    if x.strip(' ') == 'None':
+                        pair_instruction = pair_instruction.strip('on')
+                        pair_instruction = pair_instruction.strip(' ')
+                        pair_instruction += ','
+                        continue
+                    tmp_tool = tool_dic[x.strip(' ')]
+                    pair_instruction += f' machine {tmp_tool},'
+                pair_instruction += f' duration {pair_time[tmp_cnt]} minute(s).\n'
+                tmp_cnt += 1
+
+            prompt = jssp_prompt(key_instruction, pair_instruction, len(tool_list))
+            # print(prompt)
+            result = run_llm(prompt)
+            print(result)
+            save[key + '+' + v_key] = result
+        with open('../data/schedule_results/GPT4o_jssp_cars.json', 'w') as f:
+            json.dump(save, f, indent=4)
+
+
+def schedule_graph_analyse():
+    with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
+        instructions = json.load(f)
+
+    with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
+        times = json.load(f)
+
+    with open('../data/match_tools/pair_tools_cars.json', 'r') as f:
+        paired = json.load(f)
+
+    with open('../data/match_tools/tools_analyse_parse.json', 'r') as f:
+        tools = json.load(f)
+
+    with open('../data/schedule_results/GPT4o_graph_cars.json', 'r') as f:
+        save = json.load(f)
+
+    # save = {}
+    cnt = 0
+    for key, value in paired.items():
+        # if cnt > 10:
+        #     break
+        cnt += 1
+        for v_key, v_value in value.items():
+            if (key + '+' + v_key) in save:
+                continue
+            graph_json = {'task1': {}, 'task2': {}}
+            key_question = key.split('_')[0]
+            key_question_idx = key.split('_')[1]
+            key_time = times[key_question][key_question_idx]
+            key_instruction = instructions[key_question][key_question_idx]
+            tmp_cnt = 0
+            tmp_list = []
+            for tmp_key, tmp_value in v_value[0].items():
+                if tmp_cnt == (len(v_value[0]) - 1):
+                    tmp_dic = {}
+                    graph_json['task1']['final_step'] = key_instruction[tmp_cnt]
+                    tmp_dic['source_step'] = key_instruction[tmp_cnt]
+                    tmp_dic['target_step'] = key_instruction[tmp_cnt]
+                    tmp_dic['time'] = key_time[tmp_cnt]
+                    tmp_tool_list = []
+                    for x in tmp_value.split(','):
+                        tmp_tool_list.append(x.strip(' '))
+                    tmp_dic['tools'] = tmp_tool_list
+                    tmp_list.append(tmp_dic)
+                    break
+                if tmp_cnt == 0:
+                    graph_json['task1']['initial_source_step'] = key_instruction[tmp_cnt]
+                tmp_dic = {}
+                tmp_dic['source_step'] = key_instruction[tmp_cnt]
+                tmp_dic['target_step'] = key_instruction[tmp_cnt + 1]
+                tmp_dic['time'] = key_time[tmp_cnt]
+                tmp_tool_list = []
+                for x in tmp_value.split(','):
+                    tmp_tool_list.append(x.strip(' '))
+                tmp_dic['tools'] = tmp_tool_list
+                tmp_cnt += 1
+                tmp_list.append(tmp_dic)
+            graph_json['task1']['steps'] = tmp_list
+
+            pair_question = v_key.split('_')[0]
+            pair_question_idx = v_key.split('_')[1]
+            pair_time = times[pair_question][pair_question_idx]
+            pair_instruction = instructions[pair_question][pair_question_idx]
+            tmp_cnt = 0
+            tmp_list = []
+            for tmp_key, tmp_value in v_value[1].items():
+                if tmp_cnt == (len(v_value[1]) - 1):
+                    tmp_dic = {}
+                    graph_json['task2']['final_step'] = pair_instruction[tmp_cnt]
+                    tmp_dic['source_step'] = pair_instruction[tmp_cnt]
+                    tmp_dic['target_step'] = pair_instruction[tmp_cnt]
+                    tmp_dic['time'] = pair_time[tmp_cnt]
+                    tmp_tool_list = []
+                    for x in tmp_value.split(','):
+                        tmp_tool_list.append(x.strip(' '))
+                    tmp_dic['tools'] = tmp_tool_list
+                    tmp_list.append(tmp_dic)
+                    break
+                if tmp_cnt == 0:
+                    graph_json['task2']['initial_source_step'] = pair_instruction[tmp_cnt]
+                tmp_dic = {}
+                tmp_dic['source_step'] = pair_instruction[tmp_cnt]
+                tmp_dic['target_step'] = pair_instruction[tmp_cnt + 1]
+                tmp_dic['time'] = pair_time[tmp_cnt]
+                tmp_tool_list = []
+                for x in tmp_value.split(','):
+                    tmp_tool_list.append(x.strip(' '))
+                tmp_dic['tools'] = tmp_tool_list
+                tmp_cnt += 1
+                tmp_list.append(tmp_dic)
+            graph_json['task2']['steps'] = tmp_list
+
+            prompt = graph_prompt(json.dumps(graph_json, indent=4))
+            # print(prompt)
+            result = run_llm(prompt)
+            print(result)
+            save[key + '+' + v_key] = result
+        with open('../data/schedule_results/GPT4o_graph_cars.json', 'w') as f:
+            json.dump(save, f, indent=4)
 
 
 schedule_analyse()
-# with open('../data/schedule_results/GPT4o_cars.json', 'r') as f:
+# with open('../data/schedule_results/GPT4o_graph_cars.json', 'r') as f:
 #     result = json.load(f)
 #
 # save = {}
@@ -319,37 +542,37 @@ schedule_analyse()
 #     if flag == 0:
 #         print(key)
 #
-# with open('../data/schedule_results/GPT4o_cars_result.json', 'w') as f:
+# with open('../data/schedule_results/GPT4o_graph_cars_result.json', 'w') as f:
 #     json.dump(save, f, indent=4)
-
-with open('../data/schedule_results/R1_cars_result.json', 'r') as f:
-    results = json.load(f)
-
-with open('../data/schedule_results/R1_cars.json', 'r') as f:
-    result = json.load(f)
-
-with open('../data/schedule_results/Schedule_grd_cars.json', 'r') as f:
-    grd = json.load(f)
-
-ground_truth = {}
-for x in grd['Conflict']:
-    for key, value in x.items():
-        ground_truth[key] = value['makespan'] / 100
-for x in grd['Parallel']:
-    for key, value in x.items():
-        ground_truth[key] = value['makespan'] / 100
-
-cnt_correct = 0
-cnt_wrong = 0
-cnt_fail = 0
-for key, value in results.items():
-    if value == 'FAIL':
-        cnt_fail += 1
-        continue
-    if int(value) == ground_truth[key]:
-        cnt_correct += 1
-    elif int(value) > ground_truth[key]:
-        print(key)
-        cnt_wrong += 1
-print(cnt_fail, cnt_correct, cnt_wrong)
+#
+# with open('../data/schedule_results/GPT4o_graph_cars_result.json', 'r') as f:
+#     results = json.load(f)
+#
+# with open('../data/schedule_results/R1_cars.json', 'r') as f:
+#     result = json.load(f)
+#
+# with open('../data/schedule_results/Schedule_grd_cars.json', 'r') as f:
+#     grd = json.load(f)
+#
+# ground_truth = {}
+# for x in grd['Conflict']:
+#     for key, value in x.items():
+#         ground_truth[key] = value['makespan'] / 100
+# for x in grd['Parallel']:
+#     for key, value in x.items():
+#         ground_truth[key] = value['makespan'] / 100
+#
+# cnt_correct = 0
+# cnt_wrong = 0
+# cnt_fail = 0
+# for key, value in results.items():
+#     if value == 'FAIL':
+#         cnt_fail += 1
+#         continue
+#     if int(value) == ground_truth[key]:
+#         cnt_correct += 1
+#     elif int(value) < ground_truth[key]:
+#         print(key)
+#         cnt_wrong += 1
+# print(cnt_fail, cnt_correct, cnt_wrong)
 # print(result['How To Repair Car Paint Chips_1+How To Powder Coat_0'][0])
