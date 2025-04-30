@@ -1,0 +1,69 @@
+{
+    "How To Freeze Breast Milk": {
+        "0": {
+            "1": "Measuring cup",
+            "2": "None",
+            "3": "Pen",
+            "4": "Freezer"
+        }
+    },
+    "How To Clean up Battery Acid Spills": {
+        "2": {
+            "1": "Gloves,Mask",
+            "2": "Cup, Teaspoon",
+            "3": "Cloth",
+            "4": "Cloth"
+        }
+    },
+    "How To Remove Ceiling Mold": {
+        "0": {
+            "1": "Gloves,Mask",
+            "2": "Scraper",
+            "3": "Spray bottle",
+            "4": "Sponge",
+            "5": "None"
+        }
+    },
+    "How To Give a Kitten a Bath": {
+        "0": {
+            "1": "Bathtub",
+            "2": "Bathtub",
+            "3": "Bathtub,Cloth",
+            "4": "Cup,Bathtub",
+            "5": "Bathtub",
+            "6": "Bathtub",
+            "7": "Cloth"
+        }
+    },
+    "How To Sanitize a Toothbrush": {
+        "1": {
+            "1": "Hose",
+            "2": "None",
+            "3": "Cup",
+            "4": "None"
+        }
+    },
+    "How To Prepare Breast Milk": {
+        "1": {
+            "1": "Bowl",
+            "2": "Dropper",
+            "3": "Bowl,Stove"
+        }
+    },
+    "How To Eat Aloe Vera": {
+        "1": {
+            "1": "Knife,Spoon",
+            "2": "Spoon",
+            "3": "Spoon,Blender"
+        }
+    },
+    "How To Make a Medical Marijuana Oil": {
+        "0": {
+            "1": "Bowl",
+            "2": "Bowl, Spoon",
+            "3": "Strainer",
+            "4": "Double boiler",
+            "5": "Double boiler,Stove"
+        }
+    }
+}

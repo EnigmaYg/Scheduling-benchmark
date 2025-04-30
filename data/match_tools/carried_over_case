@@ -14,3 +14,29 @@ until How To Make a Doggie Birthday Cake_0
 
 
 preheat: How To Make Doggie Biscuits_0
+
+**How To Make a Blackberry Pie**
+
+材料当工具：How To Make a Thor Costume
+工具就是不作为一部分："How To Take Cuttings"
+平面这些不算："How To Make a Sleeveless Shirt"
+锅和灶台：How To Boil Asparagus
+
+在任务内部数量不止一个的工具（都是一套或者一组
+去掉所有or的工具组合
+工具在材料里有的
+
+preheat: How To Make Zucchini Fries 0;
+
+工具的公用：Cloth （clean damp cloth，rag, Clean towel）， Hose (Shower head) , Large pot(pot), Oven-safe skillet(skillet) ， Cooking oil spray（spary），Container for melting wax（bowl）， Cutting tool（knife)
+会去掉一些可以去掉的形容限定词
+
+直接加工好或者成品（How To Cook a Snake，在组合的时候要相同setting
+如果考虑需要恢复原状（加时间洗 // 保证不能中断
+
+
+1. Plan-over-graph/graph-llm-asynchow: 观察graph的构建形式，尝试自然语言表达形式和graph形式下答案的差别
+2. JSSP：相同问题改写为JSSP形式会有什么不同
+3. over-think: 尝试一个路由器/分类器 构造启发思维的短CoT，作为prompt增加 或者 直接用预训练的模型
+4. 数据集继续构建
+* 应用部分：具身智能（某篇over-think论文中的）

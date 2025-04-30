@@ -3286,10 +3286,10 @@
     "How To Clean Rings": {
         "1": {
             "Tool_steps": {
-                "1": "Bowl,Spoon,Aluminum foil",
+                "1": "Bowl,Spoon",
                 "2": "Bowl"
             },
-            "Materials": "Baking soda, Warm water, Ring, ",
+            "Materials": "Baking soda, Warm water, Ring,Aluminum foil",
             "Tools": {
                 "Bowl": 1,
                 "Spoon": 1,
@@ -25566,12 +25566,12 @@
     "How To Clean Stainless Steel Jewelry": {
         "0": {
             "Tool_steps": {
-                "1": "Microfiber cloth,Soapy water",
+                "1": "Microfiber cloth",
                 "2": "Soft-bristled toothbrush",
                 "3": "None",
                 "4": "Dry towel"
             },
-            "Materials": "Jewelry, Jewelry, Jewelry, ",
+            "Materials": "Jewelry, Jewelry, Jewelry,Soapy water",
             "Tools": {
                 "Microfiber cloth": 1,
                 "Soapy water": 1,
@@ -35014,9 +35014,9 @@
                 "2": "Wet cloth",
                 "3": "Scrubber",
                 "4": "None",
-                "5": "Nail polish remover,Paper towel"
+                "5": "Paper towel"
             },
-            "Materials": "Detergent, Water, ",
+            "Materials": "Detergent, Water, Nail polish remover",
             "Tools": {
                 "Scraper": 1,
                 "Wet cloth": 1,

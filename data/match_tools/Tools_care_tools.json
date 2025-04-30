@@ -1,0 +1,381 @@
+{
+    "How To Fix Broken Makeup": {
+        "0": {
+            "1": "Pan",
+            "2": "Pan",
+            "3": "Pan",
+            "4": "Pan",
+            "5": "Pan,Spoon"
+        }
+    },
+    "How To Make Makeup": {
+        "0": {
+            "1": "Bowl",
+            "2": "Bowl,Stove",
+            "3": "Bowl,Spoon",
+            "4": "Tube,Dropper",
+            "5": "Tube"
+        }
+    },
+    "How To Fix Clumpy Mascara": {
+        "1": {
+            "1": "Pot, Stove",
+            "2": "Pot",
+            "3": "Tongs",
+            "4": "None",
+            "5": "None",
+            "6": "Dropper"
+        }
+    },
+    "How To Clean a Plastic Retainer": {
+        "0": {
+            "1": "Hose",
+            "2": "Bowl",
+            "3": "Toothbrush",
+            "4": "Hose"
+        }
+    },
+    "How To Make Lotion": {
+        "0": {
+            "1": "Bowl,Pan, Stove",
+            "2": "Bowl,Pan,Spoon, Stove",
+            "3": "Bowl,Freezer",
+            "4": "Bowl,Spoon",
+            "5": "None"
+        }
+    },
+    "How To Make Homemade Shampoo": {
+        "1": {
+            "1": "Stove,Pan",
+            "2": "Measuring cup,Bowl,Spoon",
+            "3": "Bowl,Spoon",
+            "4": "Funnel"
+        }
+    },
+    "How To Clean Rings": {
+        "1": {
+            "1": "Bowl,Spoon",
+            "2": "Bowl"
+        }
+    },
+    "How To Make Deodorant": {
+        "0": {
+            "1": "Double boiler,Spoon",
+            "2": "Double boiler,Spoon",
+            "3": "Double boiler,Spoon",
+            "4": "Double boiler,Spoon",
+            "5": "Double boiler,Spoon,Bowl",
+            "6": "Bowl"
+        }
+    },
+    "How To Make Natural Shampoo": {
+        "0": {
+            "1": "Cup,Spoon",
+            "2": "Cup,Spoon",
+            "3": "Cup",
+            "4": "Cup"
+        }
+    },
+    "How To Clean Leather Sandals": {
+        "0": {
+            "1": "Cloth",
+            "2": "Cloth",
+            "3": "Cloth"
+        }
+    },
+    "How To Iron a Suit Jacket": {
+        "0": {
+            "1": "Iron",
+            "2": "None",
+            "3": "Spray bottle",
+            "4": "Iron",
+            "5": "Iron",
+            "6": "Iron"
+        }
+    },
+    "How To Improve Straw Textured Hair": {
+        "2": {
+            "1": "Comb",
+            "2": "Comb",
+            "3": "None",
+            "4": "Towel",
+            "5": "Dryer"
+        }
+    },
+    "How To Clean Hunter Boots": {
+        "0": {
+            "1": "None",
+            "2": "Spray bottle",
+            "3": "None",
+            "4": "Cloth",
+            "5": "Cloth",
+            "6": "Eraser"
+        }
+    },
+    "How To Make the Hairs on Your Arms Lighter": {
+        "0": {
+            "1": "Measuring cup,Bowl,Spoon",
+            "2": "Bowl",
+            "3": "Bowl",
+            "4": "None",
+            "5": "Hose"
+        }
+    },
+    "How To Fix Dried Out Eyeliner Gel": {
+        "0": {
+            "1": "Cup",
+            "2": "Cup,Brush"
+        }
+    },
+    "How To Clean a Menstrual Cup": {
+        "0": {
+            "1": "Bowl",
+            "2": "Toothbrush",
+            "3": "Hose",
+            "4": "Pot, Stove",
+            "5": "Cloth"
+        }
+    },
+    "How To Clean Sapphires": {
+        "1": {
+            "1": "Cloth",
+            "2": "Bowl",
+            "3": "Cloth",
+            "4": "Hose",
+            "5": "Cloth"
+        }
+    },
+    "How To Make Your Own Shaving Cream": {
+        "1": {
+            "1": "Pan",
+            "2": "Blender",
+            "3": "Blender",
+            "4": "Blender",
+            "5": "None"
+        }
+    },
+    "How To Protect Winter Boots": {
+        "0": {
+            "1": "Spray bottle",
+            "2": "Spray bottle,Sponge"
+        }
+    },
+    "How To Fix Wet Suede Shoes": {
+        "0": {
+            "1": "None",
+            "2": "Tissue",
+            "3": "Brush",
+            "4": "Eraser"
+        }
+    },
+    "How To Get Sweat Stains out of Bras": {
+        "1": {
+            "1": "None",
+            "2": "Toothbrush",
+            "3": "Hose"
+        }
+    },
+    "How To Make Aloe Vera Shampoo": {
+        "0": {
+            "1": "Pot,Stove",
+            "2": "Pot,Stove,Spoon",
+            "3": "Strainer",
+            "4": "Pot,Spoon",
+            "5": "Pot,Spoon",
+            "6": "Funnel"
+        }
+    },
+    "How To Get a Makeup Stain out of Clothes Without Washing": {
+        "0": {
+            "1": "Tissue",
+            "2": "Spray bottle",
+            "3": "Cloth",
+            "4": "Cloth",
+            "5": "Cloth"
+        }
+    },
+    "How To Make an Avocado Mask for Hair": {
+        "0": {
+            "1": "Spoon, Blender",
+            "2": "Blender",
+            "3": "Blender,Teaspoon",
+            "4": "None",
+            "5": "Clip",
+            "6": "None"
+        }
+    },
+    "How To Spot Clean Suede": {
+        "0": {
+            "1": "Toothbrush",
+            "2": "Eraser",
+            "3": "Cloth",
+            "4": "Cloth"
+        }
+    },
+    "How To Clean Stainless Steel Jewelry": {
+        "0": {
+            "1": "Microfiber cloth",
+            "2": "Toothbrush",
+            "3": "Bowl",
+            "4": "Cloth"
+        }
+    },
+    "How To Clean a Mascara Brush": {
+        "1": {
+            "1": "Cup",
+            "2": "Cup",
+            "3": "Cloth"
+        }
+    },
+    "How To Clean Your Silver Jewelry": {
+        "0": {
+            "1": "Bowl,Spoon",
+            "2": "Bowl",
+            "3": "Bowl",
+            "4": "Bowl",
+            "5": "Hose",
+            "6": "Cloth"
+        }
+    },
+    "How To Get Wrinkles Out of a Graduation Gown": {
+        "1": {
+            "1": "Iron",
+            "2": "Iron",
+            "3": "None"
+        }
+    },
+    "How To Stretch High Heels": {
+        "0": {
+            "1": "Socks",
+            "2": "None",
+            "3": "Dryer",
+            "4": "None",
+            "5": "None"
+        }
+    },
+    "How To Iron a Shirt": {
+        "0": {
+            "1": "None",
+            "2": "Iron",
+            "3": "Iron",
+            "4": "None",
+            "5": "Iron",
+            "6": "Iron",
+            "7": "Iron",
+            "8": "Iron",
+            "9": "Iron",
+            "10": "Iron"
+        }
+    },
+    "How To Make a Honey and Sugar Face Scrub": {
+        "0": {
+            "1": "Bowl, Teaspoon",
+            "2": "None",
+            "3": "None",
+            "4": "None"
+        }
+    },
+    "How To Make Homemade Bath Salts": {
+        "0": {
+            "1": "Bowl",
+            "2": "Bowl,Spoon",
+            "3": "Bowl",
+            "4": "Bowl",
+            "5": "Baking sheet",
+            "6": "Oven,Baking sheet,Spoon"
+        }
+    },
+    "How To Clean a Suede Jacket": {
+        "0": {
+            "1": "Brush",
+            "2": "Brush,Eraser"
+        }
+    },
+    "How To Clean Gold Jewelry": {
+        "0": {
+            "1": "Bowl",
+            "2": "Bowl,Toothbrush",
+            "3": "Hose",
+            "4": "Cloth"
+        }
+    },
+    "How To Make Moisturizer": {
+        "0": {
+            "1": "Double boiler,Spoon",
+            "2": "Double boiler,Spoon",
+            "3": "Double boiler,Dropper",
+            "4": "Freezer",
+            "5": "Spoon",
+            "6": "Freezer",
+            "7": "None"
+        }
+    },
+    "How To Clean Dentures With Vinegar": {
+        "0": {
+            "1": "Bowl",
+            "2": "Bowl",
+            "3": "Toothbrush"
+        }
+    },
+    "How To Polish Shoes": {
+        "1": {
+            "1": "Cloth",
+            "2": "None",
+            "3": "Brush",
+            "4": "None",
+            "5": "Brush"
+        }
+    },
+    "How To Make Hair Spray": {
+        "0": {
+            "1": "Pan,Stove",
+            "2": "Pan,Spoon,Stove",
+            "3": "Pan",
+            "4": "Pan,Dropper",
+            "5": "Funnel,Spray bottle"
+        }
+    },
+    "How To Clean an Electric Toothbrush": {
+        "0": {
+            "1": "Bowl",
+            "2": "Hose"
+        },
+        "1": {
+            "1": "Cloth",
+            "2": "Cloth",
+            "3": "Cloth",
+            "4": "None"
+        }
+    },
+    "How To Clean Crocs": {
+        "1": {
+            "1": "Hose",
+            "2": "Bucket",
+            "3": "Bucket",
+            "4": "Brush",
+            "5": "Hose"
+        }
+    },
+    "How To Clean Jewelry": {
+        "0": {
+            "1": "Bowl",
+            "2": "Toothbrush"
+        }
+    },
+    "How To Get Paint Off Canvas Shoes": {
+        "0": {
+            "1": "Scraper",
+            "2": "Cloth",
+            "3": "Brush",
+            "4": "Hose",
+            "5": "Cloth"
+        }
+    },
+    "How To Make Hair Gel": {
+        "0": {
+            "1": "Pot,Spoon,Stove",
+            "2": "Strainer",
+            "3": "Bowl,Dropper"
+        }
+    }
+}

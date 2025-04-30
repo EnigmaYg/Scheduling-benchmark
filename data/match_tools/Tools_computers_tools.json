@@ -1,0 +1,79 @@
+{
+    "How To Clean a Macbook Pro Screen": {
+        "0": {
+            "1": "None",
+            "2": "None",
+            "3": "Microfiber cloth",
+            "4": "Microfiber cloth",
+            "5": "Microfiber cloth",
+            "6": "Microfiber cloth"
+        }
+    },
+    "How To Change a Graphics Card": {
+        "0": {
+            "1": "None",
+            "2": "None",
+            "3": "None",
+            "4": "Screwdriver",
+            "5": "None",
+            "6": "None",
+            "7": "None",
+            "8": "Screwdriver",
+            "9": "None",
+            "10": "None"
+        }
+    },
+    "How To Clean an Airpods Case": {
+        "0": {
+            "1": "Microfiber cloth",
+            "2": "Microfiber cloth",
+            "3": "Cotton swab",
+            "4": "Cotton swab",
+            "5": "Toothpick"
+        }
+    },
+    "How To Clean a Mac Keyboard": {
+        "1": {
+            "1": "None",
+            "2": "None",
+            "3": "None",
+            "4": "Cloth",
+            "5": "Microfiber cloth"
+        }
+    },
+    "How To Clean Circuit Boards": {
+        "1": {
+            "1": "Cotton swab",
+            "2": "Cotton swab",
+            "3": "None"
+        }
+    },
+    "How To Clean a Laptop Keyboard": {
+        "0": {
+            "1": "None",
+            "2": "Microfiber cloth",
+            "3": "Cotton swab",
+            "4": "Compressor",
+            "5": "Microfiber cloth"
+        }
+    },
+    "How To Clean a PlayStation 4": {
+        "1": {
+            "1": "Compressor",
+            "2": "Compressor",
+            "3": "Cloth",
+            "4": "Cloth",
+            "5": "None"
+        }
+    },
+    "How To Clean a PC": {
+        "0": {
+            "1": "Screwdriver",
+            "2": "Screwdriver,Vacuum",
+            "3": "Vacuum,Compressor",
+            "4": "Compressor,Toothbrush",
+            "5": "Toothbrush",
+            "6": "Screwdriver"
+        }
+    }
+}
