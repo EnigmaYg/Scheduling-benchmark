@@ -159,8 +159,8 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
         previous_step = None
         for i, duration in enumerate(steps):
             step_id = (job_name, i)
-            start = model.NewIntVar(0, 10000, f'{job_name}_{i}_start')
-            end = model.NewIntVar(0, 10000, f'{job_name}_{i}_end')
+            start = model.NewIntVar(0, 36000, f'{job_name}_{i}_start')
+            end = model.NewIntVar(0, 36000, f'{job_name}_{i}_end')
             interval = model.NewIntervalVar(start, duration, end, f'{job_name}_{i}_interval')
 
             step_vars[step_id] = (start, duration, end)
@@ -191,7 +191,7 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
         # dummy_interval: 工具 b 从 step i 结束 到 step j 开始期间保持占用
         gap_start = e_i
         gap_end = s_j
-        gap_size = model.NewIntVar(0, 10000, f'{job_name}_{i}_{j}_gap_dur')
+        gap_size = model.NewIntVar(0, 36000, f'{job_name}_{i}_{j}_gap_dur')
         model.Add(gap_size == gap_end - gap_start)
 
         dummy_interval = model.NewIntervalVar(gap_start, gap_size, gap_end, f'{job_name}_{i}_{j}_gap_{tool}')
@@ -201,7 +201,7 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
         model.AddNoOverlap(intervals)
     # 步骤4：makespan 最小化
     all_ends = [step_vars[(job, len(steps) - 1)][2] for job, steps in tasks.items()]
-    makespan = model.NewIntVar(0, 10000, 'makespan')
+    makespan = model.NewIntVar(0, 36000, 'makespan')
     model.AddMaxEquality(makespan, all_ends)
     model.Minimize(makespan)
 
@@ -222,11 +222,10 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
                     'start': solver.Value(start),
                     'duration': dur
                 })
-        print(result)
         return result
     else:
         print("❌ No feasible solution found.")
-        return None
+        return "None"
 
 
 # tasks = {
@@ -239,18 +238,87 @@ def schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_us
 #     'taskB': [['a'], ['c'], ['b'], ['c'], ['b'], ['a, c']]
 # }
 
-tasks = {
-    'taskA': [10, 80],
-    'taskB': [10, 10, 10, 10]
-}
+with open('../data/match_tools/pair_tools_cars.json', 'r') as f:
+    tools = json.load(f)
 
-tool_usage = {
-    'taskA': [['b'], ['b', 'a']],
-    'taskB': [['a'], ['b'], ['c'], ['c']]
-}
+with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
+    times = json.load(f)
 
-continuous_tool_usage = [
-    ('taskA', 0, 1, 'b'),  # 表示 taskA 的第1步 和 第2步之间，tool b 要连续占用（注意从0开始计数）
-]
+save = {'Conflict': [], 'Parallel': []}
+cnt1 = 0
+cnt2 = 0
+for key, value in tools.items():
+    for v_key, v_value in value.items():
+        tmp_dic = {}
+        tmp_time1 = times[key.split('_')[0]][key.split('_')[1]]
+        time1 = []
+        for x in tmp_time1:
+            time1.append(int(x * 100))
+        tmp_time2 = times[v_key.split('_')[0]][v_key.split('_')[1]]
+        time2 = []
+        for x in tmp_time2:
+            time2.append(int(x * 100))
 
-schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_usage)
+        max_time = max(sum(time1), sum(time2))
+
+        tool_list1 = []
+        for tmp_key, tmp_value in v_value[0].items():
+            tmp_tool_list = []
+            for x in tmp_value.split(','):
+                if x.strip(' ') not in tmp_tool_list:
+                    tmp_tool_list.append(x.strip(' '))
+            if tmp_tool_list[0] == 'None':
+                tmp_tool_list = []
+            tool_list1.append(tmp_tool_list)
+        tool_list2 = []
+        for tmp_key, tmp_value in v_value[1].items():
+            tmp_tool_list = []
+            for x in tmp_value.split(','):
+                if x.strip(' ') not in tmp_tool_list:
+                    tmp_tool_list.append(x.strip(' '))
+            if tmp_tool_list[0] == 'None':
+                tmp_tool_list = []
+            tool_list2.append(tmp_tool_list)
+        tasks = {
+            'taskA': time1,
+            'taskB': time2
+        }
+
+        tool_usage = {
+            'taskA': tool_list1,
+            'taskB': tool_list2
+        }
+
+        continuous_tool_usage = []
+
+        result = schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_usage)
+        result['max_time'] = max_time
+        tmp_dic[key + '+' + v_key] = result
+        if result == 'None':
+            continue
+        if result['makespan'] > max_time:
+            cnt1 += 1
+            save['Conflict'].append(tmp_dic)
+        elif result['makespan'] == max_time:
+            cnt2 += 1
+            save['Parallel'].append(tmp_dic)
+        else:
+            print(key, v_key)
+print(cnt1, cnt2)
+with open('../data/schedule_results/Schedule_grd_cars.json', 'w') as f:
+    json.dump(save, f, indent=4)
+# tasks = {
+#     'taskA': [10, 80],
+#     'taskB': [10, 10, 10, 10]
+# }
+#
+# tool_usage = {
+#     'taskA': [['b'], ['b', 'a']],
+#     'taskB': [['a'], ['b'], ['c'], ['c']]
+# }
+#
+# continuous_tool_usage = [
+#     ('taskA', 0, 1, 'b'),  # 表示 taskA 的第1步 和 第2步之间，tool b 要连续占用（注意从0开始计数）
+# ]
+
+# schedule_tasks_with_explicit_tool_lock(tasks, tool_usage, continuous_tool_usage)

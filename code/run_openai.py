@@ -1,12 +1,15 @@
 import json
 import os
 from openai import OpenAI
+import re
 
 client = OpenAI(
     api_key="sk-rh8wi5OXclyhFu7spfK69E7UHU5BkOdIqRsl0xslPiFRgQg3",
     base_url="https://api.key77qiqi.cn/v1"
 )
 
+# client = OpenAI(api_key="sk-b102ebd6c4884ba7a6f745ee1d558d19", base_url="https://api.deepseek.com")
+# sk-b102ebd6c4884ba7a6f745ee1d558d19, my: sk-36bb76d68d1d46e0b93de07e2b907546
 
 def get_prompt(question, answer):
     Prompt = f'''You are an expert in solving procedural problems. You are tasked with analyzing the tools, and materials required for solving a procedural problem. For each step of the process, you need to output with the following rules: 
@@ -113,15 +116,17 @@ Your response:
 
 
 def get_prompt3(question1, answer1, question2, answer2, tools, materials):
-    Prompt = f'''You are an expert in solving procedural problems. I now have two procedural problems and give the steps to solve them and the time and tools required for each step. However, I only have valid tools, but unlimited materials. I need you to plan whether it is possible to complete these two tasks at the same time based on these valid tools, and give the best method.
-[Question A:] 
+    Prompt = f'''You are an expert in solving procedural problems. Now, you are presented with two procedural tasks, each accompanied by a list of steps, along with the time and tools required for each step. Although there are unlimited materials available to complete the tasks, the number of available tools is limited. Your task is to determine, based on the limited tools, whether it is possible to complete both tasks concurrently, and to propose the optimal plan.
+Please note that your focus is on allocating tools and scheduling the completion plan — you do not need to consider human resource limitations or any tool transportation or movement issues.
+
+[Task A:] 
 {question1}
-[Answer A:]
+[Instructions A:]
 {answer1}
 
-[Question B:] 
+[Task B:] 
 {question2}
- [Answer B:]
+[Instructions B:]
 {answer2}
 
 
@@ -131,6 +136,8 @@ Please analyze whether you can complete this task and give the most efficient op
 A.1 (start at minutes x, end at minutes x) Tool X 
 B.1 (start at minutes x, end at minutes x) Tool X 
 A.1 (start at minutes x, end at minutes x) Tool X 
+...
+[Total time: x minutes]
 
 If it cannot be completed, directly output FAIL
 
@@ -143,7 +150,8 @@ Your response:
 
 def run_llm(prompt):
     completion = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
+        # model="deepseek-reasoner",
         messages=[
             {
                 "role": "user",
@@ -152,6 +160,7 @@ def run_llm(prompt):
         ],
     )
     return completion.choices[0].message.content
+    # return [completion.choices[0].message.content, completion.choices[0].message.reasoning_content]
 
 
 def tool_analyse():
@@ -205,62 +214,142 @@ def schedule_analyse():
     with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
         instructions = json.load(f)
 
-    with open('../data/time_step/Wikihow_time_filtered.json', 'r') as f:
+    with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
         times = json.load(f)
 
-    with open('../data/tmp/Wikihow_sample_paired.json', 'r') as f:
+    with open('../data/match_tools/pair_tools_cars.json', 'r') as f:
         paired = json.load(f)
 
-    with open('../data/tmp/Wikihow_sample_tools_parse.json', 'r') as f:
+    with open('../data/match_tools/tools_analyse_parse.json', 'r') as f:
         tools = json.load(f)
 
-    with open('../data/tmp/Wikihow_sample_tools_retrieved_parse.json', 'r') as f:
-        other_tools = json.load(f)
+    with open('../data/schedule_results/R1_cars.json', 'r') as f:
+        save = json.load(f)
 
-    save = {}
+    # save = {}
+    cnt = 0
     for key, value in paired.items():
-        question1 = key.split('_')[0]
-        idx = key.split('_')[1]
-        instruction_answer = instructions[question1][idx]
-        time_list = times[question1][idx]
-        tmp_tool_dic = tools[key]['Tool_steps']
-        answer1 = ''
-        for instruction in instruction_answer:
-            answer1 += instruction + '(Time: '
-            answer1 += str(time_list[instruction_answer.index(instruction)]) + ' minutes) '
-            answer1 += '(Tools: ' + str(tmp_tool_dic[str(instruction_answer.index(instruction) + 1)]) + ')\n'
-        materials = tools[key]['Materials']
-        tool_dic = tools[key]['Tools']
+        # if cnt > 10:
+        #     break
+        cnt += 1
+        for v_key, v_value in value.items():
+            if (key + '+' + v_key) in save:
+                continue
+            tool_list = []
+            key_question = key.split('_')[0]
+            key_question_idx = key.split('_')[1]
+            key_time = times[key_question][key_question_idx]
+            key_instruction = instructions[key_question][key_question_idx]
+            key_answer = ''
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[0].items():
+                key_answer += key_instruction[tmp_cnt]
+                key_answer += f' (Time: {key_time[tmp_cnt]} minute(s)) (Tools: '
+                for x in tmp_value.split(','):
+                    key_answer += x.strip(' ') + ', '
+                    if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
+                        tool_list.append(x.strip(' '))
+                key_answer = key_answer.strip(' ').strip(',')
+                key_answer += ')\n'
+                tmp_cnt += 1
 
-        tmp_dic = {}
-        for pair_question in value:
-            question2 = pair_question.split('_')[0]
-            idx2 = pair_question.split('_')[1]
-            instruction_answer = instructions[question2][idx2]
-            time_list = times[question2][idx2]
-            tmp_tool_dic = other_tools[pair_question]['Tool_steps']
-            answer2 = ''
-            for instruction in instruction_answer:
-                answer2 += instruction + '(Time: '
-                answer2 += str(time_list[instruction_answer.index(instruction)]) + ' minutes)'
-                answer2 += '(Tools: ' + str(tmp_tool_dic[str(instruction_answer.index(instruction) + 1)]) + ')\n'
-            materials += other_tools[pair_question]['Materials']
-            materials = materials[:-2]
-            for tool_key, tool_value in other_tools[pair_question]['Tools'].items():
-                if tool_key in tool_dic:
-                    tool_dic[tool_key] = max(tool_dic[tool_key], tool_value)
-                else:
-                    tool_dic[tool_key] = tool_value
-            tools_string = ''
-            for tool_key, tool_value in tool_dic.items():
-                tools_string += tool_key + f'({tool_value}), '
-            prompt = get_prompt3(question1, answer1, question2, answer2, tools_string, materials)
+            pair_question = v_key.split('_')[0]
+            pair_question_idx = v_key.split('_')[1]
+            pair_time = times[pair_question][pair_question_idx]
+            pair_instruction = instructions[pair_question][pair_question_idx]
+            pair_answer = ''
+            tmp_cnt = 0
+            for tmp_key, tmp_value in v_value[1].items():
+                pair_answer += pair_instruction[tmp_cnt]
+                pair_answer += f' (Time: {pair_time[tmp_cnt]} minute(s)) (Tools: '
+                for x in tmp_value.split(','):
+                    pair_answer += x.strip(' ') + ', '
+                    if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
+                        tool_list.append(x.strip(' '))
+                pair_answer = pair_answer.strip(' ').strip(',')
+                pair_answer += ')\n'
+                tmp_cnt += 1
+
+            tool_string = ''
+            for tmp_tool in tool_list:
+                tool_string += tmp_tool + ' (1)' + ', '
+            tool_string = tool_string.strip(' ').strip(',')
+
+            material_list = []
+            for x in tools[key_question][key_question_idx]['Materials'].split(','):
+                if x.strip(' ') not in material_list:
+                    material_list.append(x.strip(' '))
+            for x in tools[pair_question][pair_question_idx]['Materials'].split(','):
+                if x.strip(' ') not in material_list:
+                    material_list.append(x.strip(' '))
+            material_string = ''
+            for tmp_material in material_list:
+                material_string += tmp_material + ', '
+            tool_string = tool_string.strip(' ').strip(',')
+
+            prompt = get_prompt3(key_question[4:], key_answer, pair_question[4:], pair_answer, tool_string, material_string)
             print(prompt)
-            # response = run_llm(prompt)
-            # print(response)
-            # tmp_dic[pair_question] = response
-        save[key] = tmp_dic
-        with open('../data/tmp/GPT4o_sample_results_with_tools.json', 'w') as f:
-            json.dump(save, f, indent=4)
+            result = run_llm(prompt)
+            print(result)
+            save[key + '+' + v_key] = result
+        # with open('../data/schedule_results/R1_cars.json', 'w') as f:
+        #     json.dump(save, f, indent=4)
 
-tool_analyse()
+
+schedule_analyse()
+# with open('../data/schedule_results/GPT4o_cars.json', 'r') as f:
+#     result = json.load(f)
+#
+# save = {}
+# for key, value in result.items():
+#     flag = 0
+#     if value == 'FAIL':
+#         save[key] = 'FAIL'
+#         continue
+#     for x in value.split('\n'):
+#         if '[Total time:' in x:
+#             flag = 1
+#             match = re.search(r'\d+', x)
+#             if match:
+#                 number = match.group()
+#                 save[key] = number
+#                 # print(number)
+#             else:
+#                 print(key)
+#     if flag == 0:
+#         print(key)
+#
+# with open('../data/schedule_results/GPT4o_cars_result.json', 'w') as f:
+#     json.dump(save, f, indent=4)
+
+with open('../data/schedule_results/R1_cars_result.json', 'r') as f:
+    results = json.load(f)
+
+with open('../data/schedule_results/R1_cars.json', 'r') as f:
+    result = json.load(f)
+
+with open('../data/schedule_results/Schedule_grd_cars.json', 'r') as f:
+    grd = json.load(f)
+
+ground_truth = {}
+for x in grd['Conflict']:
+    for key, value in x.items():
+        ground_truth[key] = value['makespan'] / 100
+for x in grd['Parallel']:
+    for key, value in x.items():
+        ground_truth[key] = value['makespan'] / 100
+
+cnt_correct = 0
+cnt_wrong = 0
+cnt_fail = 0
+for key, value in results.items():
+    if value == 'FAIL':
+        cnt_fail += 1
+        continue
+    if int(value) == ground_truth[key]:
+        cnt_correct += 1
+    elif int(value) > ground_truth[key]:
+        print(key)
+        cnt_wrong += 1
+print(cnt_fail, cnt_correct, cnt_wrong)
+# print(result['How To Repair Car Paint Chips_1+How To Powder Coat_0'][0])
