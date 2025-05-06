@@ -97,41 +97,44 @@ def submit(prompt_list):
             tmp_dic[one_res_list[1]] = 'Danger'
             continue
         try:
-            tmp_dic[one_res_list[1]] = [result_response.choices[0].message.content.split('</think>')[1]]
+            tmp_dic[one_res_list[1]] = [result_response.choices[0].message.content.split('</think>')[0], result_response.choices[0].message.content.split('</think>')[1]]
         except:
             tmp_dic[one_res_list[1]] = 'FAILED'
     return tmp_dic
 
 
 def run():
-    with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
-        times = json.load(f)
+    # with open('../data/time_step/Wikihow_time_GT10.json', 'r') as f:
+    #     times = json.load(f)
 
-    with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
-        instructions = json.load(f)
+    # with open('../data/filtered_instructions/Wikihow_filtered_instructions.json', 'r') as f:
+    #     instructions = json.load(f)
 
-    with open('../data/setting_setup/WikiHow_categories.json', 'r') as f:
+    with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
         save = json.load(f)
+
+    with open('../data/tmp/cars_prompt.json', 'r') as f:
+        prompts = json.load(f)
 
     prompt_list = []
     cnt = 0
     all_cnt = 0
     print(len(save))
     # save = {}
-    for key, value in times.items():
-        if all_cnt < 400:
-            all_cnt += 1
-            continue
+    for key, value in prompts.items():
+        # if all_cnt < 400:
+        #     all_cnt += 1
+        #     continue
         if key in save:
             continue
         # if all_cnt > 399:
         #     break
-        all_cnt += 1
-        for v_key, v_value in value.items():
-            instruction_list = instructions[key][v_key]
-            break
-        prompt = get_prompt(key, '\n'.join(instruction_list))
-        prompt_list.append([prompt, key])
+        # all_cnt += 1
+        # for v_key, v_value in value.items():
+        #     instruction_list = instructions[key][v_key]
+        #     break
+        # prompt = get_prompt(key, '\n'.join(instruction_list))
+        prompt_list.append([value, key])
         cnt += 1
         if cnt > 19:
             tmp_dic = submit(prompt_list)
@@ -139,8 +142,13 @@ def run():
                 save[tmp_key] = tmp_value
             cnt = 0
             prompt_list = []
-        with open('../data/setting_setup/WikiHow_categories.json', 'w') as f:
+        with open('../data/schedule_results/Zhipuz1_cars.json', 'w') as f:
             json.dump(save, f, indent=4)
+    tmp_dic = submit(prompt_list)
+    for tmp_key, tmp_value in tmp_dic.items():
+        save[tmp_key] = tmp_value
+    with open('../data/schedule_results/Zhipuz1_cars.json', 'w') as f:
+        json.dump(save, f, indent=4)
 
 
 run()

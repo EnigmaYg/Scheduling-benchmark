@@ -115,10 +115,10 @@ Your response:
     return Prompt
 
 
-def get_prompt3(question1, answer1, question2, answer2, tools, materials):
+def get_prompt3(question1, answer1, question2, answer2, tools, materials, examples):
     Prompt = f'''You are an expert in solving procedural problems. Now, you are presented with two procedural tasks, each accompanied by a list of steps, along with the time and tools required for each step. Although there are unlimited materials available to complete the tasks, the number of available tools is limited. Your task is to determine, based on the limited tools, whether it is possible to complete both tasks concurrently, and to propose the optimal plan.
 Please note that your focus is on allocating tools and scheduling the completion plan — you do not need to consider human resource limitations or any tool transportation or movement issues.
-
+{examples}
 [Task A:] 
 {question1}
 [Instructions A:]
@@ -141,7 +141,6 @@ A.1 (start at minutes x, end at minutes x) Tool X
 
 If it cannot be completed, directly output FAIL
 
-Please use heuristic thinking to give potential conflicting constraints and final plan.
 Your response:
 
 '''
@@ -183,7 +182,7 @@ Your response:
 
 def run_llm(prompt):
     completion = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         # model="deepseek-reasoner",
         messages=[
             {
@@ -260,15 +259,45 @@ def schedule_analyse():
     #     save = json.load(f)
 
     save = {}
+    example = '''\n\nFor example:
+[Task A:] 
+To Remove Chewing Gum from a Car Seat
+[Instructions A:]
+1. Place 3 to 4 ice cubes in a sealed plastic bag. (Time: 1 minute(s)) (Tools: Ice, Sealed plastic bag)
+2. Set the bag on top of the gum and let it sit for about 5 minutes. (Time: 5 minute(s)) (Tools: Ice, Sealed plastic bag)
+3. Use a dull putty knife to separate the hardened gum from the car seat fabric, keeping the blade flat. (Time: 4 minute(s)) (Tools: Dull putty knife)
+
+[Task B:] 
+To Clean Frost Off Car Windows Quickly
+[Instructions B:]
+1. Turn on the car and crank up the heat as high as possible. (Time: 1 minute(s)) (Tools: None)
+2. Scrape the frost off the windows using a window scraper or a plastic credit card. (Time: 4 minute(s)) (Tools: Dull putty knife)
+3. Spray windshield wiper fluid and turn the wipers on to help dislodge the ice. (Time: 0.5 minute(s)) (Tools: None)
+4. Wipe, spray, and scrape the frost off the windows until it's all gone. (Time: 6 minute(s)) (Tools: Dull putty knife)
+
+Now there are the following tools, the number of which is in brackets: Ice (1), Sealed plastic bag (1), Dull putty knife (1)
+And unlimited materials, such as: Ice cubes, Windshield wiper fluid
+
+Your response:
+A.1 (start at 0, end at 1) Ice, Sealed plastic bag  
+B.1 (start at 0, end at 1) None  
+B.2 (start at 1, end at 5) Dull putty knife  
+A.2 (start at 1, end at 6) Ice, Sealed plastic bag  
+B.3 (start at 5, end at 5.5) None  
+A.3 (start at 11.5, end at 15.5) Dull putty knife  
+B.4 (start at 5.5, end at 11.5) Dull putty knife  
+[Total time: 15.5 minutes]\n\n
+'''
     cnt = 0
     for key, value in paired.items():
-        if cnt > 10:
-            break
+        # if cnt > 10:
+        #     break
         cnt += 1
         for v_key, v_value in value.items():
             if (key + '+' + v_key) in save:
                 continue
             tool_list = []
+            tool_dic = {}
             key_question = key.split('_')[0]
             key_question_idx = key.split('_')[1]
             key_time = times[key_question][key_question_idx]
@@ -278,10 +307,14 @@ def schedule_analyse():
             for tmp_key, tmp_value in v_value[0].items():
                 key_answer += key_instruction[tmp_cnt]
                 key_answer += f' (Time: {key_time[tmp_cnt]} minute(s)) (Tools: '
+                # key_answer += f' (Time: {key_time[tmp_cnt]} minute(s))\n'
                 for x in tmp_value.split(','):
                     key_answer += x.strip(' ') + ', '
                     if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
                         tool_list.append(x.strip(' '))
+                        tool_dic[x.strip(' ')] = 1
+                    elif (x.strip(' ') != 'None'):
+                        tool_dic[x.strip(' ')] += 1
                 key_answer = key_answer.strip(' ').strip(',')
                 key_answer += ')\n'
                 tmp_cnt += 1
@@ -292,20 +325,36 @@ def schedule_analyse():
             pair_instruction = instructions[pair_question][pair_question_idx]
             pair_answer = ''
             tmp_cnt = 0
+            tmp_tool_list = tool_list
+            removed_tool = ''
             for tmp_key, tmp_value in v_value[1].items():
                 pair_answer += pair_instruction[tmp_cnt]
                 pair_answer += f' (Time: {pair_time[tmp_cnt]} minute(s)) (Tools: '
+                # pair_answer += f' (Time: {pair_time[tmp_cnt]} minute(s))\n'
                 for x in tmp_value.split(','):
+                    if x.strip(' ') in tmp_tool_list:
+                        removed_tool = x.strip(' ')
                     pair_answer += x.strip(' ') + ', '
                     if (x.strip(' ') not in tool_list) and (x.strip(' ') != 'None'):
                         tool_list.append(x.strip(' '))
+                        tool_dic[x.strip(' ')] = 1
+                    elif (x.strip(' ') != 'None'):
+                        tool_dic[x.strip(' ')] += 1
                 pair_answer = pair_answer.strip(' ').strip(',')
                 pair_answer += ')\n'
                 tmp_cnt += 1
 
             tool_string = ''
+            # try:
+            #     tool_list.remove(removed_tool)
+            # except:
+            #     tool_list.remove(tool_list[0])
+            # if tool_list == None:
+            #     tool_string += 'None'
+            # else:
             for tmp_tool in tool_list:
-                tool_string += tmp_tool + ' (1)' + ', '
+                # tool_string += tmp_tool + f' ({tool_dic[tmp_tool]})' + ', '
+                tool_string += tmp_tool + f' (1)' + ', '
             tool_string = tool_string.strip(' ').strip(',')
 
             material_list = []
@@ -320,12 +369,13 @@ def schedule_analyse():
                 material_string += tmp_material + ', '
             tool_string = tool_string.strip(' ').strip(',')
 
-            prompt = get_prompt3(key_question[4:], key_answer, pair_question[4:], pair_answer, tool_string, material_string)
+            prompt = get_prompt3(key_question[4:], key_answer, pair_question[4:], pair_answer, tool_string, material_string, example)
             # print(prompt)
-            result = run_llm(prompt)
-            print(result)
-            save[key + '+' + v_key] = result
-        with open('../data/schedule_results/GPT4o_CoT_cars.json', 'w') as f:
+            # print('running!')
+            # result = run_llm(prompt)
+            # print(result)
+            save[key + '+' + v_key] = prompt
+        with open('../data/tmp/cars_prompt_1shot.json', 'w') as f:
             json.dump(save, f, indent=4)
 
 
@@ -520,7 +570,7 @@ def schedule_graph_analyse():
 
 
 schedule_analyse()
-# with open('../data/schedule_results/GPT4o_graph_cars.json', 'r') as f:
+# with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
 #     result = json.load(f)
 #
 # save = {}
@@ -541,11 +591,11 @@ schedule_analyse()
 #                 print(key)
 #     if flag == 0:
 #         print(key)
-#
-# with open('../data/schedule_results/GPT4o_graph_cars_result.json', 'w') as f:
+# #
+# with open('../data/schedule_results/Zhipuz1_cars_result.json', 'w') as f:
 #     json.dump(save, f, indent=4)
 #
-# with open('../data/schedule_results/GPT4o_graph_cars_result.json', 'r') as f:
+# with open('../data/schedule_results/Zhipuz1_cars_result.json', 'r') as f:
 #     results = json.load(f)
 #
 # with open('../data/schedule_results/R1_cars.json', 'r') as f:
@@ -571,8 +621,56 @@ schedule_analyse()
 #         continue
 #     if int(value) == ground_truth[key]:
 #         cnt_correct += 1
-#     elif int(value) < ground_truth[key]:
+#     elif int(value) > ground_truth[key]:
 #         print(key)
 #         cnt_wrong += 1
 # print(cnt_fail, cnt_correct, cnt_wrong)
 # print(result['How To Repair Car Paint Chips_1+How To Powder Coat_0'][0])
+with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
+    result = json.load(f)
+with open('../data/critic/Zhipuz1_cars_GPT4o_critic.json', 'r') as f:
+    critics = json.load(f)
+
+prompt = '''Please analyze the following heuristic reasoning, extract the correct plan that meets the tool conflict, and provide the conflict design and tool verification of these plans.
+Note that you do not need to solve the problem directly.
+
+For example:
+A.1 and B.1, B.2 conflict in tool x
+Plan 1
+Correct plan: start A.1 first, then B.1, B.2
+Tool verification: tool x continues to execute B.1, B.2 after A.1 is completed
+...
+
+'''
+rules = '\nNow given the reasoning content:\n\nYour response:'
+save_list1 = []
+save_list2 = []
+cnt = 0
+for key, value in result.items():
+    if value == 'FAILED':
+        continue
+    tmp_dic = {}
+    tmp_dic['instruction'] = prompt + value[0] + rules
+    tmp_dic['input'] = ''
+    tmp_dic['rejected'] = critics[key]
+    tmp_dic['chosen'] = value[1]
+    if cnt > 300:
+        save_list1.append(tmp_dic)
+    else:
+        save_list2.append(tmp_dic)
+    cnt += 1
+    # tmp_result = run_llm()
+    # save[key] = tmp_result
+with open('../data/tmp/DPO_critic_dataset_cars_test.json', 'w') as f:
+    json.dump(save_list1, f, indent=4)
+
+with open('../data/tmp/DPO_critic_dataset_cars_train.json', 'w') as f:
+    json.dump(save_list2, f, indent=4)
+# with open('../data/tmp/SFT_critic_dataset_cars_test.jsonl', 'w', encoding='utf-8') as file:
+#     for data in save_list1:
+#         json.dump(data, file, ensure_ascii=False)
+#         file.write('\n')
+# with open('../data/tmp/SFT_critic_dataset_cars_train.jsonl', 'w', encoding='utf-8') as file:
+#     for data in save_list2:
+#         json.dump(data, file, ensure_ascii=False)
+#         file.write('\n')
