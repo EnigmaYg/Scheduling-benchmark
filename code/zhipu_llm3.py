@@ -8,7 +8,7 @@ from tqdm import tqdm
 import json
 import re
 
-client = ZhipuAI(api_key="eb0109b67e804079afbb341d52817924.3ukrbKqXRe2yDHAU")  # 填写您自己的APIKey
+client = ZhipuAI(api_key="4a7f5bd0d9f64493ae53cb75a60c5fc5.ndQ0y4ij0CJDvxzD")  # 填写您自己的APIKey
 
 
 # 875, 1734, 2582, 3424
@@ -136,7 +136,7 @@ def run():
     all_cnt = 0
     print(len(save))
     save = {}
-    for key, value in removed_prompt_shot.items():
+    for key, value in removed_prompt.items():
         if all_cnt > 201:
             break
         all_cnt += 1
@@ -157,7 +157,7 @@ def run():
                 save[tmp_key] = tmp_value
             cnt = 0
             prompt_list = []
-        with open('../data/schedule_results/Zhipuz1_cars_removed_1shot.json.json', 'w') as f:
+        with open('../data/schedule_results/Zhipuz1_cars_removed.json.json', 'w') as f:
             json.dump(save, f, indent=4)
     # tmp_dic = submit(prompt_list)
     # for tmp_key, tmp_value in tmp_dic.items():
