@@ -157,7 +157,7 @@ def run():
                 save[tmp_key] = tmp_value
             cnt = 0
             prompt_list = []
-        with open('../data/schedule_results/Zhipuz1_cars_removed_1shot.json.json', 'w') as f:
+        with open('../data/schedule_results/Zhipuz1_cars_removed_1shot.json', 'w') as f:
             json.dump(save, f, indent=4)
     # tmp_dic = submit(prompt_list)
     # for tmp_key, tmp_value in tmp_dic.items():

@@ -561,111 +561,142 @@ def schedule_graph_analyse():
             graph_json['task2']['steps'] = tmp_list
 
             prompt = graph_prompt(json.dumps(graph_json, indent=4))
-            # print(prompt)
+            print(prompt)
             result = run_llm(prompt)
             print(result)
             save[key + '+' + v_key] = result
         with open('../data/schedule_results/GPT4o_graph_cars.json', 'w') as f:
             json.dump(save, f, indent=4)
 
+schedule_graph_analyse()
+# schedule_analyse()
+with open('../data/schedule_results/R1_cars.json', 'r') as f:
+    result = json.load(f)
+with open('../data/tmp/R1_cars_tokens.json', 'r') as f:
+    tokens = json.load(f)
 
-schedule_analyse()
-# with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
-#     result = json.load(f)
+results = {}
+for key, value in result.items():
+    value = value[1]
+    flag = 0
+    if 'FAIL' in value:
+        results[key] = 'FAIL'
+    if value == 'FAIL':
+        results[key] = 'FAIL'
+        continue
+    for x in value.split('\n'):
+        if 'Total time' in x:
+            flag = 1
+            match = re.search(r'\d+', x)
+            if match:
+                number = match.group()
+                results[key] = number
+                # print(number)
+            else:
+                print(key)
+    if flag == 0:
+        print(key)
 #
-# save = {}
-# for key, value in result.items():
-#     flag = 0
-#     if value == 'FAIL':
-#         save[key] = 'FAIL'
-#         continue
-#     for x in value.split('\n'):
-#         if '[Total time:' in x:
-#             flag = 1
-#             match = re.search(r'\d+', x)
-#             if match:
-#                 number = match.group()
-#                 save[key] = number
-#                 # print(number)
-#             else:
-#                 print(key)
-#     if flag == 0:
-#         print(key)
-# #
 # with open('../data/schedule_results/Zhipuz1_cars_result.json', 'w') as f:
 #     json.dump(save, f, indent=4)
 #
 # with open('../data/schedule_results/Zhipuz1_cars_result.json', 'r') as f:
 #     results = json.load(f)
-#
-# with open('../data/schedule_results/R1_cars.json', 'r') as f:
-#     result = json.load(f)
-#
-# with open('../data/schedule_results/Schedule_grd_cars.json', 'r') as f:
-#     grd = json.load(f)
-#
-# ground_truth = {}
-# for x in grd['Conflict']:
-#     for key, value in x.items():
-#         ground_truth[key] = value['makespan'] / 100
-# for x in grd['Parallel']:
-#     for key, value in x.items():
-#         ground_truth[key] = value['makespan'] / 100
-#
-# cnt_correct = 0
-# cnt_wrong = 0
-# cnt_fail = 0
-# for key, value in results.items():
-#     if value == 'FAIL':
-#         cnt_fail += 1
-#         continue
-#     if int(value) == ground_truth[key]:
-#         cnt_correct += 1
-#     elif int(value) > ground_truth[key]:
-#         print(key)
-#         cnt_wrong += 1
-# print(cnt_fail, cnt_correct, cnt_wrong)
-# print(result['How To Repair Car Paint Chips_1+How To Powder Coat_0'][0])
-with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
-    result = json.load(f)
-with open('../data/critic/Zhipuz1_cars_GPT4o_critic.json', 'r') as f:
-    critics = json.load(f)
 
-prompt = '''Please analyze the following heuristic reasoning, extract the correct plan that meets the tool conflict, and provide the conflict design and tool verification of these plans.
-Note that you do not need to solve the problem directly.
+with open('../data/schedule_results/Schedule_grd_cars.json', 'r') as f:
+    grd = json.load(f)
+with open('../data/setting_setup/cars_tool_statistic.json', 'r') as f:
+    tool_statistic = json.load(f)
+with open('../data/setting_setup/cars_instruct_statistic.json', 'r') as f:
+    instruct_statistic = json.load(f)
+ground_truth = {}
+for x in grd['Conflict']:
+    for key, value in x.items():
+        ground_truth[key] = value['makespan'] / 100
+for x in grd['Parallel']:
+    for key, value in x.items():
+        ground_truth[key] = value['makespan'] / 100
 
-For example:
-A.1 and B.1, B.2 conflict in tool x
-Plan 1
-Correct plan: start A.1 first, then B.1, B.2
-Tool verification: tool x continues to execute B.1, B.2 after A.1 is completed
-...
-
-'''
-rules = '\nNow given the reasoning content:\n\nYour response:'
-save_list1 = []
-save_list2 = []
-cnt = 0
-for key, value in result.items():
-    if value == 'FAILED':
+cnt_correct = 0
+cnt_wrong = 0
+cnt_fail = 0
+tool_dic = {"0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0]}
+instruct_dic = {"0": [0, 0], "1": [0, 0], "2": [0, 0]}
+token_list = [[0,0], [0,0], [0,0]]
+for key, value in results.items():
+    if value == 'FAIL':
+        cnt_fail += 1
         continue
-    tmp_dic = {}
-    tmp_dic['instruction'] = prompt + value[0] + rules
-    tmp_dic['input'] = ''
-    tmp_dic['rejected'] = critics[key]
-    tmp_dic['chosen'] = value[1]
-    if cnt > 300:
-        save_list1.append(tmp_dic)
+    if int(value) == ground_truth[key]:
+        cnt_correct += 1
+        tool_dic[str(tool_statistic[key])][0] += 1
+        if instruct_statistic[key] <= 10:
+            instruct_dic["0"][0] += 1
+            token_list[0][0] += tokens[key]
+        elif instruct_statistic[key] <= 13:
+            instruct_dic["1"][0] += 1
+            token_list[1][0] += tokens[key]
+        else:
+            instruct_dic["2"][0] += 1
+            token_list[2][0] += tokens[key]
+    # elif int(value) > ground_truth[key]:
+    #     print(key)
+    #     cnt_wrong += 1
     else:
-        save_list2.append(tmp_dic)
-    cnt += 1
-    # tmp_result = run_llm()
-    # save[key] = tmp_result
-with open('../data/tmp/DPO_critic_dataset_cars_test.json', 'w') as f:
-    json.dump(save_list1, f, indent=4)
-
-with open('../data/tmp/DPO_critic_dataset_cars_train.json', 'w') as f:
-    json.dump(save_list2, f, indent=4)
+        tool_dic[str(tool_statistic[key])][1] += 1
+        if instruct_statistic[key] <= 10:
+            instruct_dic["0"][1] += 1
+            token_list[0][1] += tokens[key]
+        elif instruct_statistic[key] <= 13:
+            instruct_dic["1"][1] += 1
+            token_list[1][1] += tokens[key]
+        else:
+            instruct_dic["2"][1] += 1
+            token_list[2][1] += tokens[key]
+print(tool_dic)
+print(instruct_dic)
+print(token_list)
+# print(result['How To Repair Car Paint Chips_1+How To Powder Coat_0'][0])
+# with open('../data/schedule_results/Zhipuz1_cars.json', 'r') as f:
+#     result = json.load(f)
+# with open('../data/critic/Zhipuz1_cars_GPT4o_critic.json', 'r') as f:
+#     critics = json.load(f)
+#
+# prompt = '''Please analyze the following heuristic reasoning, extract the correct plan that meets the tool conflict, and provide the conflict design and tool verification of these plans.
+# Note that you do not need to solve the problem directly.
+#
+# For example:
+# A.1 and B.1, B.2 conflict in tool x
+# Plan 1
+# Correct plan: start A.1 first, then B.1, B.2
+# Tool verification: tool x continues to execute B.1, B.2 after A.1 is completed
+# ...
+#
+# '''
+# rules = '\nNow given the reasoning content:\n\nYour response:'
+# save_list1 = []
+# save_list2 = []
+# cnt = 0
+# for key, value in result.items():
+#     if value == 'FAILED':
+#         continue
+#     tmp_dic = {}
+#     tmp_dic['instruction'] = prompt + value[0] + rules
+#     tmp_dic['input'] = ''
+#     tmp_dic['rejected'] = critics[key]
+#     tmp_dic['chosen'] = value[1]
+#     if cnt > 300:
+#         save_list1.append(tmp_dic)
+#     else:
+#         save_list2.append(tmp_dic)
+#     cnt += 1
+#     # tmp_result = run_llm()
+#     # save[key] = tmp_result
+# with open('../data/tmp/DPO_critic_dataset_cars_test.json', 'w') as f:
+#     json.dump(save_list1, f, indent=4)
+#
+# with open('../data/tmp/DPO_critic_dataset_cars_train.json', 'w') as f:
+#     json.dump(save_list2, f, indent=4)
 # with open('../data/tmp/SFT_critic_dataset_cars_test.jsonl', 'w', encoding='utf-8') as file:
 #     for data in save_list1:
 #         json.dump(data, file, ensure_ascii=False)
