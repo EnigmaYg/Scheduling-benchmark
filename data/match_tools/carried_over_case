@@ -40,3 +40,44 @@ preheat: How To Make Zucchini Fries 0;
 3. over-think: 尝试一个路由器/分类器 构造启发思维的短CoT，作为prompt增加 或者 直接用预训练的模型
 4. 数据集继续构建
 * 应用部分：具身智能（某篇over-think论文中的）
+
+
+**case1**
+"How To Get Glue off a Car": {
+        "0": [
+            "1. Dampen a soft, clean cotton rag with gasoline, rub the glue residue with the gasoline-dampened rag in small circles.",
+            "2. Clean the area with warm water and car soap.",
+            "3. Rinse the surface of the car thoroughly.",
+            "4. Dry the area with a clean rag."
+        ]
+
+
+"How To Get Glue off a Car": {
+        "0": [
+            "1. Dampen a soft, clean cotton rag with gasoline.",
+            "2. Rub the glue residue with the gasoline-dampened rag in small circles.",
+            "3. Clean the area with warm water and car soap.",
+            "4. Rinse the surface of the car thoroughly.",
+            "5. Dry the area with a clean rag."
+        ]
+
+**case2**
+How To Remove Grease and Oil From a Car's Interior
+1. Scrape off excess oil from the stain with a butter knife or spoon.
+2. Blot the stain with a paper towel or old cloth to remove surface oil.
+3. Sprinkle baking soda onto the stain and let it sit for 15 minutes.
+4. Vacuum or sweep off the baking soda.
+5. Apply a dry cleaning solvent to the stain.
+
+How To Quickly and Easily Clean Rims
+1. Rinse the rims with a hose using a spray nozzle to break up dirt and debris.
+2. Apply an even layer of wheel cleaner to the rims.
+3. Let the cleaner sit for a minute or two.
+4. Scrub off grime or brake dust with a medium-soft bristled brush.
+5. Rinse the wheels.
+
+
+
+1. CRITERIA(删掉的情况、重写与重新组合的情况）
+2. 假设合理性（所有的工具没有调度成本（清洗、转移没办法），不存在人力资源限制）
+3. RLLMs的发现

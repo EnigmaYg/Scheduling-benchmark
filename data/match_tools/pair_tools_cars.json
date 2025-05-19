@@ -69,10 +69,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Wax Your Car_0": [
@@ -85,9 +84,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Powder Coat_0": [
@@ -237,9 +235,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Fix a Brake Fluid Leak_1": [
@@ -286,8 +284,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix a Flat Tire_0": [
@@ -331,10 +329,10 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             }
         ],
         "How To Replace a Bicycle Tire_0": [
@@ -465,9 +463,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ]
     },
@@ -475,24 +472,21 @@
         "How To Get Glue off a Car_0": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Remove Egg Stains from Car Paint_3": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Soft brush",
@@ -510,9 +504,8 @@
         "How To Silence Exhaust_0": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Cloth",
@@ -525,9 +518,8 @@
         "How To Touch up Scratches on Your Car_0": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Bucket,Sponge",
@@ -542,9 +534,8 @@
         "How To Prevent Rust on Your Car_1": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Bucket,Hose,Sponge",
@@ -556,9 +547,8 @@
         "How To Remove Old Decals_0": [
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             },
             {
                 "1": "Bucket,Sponge",
@@ -599,9 +589,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Fix a Low Beam Headlight_0": [
@@ -676,8 +666,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Clean Fuel Injectors_0": [
@@ -753,8 +743,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Remove Grease and Oil From a Car's Interior_1": [
@@ -862,7 +852,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Clean the Tires on Your Car_0": [
@@ -891,7 +881,6 @@
                 "6": "Spray bottle"
             },
             {
-                "1": "None",
                 "2": "Wrench",
                 "3": "None",
                 "4": "Spray bottle",
@@ -1010,8 +999,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix Brakes on a Bike_0": [
@@ -1097,9 +1086,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Clean Engine Cylinder Heads_0": [
@@ -1141,10 +1130,10 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             }
         ],
         "How To Change a Car Engine_0": [
@@ -1208,24 +1197,24 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix a Flat Tire_0": [
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "None",
@@ -1240,9 +1229,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -1255,39 +1244,39 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             }
         ],
         "How To Clean Rotors_0": [
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Replace a Bike Tube_0": [
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "None",
@@ -1308,9 +1297,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "None",
@@ -1328,9 +1317,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             },
             {
                 "1": "Wrench",
@@ -1355,10 +1344,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Wax Your Car_0": [
@@ -1371,9 +1359,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Silence Exhaust_0": [
@@ -1575,8 +1562,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Clean a Car Engine_0": [
@@ -1765,8 +1752,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Remove Lug Nuts and Tires_0": [
@@ -1785,9 +1772,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Clean Fuel Injectors_0": [
@@ -1830,8 +1817,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Change a Car Battery_0": [
@@ -1917,8 +1904,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Remove Old Decals_0": [
@@ -1987,8 +1974,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Clean Fuel Injectors_0": [
@@ -2041,8 +2028,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Change a Car Engine_0": [
@@ -2112,9 +2099,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Clean Leather Interior_0": [
@@ -2185,10 +2171,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ]
     },
@@ -2352,10 +2337,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Powder Coat_0": [
@@ -2477,10 +2461,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "None",
@@ -2496,10 +2478,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "None",
@@ -2520,10 +2500,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Wrench",
@@ -2540,10 +2518,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -2558,10 +2534,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "None",
@@ -2576,10 +2550,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "None",
@@ -2597,10 +2569,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Wrench",
@@ -2615,10 +2585,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Spray bottle",
@@ -2631,10 +2599,8 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Wrench",
@@ -2649,16 +2615,14 @@
             {
                 "1": "None",
                 "2": "Wrench",
-                "3": "Hose",
-                "4": "Hose",
-                "5": "Wrench",
-                "6": "None"
+                "3": "Hose, Wrench",
+                "4": "None"
             },
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ]
     },
@@ -2674,10 +2638,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Touch up Scratches on Your Car_0": [
@@ -2805,8 +2768,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix a Low Beam Headlight_0": [
@@ -3003,7 +2966,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Paint a Boat_0": [
@@ -3034,8 +2997,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Clean Engine Cylinder Heads_0": [
@@ -3083,8 +3046,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Install a Windshield_0": [
@@ -3129,10 +3092,10 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             }
         ],
         "How To Fix a Flat Tire_0": [
@@ -3223,9 +3186,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Fix a Peeling Clear Coat on a Car_0": [
@@ -3395,9 +3357,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ]
     },
@@ -3474,10 +3435,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Use a Rubbing Compound_0": [
@@ -3507,10 +3467,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Remove Egg Stains from Car Paint_3": [
@@ -3619,10 +3578,10 @@
         "How To Install a Windshield_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -3635,25 +3594,25 @@
         "How To Replace Ball Joints_1": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix a Flat Tire_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "None",
@@ -3667,24 +3626,24 @@
         "How To Clean Rotors_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Remove Grease and Oil From a Car's Interior_1": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Spoon",
@@ -3697,26 +3656,25 @@
         "How To Get Glue off a Car_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Powder Coat_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Sponge",
@@ -3730,10 +3688,10 @@
         "How To Clean Engine Cylinder Heads_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -3747,10 +3705,10 @@
         "How To Patch a Tire_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "Wrench",
-                "3": "Pliers",
-                "4": "Sponge",
-                "5": "Pliers"
+                "2": "Jack,Wrench",
+                "3": "Jack,Pliers",
+                "4": "Jack,Sponge",
+                "5": "Jack,Pliers"
             },
             {
                 "1": "Air die grinder",
@@ -3797,10 +3755,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ]
     },
@@ -3835,8 +3792,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Change a Car Battery_0": [
@@ -3952,9 +3909,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Fix Brakes on a Bike_0": [
@@ -4023,7 +3980,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Clean Oxidized Aluminum Wheels_0": [
@@ -4082,8 +4039,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Replace a Muffler_0": [
@@ -4094,12 +4051,11 @@
                 "4": "Pressure washer, Hose"
             },
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             }
         ]
     },
@@ -4107,8 +4063,8 @@
         "How To Change a Car Battery_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             },
             {
                 "1": "Wrench",
@@ -4124,8 +4080,8 @@
         "How To Clean a Car Engine_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             },
             {
                 "1": "None",
@@ -4140,21 +4096,21 @@
         "How To Replace Ball Joints_1": [
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             },
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ],
         "How To Fix a Flat Tire_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             },
             {
                 "1": "None",
@@ -4168,8 +4124,8 @@
         "How To Clean Oxidized Aluminum Wheels_0": [
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             },
             {
                 "1": "Hose",
@@ -4400,10 +4356,9 @@
         "How To Powder Coat_0": [
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             },
             {
                 "1": "Sponge",
@@ -4417,10 +4372,9 @@
         "How To Use a Rubbing Compound_0": [
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             },
             {
                 "1": "Ultra-fine sandpaper",
@@ -4508,8 +4462,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Paint a Boat_0": [
@@ -4586,8 +4540,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Touch up Scratches on Your Car_0": [
@@ -4818,8 +4772,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ]
     },
@@ -4884,8 +4838,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Clean the Tires on Your Car_0": [
@@ -4914,7 +4868,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Clean Engine Cylinder Heads_0": [
@@ -4997,7 +4951,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Wax Your Car_0": [
@@ -5009,9 +4963,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Remove Egg Stains from Car Paint_3": [
@@ -5045,9 +4998,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Get Glue off a Car_0": [
@@ -5059,10 +5011,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Powder Coat_0": [
@@ -5160,12 +5111,11 @@
     "How To Replace a Muffler_0": {
         "How To Clean a Car Engine_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "None",
@@ -5179,12 +5129,11 @@
         ],
         "How To Clean Engine Cylinder Heads_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -5197,12 +5146,11 @@
         ],
         "How To Install a Windshield_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Wrench,Screwdriver",
@@ -5214,12 +5162,11 @@
         ],
         "How To Clean Fuel Injectors_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Wrench",
@@ -5234,12 +5181,11 @@
         ],
         "How To Install a Car Starter_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Wrench",
@@ -5252,27 +5198,25 @@
         ],
         "How To Clean Car Upholstery_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Replace a Bike Tube_0": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "None",
@@ -5291,12 +5235,11 @@
         ],
         "How To Fix a Brake Fluid Leak_1": [
             {
-                "1": "None",
-                "2": "Wrench",
-                "3": "None",
-                "4": "Spray bottle",
-                "5": "None",
-                "6": "Wrench"
+                "1": "Wrench",
+                "2": "None",
+                "3": "Spray bottle",
+                "4": "None",
+                "5": "Wrench"
             },
             {
                 "1": "Wrench",
@@ -5318,9 +5261,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ],
         "How To Silence Exhaust_0": [
@@ -5347,10 +5289,9 @@
             },
             {
                 "1": "Cloth",
-                "2": "Cloth",
-                "3": "Bucket,Sponge",
-                "4": "Bucket",
-                "5": "Cloth"
+                "2": "Bucket,Sponge",
+                "3": "Bucket",
+                "4": "Cloth"
             }
         ],
         "How To Remove Grease and Oil From a Car's Interior_1": [
@@ -5433,8 +5374,8 @@
             },
             {
                 "1": "Jack,Wrench",
-                "2": "None",
-                "3": "Stiff brush"
+                "2": "Jack",
+                "3": "Jack,Stiff brush"
             }
         ],
         "How To Fix Brakes on a Bike_0": [
@@ -5469,9 +5410,9 @@
             {
                 "1": "Wrench",
                 "2": "Jack",
-                "3": "Wrench",
-                "4": "None",
-                "5": "None"
+                "3": "Wrench, Jack",
+                "4": "Jack",
+                "5": "Jack"
             }
         ],
         "How To Fix a Flat Tire_0": [
@@ -5637,8 +5578,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             }
         ]
     },
@@ -5724,7 +5665,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             }
         ],
         "How To Paint a Boat_0": [
@@ -5800,7 +5741,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             },
             {
                 "1": "None",
@@ -5816,7 +5757,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             },
             {
                 "1": "Hose",
@@ -5831,7 +5772,7 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             },
             {
                 "1": "Ultra-fine sandpaper",
@@ -5850,13 +5791,12 @@
             {
                 "1": "Spray bottle",
                 "2": "Soft brush",
-                "3": "None"
+                "3": "Cloth"
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ]
     },
@@ -5865,8 +5805,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             },
             {
                 "1": "None",
@@ -5882,8 +5822,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             },
             {
                 "1": "Wrench",
@@ -5900,8 +5840,8 @@
             {
                 "1": "Jack,Wrench",
                 "2": "Wrench,Jack",
-                "3": "Wrench",
-                "4": "Grease gun,Wrench"
+                "3": "Wrench, Jack",
+                "4": "Grease gun,Wrench, Jack"
             },
             {
                 "1": "None",
@@ -5990,9 +5930,8 @@
             },
             {
                 "1": "Sponge",
-                "2": "Sponge",
-                "3": "None",
-                "4": "Microfiber cloth"
+                "2": "None",
+                "3": "Microfiber cloth"
             }
         ]
     },
